@@ -7,6 +7,30 @@
     {
       "name": "nodune_name",
       "value": "Nodune"
+    },
+    {
+      "name": "pixrune_name",
+      "value": "Pixrune"
+    },
+    {
+      "name": "pagrune_name",
+      "value": "Pagrune"
+    },
+    {
+      "name": "motrune_name",
+      "value": "Motrune"
+    },
+    {
+      "name": "layrune_name",
+      "value": "Layrune"
+    },
+    {
+      "name": "cliprune_name",
+      "value": "Cliprune"
+    },
+    {
+      "name": "gridrune_name",
+      "value": "Gridrune"
     }
   ]
 }

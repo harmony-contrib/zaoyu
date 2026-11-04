@@ -8,8 +8,21 @@
       "english": "Pixrune",
       "chinese": "造隅修图",
       "bundleName": "com.richerfu.pixrune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/pixrune",
+      "nativeCrate": "pixrune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/photocraft.git",
+      "upstreamCrates": [
+        "photocraft-engine",
+        "photocraft-ui-egui",
+        "photocraft-doc",
+        "photocraft-raster",
+        "photocraft-cms",
+        "photocraft-codecs",
+        "photocraft-io",
+        "photocraft-format",
+        "photocraft-automation"
+      ]
     },
     {
       "id": "vecrune",
@@ -18,7 +31,15 @@
       "chinese": "造隅矢绘",
       "bundleName": "com.richerfu.vecrune",
       "status": "integrated",
-      "entry": "entries/vecrune"
+      "entry": "entries/vecrune",
+      "nativeCrate": "vecrune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/vectorcraft.git",
+      "upstreamCrates": [
+        "vectorcraft-engine",
+        "vectorcraft-ui-egui",
+        "vectorcraft-text",
+        "vectorcraft-format"
+      ]
     },
     {
       "id": "cliprune",
@@ -26,8 +47,16 @@
       "english": "Cliprune",
       "chinese": "造隅剪辑",
       "bundleName": "com.richerfu.cliprune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/cliprune",
+      "nativeCrate": "cliprune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/filmcraft.git",
+      "upstreamCrates": [
+        "filmcraft-engine",
+        "filmcraft-ui-egui",
+        "filmcraft-text",
+        "filmcraft-format"
+      ]
     },
     {
       "id": "lutrune",
@@ -44,8 +73,14 @@
       "english": "Pagrune",
       "chinese": "造隅阅编",
       "bundleName": "com.richerfu.pagrune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/pagrune",
+      "nativeCrate": "pagrune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/pdfcraft.git",
+      "upstreamCrates": [
+        "pdfcraft-engine",
+        "pdfcraft-ui-egui"
+      ]
     },
     {
       "id": "motrune",
@@ -53,8 +88,15 @@
       "english": "Motrune",
       "chinese": "造隅动效",
       "bundleName": "com.richerfu.motrune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/motrune",
+      "nativeCrate": "motrune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/effectcraft.git",
+      "upstreamCrates": [
+        "effectcraft-engine",
+        "effectcraft-ui-egui",
+        "effectcraft-host"
+      ]
     },
     {
       "id": "layrune",
@@ -62,8 +104,15 @@
       "english": "Layrune",
       "chinese": "造隅版式",
       "bundleName": "com.richerfu.layrune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/layrune",
+      "nativeCrate": "layrune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/designcraft.git",
+      "upstreamCrates": [
+        "designcraft-engine",
+        "designcraft-ui-egui",
+        "designcraft-fonts"
+      ]
     },
     {
       "id": "framune",
@@ -134,8 +183,14 @@
       "english": "Gridrune",
       "chinese": "造隅表格",
       "bundleName": "com.richerfu.gridrune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/gridrune",
+      "nativeCrate": "gridrune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/gridcraft.git",
+      "upstreamCrates": [
+        "gridcraft-engine",
+        "gridcraft-ui-egui"
+      ]
     },
     {
       "id": "modune",

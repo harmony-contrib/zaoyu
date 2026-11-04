@@ -12,11 +12,28 @@ The migrated Rust host originates in apps/vectorcraft/src/ohos,
 apps/vectorcraft/src/logging.rs, control_server.rs and control_deadlines.rs;
 the Ability registration originates in apps/vectorcraft-ohos.
 
+The suite also incorporates these independently pinned Cargo Git dependencies:
+
+Pixrune:  https://github.com/harmony-contrib/photocraft
+Pagrune:  https://github.com/harmony-contrib/pdfcraft
+Motrune:  https://github.com/harmony-contrib/effectcraft
+Layrune:  https://github.com/harmony-contrib/designcraft
+Cliprune: https://github.com/harmony-contrib/filmcraft
+Gridrune: https://github.com/harmony-contrib/gridcraft
+
+Each originates from its repository's feat-openharmony branch. The migrated
+hosts and Ability registration are derived from the corresponding apps/<craft>
+and apps/<craft>-ohos integration layers. The upstream engine and UI source are
+not vendored in this project. Original copyrights and MIT OR Apache-2.0
+licenses remain in effect; per-project license and attribution texts are in
+licenses/<craft>. Exact revisions are recorded in Cargo.toml and Cargo.lock.
+Upstream repositories retain their complete contributor and asset records.
+
 @ohos-rs/ability and its plugins are MIT OR Apache-2.0.
 The files plugin is consumed from a pinned Git commit in
 https://github.com/harmony-contrib/openharmony-ability (plugins/files).
 Its MIT and Apache-2.0 licenses are preserved in the dependency package.
 
-Zaoyu, Vecrune, Nodune and the replacement application icons identify this
+Zaoyu, its application names and the replacement application icons identify this
 independent adaptation. They do not imply endorsement by upstream authors.
 Upstream ArtCraft marks are not licensed by the engine's software license.

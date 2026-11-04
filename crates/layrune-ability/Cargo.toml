@@ -1,0 +1,44 @@
+[package]
+name = "layrune-ability"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+description = "Layrune HarmonyOS Ability, lifecycle and native editor services"
+
+[lib]
+crate-type = ["cdylib"]
+
+[lints]
+workspace = true
+
+[features]
+default = []
+ohos-control = []
+
+[target.'cfg(target_env = "ohos")'.dependencies]
+log = { workspace = true }
+openharmony-ability = { workspace = true }
+openharmony-ability-derive = { workspace = true }
+napi-ohos = { workspace = true }
+napi-derive-ohos = { workspace = true }
+
+designcraft-engine = { workspace = true }
+designcraft-ui-egui = { workspace = true }
+egui = { workspace = true }
+chrono = { workspace = true }
+serde_json = { workspace = true }
+craft-font-catalog = { workspace = true }
+ohos-hilog-binding = { workspace = true }
+winit = { workspace = true }
+designcraft-fonts = { workspace = true }
+craft-dialogs = { workspace = true }
+eframe = { workspace = true, features = ["wgpu", "persistence", "default_fonts", "clipboard", "links"] }
+
+[build-dependencies]
+napi-build-ohos = { workspace = true }
+
+[dev-dependencies]
+chrono = { workspace = true }
+log = { workspace = true }

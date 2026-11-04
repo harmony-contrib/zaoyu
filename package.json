@@ -2,7 +2,9 @@
   "name": "zaoyu-ohos",
   "version": "0.1.0",
   "private": true,
-  "engines": { "node": ">=22.0.0" },
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
     "setup": "python3 tools/project.py setup",
     "doctor": "python3 tools/project.py doctor",
@@ -10,7 +12,15 @@
     "build:vecrune": "python3 tools/project.py build vecrune",
     "build:nodune": "python3 tools/project.py build nodune",
     "build:all": "python3 tools/project.py build all",
-    "check": "python3 tools/project.py check"
+    "check": "python3 tools/project.py check",
+    "build:pixrune": "python3 tools/project.py build pixrune",
+    "build:pagrune": "python3 tools/project.py build pagrune",
+    "build:motrune": "python3 tools/project.py build motrune",
+    "build:layrune": "python3 tools/project.py build layrune",
+    "build:cliprune": "python3 tools/project.py build cliprune",
+    "build:gridrune": "python3 tools/project.py build gridrune"
   },
-  "devDependencies": { "@ohos-rs/arkdown": "0.1.6" }
+  "devDependencies": {
+    "@ohos-rs/arkdown": "0.1.6"
+  }
 }

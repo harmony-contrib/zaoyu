@@ -48,6 +48,102 @@
             "useNormalizedOHMUrl": true
           }
         }
+      },
+      {
+        "name": "pixrune",
+        "bundleName": "com.richerfu.pixrune",
+        "vendor": "richerfu",
+        "label": "$string:pixrune_name",
+        "icon": "$media:pixrune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "pagrune",
+        "bundleName": "com.richerfu.pagrune",
+        "vendor": "richerfu",
+        "label": "$string:pagrune_name",
+        "icon": "$media:pagrune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "motrune",
+        "bundleName": "com.richerfu.motrune",
+        "vendor": "richerfu",
+        "label": "$string:motrune_name",
+        "icon": "$media:motrune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "layrune",
+        "bundleName": "com.richerfu.layrune",
+        "vendor": "richerfu",
+        "label": "$string:layrune_name",
+        "icon": "$media:layrune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "cliprune",
+        "bundleName": "com.richerfu.cliprune",
+        "vendor": "richerfu",
+        "label": "$string:cliprune_name",
+        "icon": "$media:cliprune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "gridrune",
+        "bundleName": "com.richerfu.gridrune",
+        "vendor": "richerfu",
+        "label": "$string:gridrune_name",
+        "icon": "$media:gridrune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
       }
     ],
     "buildModeSet": [
@@ -81,6 +177,78 @@
           "applyToProducts": [
             "default",
             "nodune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pixrune",
+      "srcPath": "./entries/pixrune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "pixrune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pagrune",
+      "srcPath": "./entries/pagrune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "pagrune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "motrune",
+      "srcPath": "./entries/motrune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "motrune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "layrune",
+      "srcPath": "./entries/layrune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "layrune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cliprune",
+      "srcPath": "./entries/cliprune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "cliprune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gridrune",
+      "srcPath": "./entries/gridrune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "gridrune"
           ]
         }
       ]

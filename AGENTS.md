@@ -11,3 +11,6 @@
   不保留本地插件副本。
 - 鸿蒙依赖使用 ohpm-rs 管理，应用通过 `tools/project.py` 调用 arkdown 打包。
 - 应用设备范围为 `tablet`、`2in1`，不支持 `phone`。
+
+- 每款编辑器只保留一个 `<product>-ability` Rust crate，内部整合 host 模块和
+  Ability 注册；不得拆成独立 host / ability 两个 crate。

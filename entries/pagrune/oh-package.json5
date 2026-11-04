@@ -1,0 +1,9 @@
+{
+  "name": "@richerfu/pagrune",
+  "version": "1.0.0",
+  "publish": false,
+  "dependencies": {
+    "@richerfu/ability-host": "file:../../packages/ability-host",
+    "@ohos-rs/ability": "1.0.0-beta.5"
+  }
+}

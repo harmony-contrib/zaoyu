@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Gridrune"
+    },
+    {
+      "name": "clipboard_reason",
+      "value": "用于粘贴您选择的单元格、文字及表格内容。"
+    }
+  ]
+}

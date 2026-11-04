@@ -1,7 +1,7 @@
 [workspace]
 resolver = "3"
-members = ["crates/vecrune-host", "crates/vecrune-ability"]
-default-members = ["crates/vecrune-host", "crates/vecrune-ability"]
+members = ["crates/*"]
+default-members = ["crates/*"]
 
 [workspace.package]
 version = "0.21.0"
@@ -11,11 +11,38 @@ license = "MIT OR Apache-2.0"
 publish = false
 
 [workspace.dependencies]
-vecrune-host = { path = "crates/vecrune-host" }
-vectorcraft-engine = { git = "https://github.com/harmony-contrib/vectorcraft.git", rev = "e537ae13e7331082ae35fcf420d71e7237dcdc72", default-features = false }
-vectorcraft-ui-egui = { git = "https://github.com/harmony-contrib/vectorcraft.git", rev = "e537ae13e7331082ae35fcf420d71e7237dcdc72" }
-vectorcraft-text = { git = "https://github.com/harmony-contrib/vectorcraft.git", rev = "e537ae13e7331082ae35fcf420d71e7237dcdc72", default-features = false }
-vectorcraft-format = { git = "https://github.com/harmony-contrib/vectorcraft.git", rev = "e537ae13e7331082ae35fcf420d71e7237dcdc72" }
+photocraft-engine = { git = "https://github.com/harmony-contrib/photocraft.git", rev = "7dfa6098138eeb5a62e60184816ff6495dd942cf" }
+photocraft-ui-egui = { git = "https://github.com/harmony-contrib/photocraft.git", rev = "7dfa6098138eeb5a62e60184816ff6495dd942cf" }
+photocraft-doc = { git = "https://github.com/harmony-contrib/photocraft.git", rev = "7dfa6098138eeb5a62e60184816ff6495dd942cf" }
+photocraft-raster = { git = "https://github.com/harmony-contrib/photocraft.git", rev = "7dfa6098138eeb5a62e60184816ff6495dd942cf" }
+photocraft-cms = { git = "https://github.com/harmony-contrib/photocraft.git", rev = "7dfa6098138eeb5a62e60184816ff6495dd942cf" }
+photocraft-codecs = { git = "https://github.com/harmony-contrib/photocraft.git", rev = "7dfa6098138eeb5a62e60184816ff6495dd942cf" }
+photocraft-io = { git = "https://github.com/harmony-contrib/photocraft.git", rev = "7dfa6098138eeb5a62e60184816ff6495dd942cf" }
+photocraft-format = { git = "https://github.com/harmony-contrib/photocraft.git", rev = "7dfa6098138eeb5a62e60184816ff6495dd942cf" }
+photocraft-automation = { git = "https://github.com/harmony-contrib/photocraft.git", rev = "7dfa6098138eeb5a62e60184816ff6495dd942cf" }
+pdfcraft-engine = { git = "https://github.com/harmony-contrib/pdfcraft.git", rev = "e9ff1527cf24b6957112c4e78653fec1bbed7ab7" }
+pdfcraft-ui-egui = { git = "https://github.com/harmony-contrib/pdfcraft.git", rev = "e9ff1527cf24b6957112c4e78653fec1bbed7ab7" }
+filmcraft-engine = { git = "https://github.com/harmony-contrib/filmcraft.git", rev = "1f1d40d9f1fd709aac5770748ec690e35aa4d4e5" }
+filmcraft-ui-egui = { git = "https://github.com/harmony-contrib/filmcraft.git", rev = "1f1d40d9f1fd709aac5770748ec690e35aa4d4e5", default-features = false }
+filmcraft-text = { git = "https://github.com/harmony-contrib/filmcraft.git", rev = "1f1d40d9f1fd709aac5770748ec690e35aa4d4e5" }
+filmcraft-format = { git = "https://github.com/harmony-contrib/filmcraft.git", rev = "1f1d40d9f1fd709aac5770748ec690e35aa4d4e5" }
+gridcraft-engine = { git = "https://github.com/harmony-contrib/gridcraft.git", rev = "6f453d75088395963168476baaee6cac62cc34e7" }
+gridcraft-ui-egui = { git = "https://github.com/harmony-contrib/gridcraft.git", rev = "6f453d75088395963168476baaee6cac62cc34e7" }
+effectcraft-engine = { git = "https://github.com/harmony-contrib/effectcraft.git", rev = "5ec943caaef2da303f57c131aa91b92d55ec6ba3" }
+effectcraft-ui-egui = { git = "https://github.com/harmony-contrib/effectcraft.git", rev = "5ec943caaef2da303f57c131aa91b92d55ec6ba3", default-features = false }
+effectcraft-host = { git = "https://github.com/harmony-contrib/effectcraft.git", rev = "5ec943caaef2da303f57c131aa91b92d55ec6ba3" }
+designcraft-engine = { git = "https://github.com/harmony-contrib/designcraft.git", rev = "85f486339303f8f5fffe5e69399859cb922ecbd1" }
+designcraft-ui-egui = { git = "https://github.com/harmony-contrib/designcraft.git", rev = "85f486339303f8f5fffe5e69399859cb922ecbd1", default-features = false }
+designcraft-fonts = { git = "https://github.com/harmony-contrib/designcraft.git", rev = "85f486339303f8f5fffe5e69399859cb922ecbd1" }
+serde = { version = "1", features = ["derive"] }
+png = "0.18"
+sys-locale = "0.3"
+image = { version = "0.25", default-features = false }
+craft-dialogs = { git = "https://github.com/storytold/craft-libs", rev = "1a11a4897865f7410c40d25ca6e452ce399a1a2c" }
+vectorcraft-engine = { git = "https://github.com/harmony-contrib/vectorcraft.git", rev = "13dd4d78880647a899602b683683e79c2479aa8f", default-features = false }
+vectorcraft-ui-egui = { git = "https://github.com/harmony-contrib/vectorcraft.git", rev = "13dd4d78880647a899602b683683e79c2479aa8f" }
+vectorcraft-text = { git = "https://github.com/harmony-contrib/vectorcraft.git", rev = "13dd4d78880647a899602b683683e79c2479aa8f", default-features = false }
+vectorcraft-format = { git = "https://github.com/harmony-contrib/vectorcraft.git", rev = "13dd4d78880647a899602b683683e79c2479aa8f" }
 egui = "0.37"
 eframe = { version = "0.37", default-features = false }
 log = "0.4"
@@ -54,6 +81,7 @@ codegen-units = 1
 strip = "debuginfo"
 
 [patch.crates-io]
+hayro = { git = "https://github.com/storytold/craft-libs", rev = "f8f8829cc7be65d466d687dae381d1ca60e31242" }
 hayro-syntax = { git = "https://github.com/storytold/craft-libs", rev = "f8f8829cc7be65d466d687dae381d1ca60e31242" }
 hayro-interpret = { git = "https://github.com/storytold/craft-libs", rev = "f8f8829cc7be65d466d687dae381d1ca60e31242" }
 hayro-jbig2 = { git = "https://github.com/storytold/craft-libs", rev = "f8f8829cc7be65d466d687dae381d1ca60e31242" }

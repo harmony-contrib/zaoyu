@@ -24,7 +24,7 @@
               "entity.system.home"
             ],
             "actions": [
-              "action.system.home"
+              "ohos.want.action.home"
             ]
           },
           {
@@ -34,7 +34,7 @@
             "uris": [
               {
                 "scheme": "file",
-                "type": "general.pdf",
+                "type": "com.adobe.pdf",
                 "linkFeature": "FileOpen"
               },
               {

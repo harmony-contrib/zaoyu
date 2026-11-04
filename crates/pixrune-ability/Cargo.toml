@@ -1,0 +1,47 @@
+[package]
+name = "pixrune-ability"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+description = "Pixrune HarmonyOS Ability and native editor services"
+
+[lib]
+crate-type = ["cdylib"]
+
+[lints]
+workspace = true
+
+[features]
+default = []
+ohos-control = []
+
+[target.'cfg(target_env = "ohos")'.dependencies]
+log = { workspace = true }
+openharmony-ability = { workspace = true }
+openharmony-ability-derive = { workspace = true }
+napi-ohos = { workspace = true }
+napi-derive-ohos = { workspace = true }
+photocraft-engine = { workspace = true }
+photocraft-ui-egui = { workspace = true }
+photocraft-doc = { workspace = true }
+photocraft-raster = { workspace = true }
+photocraft-cms = { workspace = true }
+photocraft-codecs = { workspace = true }
+photocraft-io = { workspace = true }
+photocraft-format = { workspace = true }
+photocraft-automation = { workspace = true }
+egui = { workspace = true }
+serde_json = { workspace = true }
+chrono = { workspace = true }
+ohos-hilog-binding = { workspace = true }
+winit = { workspace = true }
+eframe = { workspace = true, features = ["wgpu", "persistence", "default_fonts"] }
+
+[build-dependencies]
+napi-build-ohos = { workspace = true }
+
+[dev-dependencies]
+chrono = { workspace = true }
+log = { workspace = true }

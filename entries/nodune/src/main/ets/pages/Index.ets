@@ -6,14 +6,15 @@ import { AppItem, APPS } from '../catalog';
 struct Index {
   @State message: string = '';
 
-  private openEditor(): void {
+  private openEditor(app: AppItem): void {
+    this.message = '';
     const context = this.getUIContext().getHostContext() as common.UIAbilityContext;
     context.startAbility({
-      bundleName: 'com.richerfu.vecrune',
-      moduleName: 'vecrune',
+      bundleName: 'com.richerfu.' + app.id,
+      moduleName: app.id,
       abilityName: 'EntryAbility'
     }).catch(() => {
-      this.message = '请先安装 Vecrune，再从这里打开。';
+      this.message = '暂时无法打开 ' + app.english + '，请确认已安装该应用。';
     });
   }
 
@@ -23,8 +24,6 @@ struct Index {
       Text('Nodune').fontSize(32).fontWeight(FontWeight.Bold)
       Text('造隅工坊').fontSize(18).fontColor('#53616B')
       Text('你的创作工具，从这里开始。').fontSize(15).fontColor('#53616B')
-      Button('打开 Vecrune · 造隅矢绘')
-        .onClick(() => this.openEditor())
       if (this.message.length > 0) {
         Text(this.message).fontSize(14).fontColor('#985423')
       }
@@ -37,7 +36,11 @@ struct Index {
                 Text(app.chinese).fontSize(14).fontColor('#53616B')
               }.alignItems(HorizontalAlign.Start)
               Blank()
-              Text(app.status).fontSize(12).fontColor('#53616B')
+              if (app.available && app.id !== 'nodune') {
+                Button('打开').onClick(() => this.openEditor(app))
+              } else {
+                Text(app.id === 'nodune' ? '当前应用' : app.status).fontSize(12).fontColor('#53616B')
+              }
             }.width('100%').padding(16).backgroundColor(Color.White).borderRadius(16)
           }
         }, (app: AppItem) => app.id)
