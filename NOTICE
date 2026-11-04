@@ -15,11 +15,21 @@ the Ability registration originates in apps/vectorcraft-ohos.
 The suite also incorporates these independently pinned Cargo Git dependencies:
 
 Pixrune:  https://github.com/harmony-contrib/photocraft
+Cliprune: https://github.com/harmony-contrib/filmcraft
+Lutrune:  https://github.com/harmony-contrib/lightcraft
 Pagrune:  https://github.com/harmony-contrib/pdfcraft
 Motrune:  https://github.com/harmony-contrib/effectcraft
 Layrune:  https://github.com/harmony-contrib/designcraft
-Cliprune: https://github.com/harmony-contrib/filmcraft
+Framune:  https://github.com/harmony-contrib/figcraft
+Texune:   https://github.com/harmony-contrib/texturecraft
+Shadrune: https://github.com/harmony-contrib/materialcraft
+Quilrune: https://github.com/harmony-contrib/wordcraft
+Sonune:   https://github.com/harmony-contrib/soundcraft
+Deckune:  https://github.com/harmony-contrib/deckcraft
+Dimrune:  https://github.com/harmony-contrib/cadcraft
 Gridrune: https://github.com/harmony-contrib/gridcraft
+Modune:   https://github.com/harmony-contrib/craft-anything
+Visrune:  https://github.com/harmony-contrib/artcraft
 
 Each originates from its repository's feat-openharmony branch. The migrated
 hosts and Ability registration are derived from the corresponding apps/<craft>

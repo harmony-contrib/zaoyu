@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Modune"
+    },
+    {
+      "name": "clipboard_reason",
+      "value": "用于将您选择的文本、脚本或工程配置粘贴到工作台。"
+    }
+  ]
+}

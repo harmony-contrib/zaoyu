@@ -131,6 +131,7 @@ pub fn start(ability: OpenHarmonyApp) -> Result<(), String> {
             let services = services::build(&ability, &grants, &cc.egui_ctx);
             let mut sheet = SheetApp::new(gridcraft_engine::Session::new(), services);
             load_prefs(&mut sheet, &directory);
+            sheet.backstage = Some(gridcraft_ui_egui::backstage::Backstage::new(gridcraft_ui_egui::backstage::Page::Home));
             gridcraft_ui_egui::fonts::start_scan();
             SheetApp::setup_context_for_language(&cc.egui_ctx, sheet.ui.dark, sheet.ui.language);
             log::info!("Gridrune OpenHarmony workbench ready");
@@ -186,7 +187,8 @@ impl eframe::App for App {
 
 fn load_prefs(sheet: &mut SheetApp, directory: &std::path::Path) {
     sheet.ui.language = gridcraft_ui_egui::i18n::Language::system();
-    sheet.ui.system_theme = true;
+    sheet.ui.dark = true;
+    sheet.ui.system_theme = false;
     if let Ok(bytes) = files::read_bounded(&directory.join("ui.json"), 4 * 1024 * 1024)
         && let Ok(ui) = serde_json::from_slice::<gridcraft_ui_egui::UiState>(&bytes)
     {

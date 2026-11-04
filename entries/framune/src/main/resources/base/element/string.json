@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Framune"
+    },
+    {
+      "name": "clipboard_reason",
+      "value": "用于将您选择的文字、图层或组件粘贴到画布。"
+    }
+  ]
+}

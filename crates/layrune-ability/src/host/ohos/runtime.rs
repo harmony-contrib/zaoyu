@@ -353,10 +353,14 @@ impl eframe::App for StartupApp {
                 app.ui(ui, frame);
             }
         } else {
-            egui::CentralPanel::default().show(ui, |ui| {
-                ui.spinner();
-                ui.label("Restoring file access…");
-            });
+            paint_startup_splash(
+                ui,
+                include_bytes!("../../../../../branding/layrune-128.png"),
+                "Layrune",
+                "DesignCraft · 造隅版式",
+                egui::Color32::from_rgb(0x7B, 0xB5, 0x1C),
+                "Restoring file access & fonts…",
+            );
         }
     }
 
@@ -373,4 +377,52 @@ impl eframe::App for StartupApp {
             app.on_exit();
         }
     }
+}
+
+fn paint_startup_splash(ui: &mut egui::Ui, icon_png: &[u8], name: &str, subtitle: &str, accent: egui::Color32, status: &str) {
+    let bg = egui::Color32::from_rgb(0x12, 0x13, 0x16);
+    let card_bg = egui::Color32::from_rgb(0x18, 0x1A, 0x1F);
+    let border = egui::Color32::from_rgb(0x2A, 0x2D, 0x35);
+    egui::CentralPanel::default().frame(egui::Frame::NONE.fill(bg)).show(ui, |ui| {
+        let rect = ui.max_rect();
+        let card_size = egui::vec2(360.0, 236.0);
+        let card_rect = egui::Rect::from_center_size(rect.center(), card_size);
+        let painter = ui.painter();
+        painter.rect_filled(card_rect, 16.0, card_bg);
+        painter.rect_stroke(card_rect, 16.0, egui::Stroke::new(1.0, border), egui::StrokeKind::Inside);
+        let bar_rect = egui::Rect::from_min_size(card_rect.min + egui::vec2(16.0, 0.0), egui::vec2(card_size.x - 32.0, 3.0));
+        painter.rect_filled(bar_rect, 2.0, accent);
+
+        let key = egui::Id::unique(("zaoyu_splash_icon", name));
+        let texture = ui.ctx().data(|data| data.get_temp::<egui::TextureHandle>(key)).or_else(|| {
+            let icon = eframe::icon_data::from_png_bytes(icon_png).ok()?;
+            let size = [usize::try_from(icon.width).ok()?, usize::try_from(icon.height).ok()?];
+            let image = egui::ColorImage::from_rgba_unmultiplied(size, &icon.rgba);
+            let handle = ui.ctx().load_texture(format!("{name}-splash-icon"), image, egui::TextureOptions::LINEAR);
+            ui.ctx().data_mut(|data| data.insert_temp(key, handle.clone()));
+            Some(handle)
+        });
+
+        let inner = card_rect.shrink2(egui::vec2(24.0, 24.0));
+        ui.scope_builder(egui::UiBuilder::new().max_rect(inner).layout(egui::Layout::top_down(egui::Align::Center)), |ui| {
+            ui.add_space(6.0);
+            if let Some(texture) = texture {
+                let (icon_rect, _) = ui.allocate_exact_size(egui::vec2(64.0, 64.0), egui::Sense::hover());
+                let uv = egui::Rect::from_min_max(egui::pos2(0.0, 0.0), egui::pos2(1.0, 1.0));
+                ui.painter().image(texture.id(), icon_rect, uv, egui::Color32::WHITE);
+            }
+            ui.add_space(12.0);
+            ui.label(egui::RichText::new(name).size(22.0).strong().color(egui::Color32::WHITE));
+            ui.add_space(2.0);
+            ui.label(egui::RichText::new(subtitle).size(12.5).color(accent));
+            ui.add_space(18.0);
+            ui.horizontal(|ui| {
+                let width = ui.available_width();
+                ui.add_space(((width - 210.0) * 0.5).max(0.0));
+                ui.spinner();
+                ui.add_space(6.0);
+                ui.label(egui::RichText::new(status).size(12.5).color(egui::Color32::from_rgb(0x9A, 0x9D, 0xA6)));
+            });
+        });
+    });
 }

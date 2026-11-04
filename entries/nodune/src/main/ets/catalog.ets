@@ -32,8 +32,8 @@ export const APPS: AppItem[] = [
     "id": "lutrune",
     "english": "Lutrune",
     "chinese": "造隅光影",
-    "available": false,
-    "status": "尚未推出"
+    "available": true,
+    "status": "可使用"
   },
   {
     "id": "pagrune",
@@ -60,50 +60,50 @@ export const APPS: AppItem[] = [
     "id": "framune",
     "english": "Framune",
     "chinese": "造隅界面",
-    "available": false,
-    "status": "尚未推出"
+    "available": true,
+    "status": "可使用"
   },
   {
     "id": "texune",
     "english": "Texune",
     "chinese": "造隅纹绘",
-    "available": false,
-    "status": "尚未推出"
+    "available": true,
+    "status": "可使用"
   },
   {
     "id": "shadrune",
     "english": "Shadrune",
     "chinese": "造隅材质",
-    "available": false,
-    "status": "尚未推出"
+    "available": true,
+    "status": "可使用"
   },
   {
     "id": "quilrune",
     "english": "Quilrune",
     "chinese": "造隅文档",
-    "available": false,
-    "status": "尚未推出"
+    "available": true,
+    "status": "可使用"
   },
   {
     "id": "sonune",
     "english": "Sonune",
     "chinese": "造隅音轨",
-    "available": false,
-    "status": "尚未推出"
+    "available": true,
+    "status": "可使用"
   },
   {
     "id": "deckune",
     "english": "Deckune",
     "chinese": "造隅演示",
-    "available": false,
-    "status": "尚未推出"
+    "available": true,
+    "status": "可使用"
   },
   {
     "id": "dimrune",
     "english": "Dimrune",
     "chinese": "造隅工图",
-    "available": false,
-    "status": "尚未推出"
+    "available": true,
+    "status": "可使用"
   },
   {
     "id": "gridrune",
@@ -116,15 +116,15 @@ export const APPS: AppItem[] = [
     "id": "modune",
     "english": "Modune",
     "chinese": "造隅构建",
-    "available": false,
-    "status": "尚未推出"
+    "available": true,
+    "status": "可使用"
   },
   {
     "id": "visrune",
     "english": "Visrune",
     "chinese": "造隅灵绘",
-    "available": false,
-    "status": "尚未推出"
+    "available": true,
+    "status": "可使用"
   },
   {
     "id": "nodune",

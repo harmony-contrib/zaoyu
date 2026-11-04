@@ -18,7 +18,17 @@
     "build:motrune": "python3 tools/project.py build motrune",
     "build:layrune": "python3 tools/project.py build layrune",
     "build:cliprune": "python3 tools/project.py build cliprune",
-    "build:gridrune": "python3 tools/project.py build gridrune"
+    "build:gridrune": "python3 tools/project.py build gridrune",
+    "build:lutrune": "python3 tools/project.py build lutrune",
+    "build:framune": "python3 tools/project.py build framune",
+    "build:texune": "python3 tools/project.py build texune",
+    "build:shadrune": "python3 tools/project.py build shadrune",
+    "build:quilrune": "python3 tools/project.py build quilrune",
+    "build:sonune": "python3 tools/project.py build sonune",
+    "build:deckune": "python3 tools/project.py build deckune",
+    "build:dimrune": "python3 tools/project.py build dimrune",
+    "build:modune": "python3 tools/project.py build modune",
+    "build:visrune": "python3 tools/project.py build visrune"
   },
   "devDependencies": {
     "@ohos-rs/arkdown": "0.1.6"

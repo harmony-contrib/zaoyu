@@ -33,6 +33,7 @@ ohos-hilog-binding = { workspace = true }
 winit = { workspace = true }
 effectcraft-host = { workspace = true }
 chrono = { workspace = true }
+pollster = { workspace = true }
 eframe = { workspace = true, features = ["wgpu", "persistence", "default_fonts", "clipboard", "links"] }
 
 [build-dependencies]

@@ -34,6 +34,34 @@ effectcraft-host = { git = "https://github.com/harmony-contrib/effectcraft.git",
 designcraft-engine = { git = "https://github.com/harmony-contrib/designcraft.git", rev = "85f486339303f8f5fffe5e69399859cb922ecbd1" }
 designcraft-ui-egui = { git = "https://github.com/harmony-contrib/designcraft.git", rev = "85f486339303f8f5fffe5e69399859cb922ecbd1", default-features = false }
 designcraft-fonts = { git = "https://github.com/harmony-contrib/designcraft.git", rev = "85f486339303f8f5fffe5e69399859cb922ecbd1" }
+lightcraft-engine = { git = "https://github.com/harmony-contrib/lightcraft.git", rev = "e44629fecd946ceb935c46041f07ae35241b9785" }
+lightcraft-ui-egui = { git = "https://github.com/harmony-contrib/lightcraft.git", rev = "e44629fecd946ceb935c46041f07ae35241b9785", default-features = false }
+lightcraft-raster = { git = "https://github.com/harmony-contrib/lightcraft.git", rev = "e44629fecd946ceb935c46041f07ae35241b9785" }
+lightcraft-codecs = { git = "https://github.com/harmony-contrib/lightcraft.git", rev = "e44629fecd946ceb935c46041f07ae35241b9785" }
+figcraft-engine = { git = "https://github.com/harmony-contrib/figcraft.git", rev = "03d126600bf6fc6b25c2ca8071cda4b0cb632d3f" }
+figcraft-ui-egui = { git = "https://github.com/harmony-contrib/figcraft.git", rev = "03d126600bf6fc6b25c2ca8071cda4b0cb632d3f", default-features = false }
+figcraft-text = { git = "https://github.com/harmony-contrib/figcraft.git", rev = "03d126600bf6fc6b25c2ca8071cda4b0cb632d3f" }
+texturecraft-engine = { git = "https://github.com/harmony-contrib/texturecraft.git", rev = "9e5ce756a2b56d2d58623610d76493ac5ecfe73d" }
+texturecraft-ui-egui = { git = "https://github.com/harmony-contrib/texturecraft.git", rev = "9e5ce756a2b56d2d58623610d76493ac5ecfe73d", default-features = false }
+materialcraft-engine = { git = "https://github.com/harmony-contrib/materialcraft.git", rev = "b8cdcfd37eb109b3a4b70b51f3bb6bcc980bb0dd" }
+materialcraft-ui-egui = { git = "https://github.com/harmony-contrib/materialcraft.git", rev = "b8cdcfd37eb109b3a4b70b51f3bb6bcc980bb0dd", default-features = false }
+wordcraft-engine = { git = "https://github.com/harmony-contrib/wordcraft.git", rev = "ca93392e930401e16993d898498b85120ce15a0e" }
+wordcraft-ui-egui = { git = "https://github.com/harmony-contrib/wordcraft.git", rev = "ca93392e930401e16993d898498b85120ce15a0e", default-features = false }
+wordcraft-doc = { git = "https://github.com/harmony-contrib/wordcraft.git", rev = "ca93392e930401e16993d898498b85120ce15a0e" }
+wordcraft-fonts = { git = "https://github.com/harmony-contrib/wordcraft.git", rev = "ca93392e930401e16993d898498b85120ce15a0e" }
+soundcraft-engine = { git = "https://github.com/harmony-contrib/soundcraft.git", rev = "331ffb430159a2a9d96bde6af8d9521d1f9e67f5" }
+soundcraft-ui-egui = { git = "https://github.com/harmony-contrib/soundcraft.git", rev = "331ffb430159a2a9d96bde6af8d9521d1f9e67f5", default-features = false }
+deckcraft-engine = { git = "https://github.com/harmony-contrib/deckcraft.git", rev = "ea5d9c0aebc2a67463177a51ad109c8213453b87" }
+deckcraft-ui-egui = { git = "https://github.com/harmony-contrib/deckcraft.git", rev = "ea5d9c0aebc2a67463177a51ad109c8213453b87", default-features = false }
+deckcraft-fonts = { git = "https://github.com/harmony-contrib/deckcraft.git", rev = "ea5d9c0aebc2a67463177a51ad109c8213453b87" }
+cadcraft-engine = { git = "https://github.com/harmony-contrib/cadcraft.git", rev = "8a2a0c9d1e7f0f602817eef13511918799257eca" }
+cadcraft-ui-egui = { git = "https://github.com/harmony-contrib/cadcraft.git", rev = "8a2a0c9d1e7f0f602817eef13511918799257eca", default-features = false }
+cadcraft-io = { git = "https://github.com/harmony-contrib/cadcraft.git", rev = "8a2a0c9d1e7f0f602817eef13511918799257eca" }
+craft-anything-engine = { git = "https://github.com/harmony-contrib/craft-anything.git", rev = "591e566649b80f92562b09330100af431703c282" }
+craft-anything-ui-egui = { git = "https://github.com/harmony-contrib/craft-anything.git", rev = "591e566649b80f92562b09330100af431703c282", default-features = false }
+craft-anything-ai = { git = "https://github.com/harmony-contrib/craft-anything.git", rev = "591e566649b80f92562b09330100af431703c282" }
+craft-anything-setup = { git = "https://github.com/harmony-contrib/craft-anything.git", rev = "591e566649b80f92562b09330100af431703c282" }
+artcraft_native = { git = "https://github.com/harmony-contrib/artcraft.git", rev = "b434f05499295d9cf4462e51043cdf54004edecf", default-features = false }
 serde = { version = "1", features = ["derive"] }
 png = "0.18"
 sys-locale = "0.3"
@@ -49,6 +77,7 @@ log = "0.4"
 serde_json = { version = "1", features = ["float_roundtrip"] }
 chrono = { version = "0.4.45", default-features = false, features = ["std"] }
 socket2 = "0.6"
+pollster = "0.4"
 craft-font-catalog = { git = "https://github.com/storytold/craft-libs", rev = "c5a1cbfb5f9049f9270955caffb5bee5997aebf7", default-features = false }
 openharmony-ability = "=1.0.0-beta.5"
 openharmony-ability-derive = "=1.0.0-beta.5"
@@ -102,4 +131,5 @@ egui_system_font_provider = { git = "https://github.com/richerfu/egui.git", rev 
 eframe = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
 egui_demo_lib = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
 egui_inspection = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
+egui-phosphor = { git = "https://github.com/harmony-contrib/materialcraft.git", rev = "b8cdcfd37eb109b3a4b70b51f3bb6bcc980bb0dd" }
 winit = { git = "https://github.com/richerfu/winit.git", rev = "fe8cbb2e689b519b9282bc29b84c8ea6bc9df313" }

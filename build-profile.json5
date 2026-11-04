@@ -144,6 +144,166 @@
             "useNormalizedOHMUrl": true
           }
         }
+      },
+      {
+        "name": "lutrune",
+        "bundleName": "com.richerfu.lutrune",
+        "vendor": "richerfu",
+        "label": "$string:lutrune_name",
+        "icon": "$media:lutrune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "framune",
+        "bundleName": "com.richerfu.framune",
+        "vendor": "richerfu",
+        "label": "$string:framune_name",
+        "icon": "$media:framune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "texune",
+        "bundleName": "com.richerfu.texune",
+        "vendor": "richerfu",
+        "label": "$string:texune_name",
+        "icon": "$media:texune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "shadrune",
+        "bundleName": "com.richerfu.shadrune",
+        "vendor": "richerfu",
+        "label": "$string:shadrune_name",
+        "icon": "$media:shadrune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "quilrune",
+        "bundleName": "com.richerfu.quilrune",
+        "vendor": "richerfu",
+        "label": "$string:quilrune_name",
+        "icon": "$media:quilrune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "sonune",
+        "bundleName": "com.richerfu.sonune",
+        "vendor": "richerfu",
+        "label": "$string:sonune_name",
+        "icon": "$media:sonune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "deckune",
+        "bundleName": "com.richerfu.deckune",
+        "vendor": "richerfu",
+        "label": "$string:deckune_name",
+        "icon": "$media:deckune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "dimrune",
+        "bundleName": "com.richerfu.dimrune",
+        "vendor": "richerfu",
+        "label": "$string:dimrune_name",
+        "icon": "$media:dimrune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "modune",
+        "bundleName": "com.richerfu.modune",
+        "vendor": "richerfu",
+        "label": "$string:modune_name",
+        "icon": "$media:modune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "visrune",
+        "bundleName": "com.richerfu.visrune",
+        "vendor": "richerfu",
+        "label": "$string:visrune_name",
+        "icon": "$media:visrune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
       }
     ],
     "buildModeSet": [
@@ -249,6 +409,126 @@
           "name": "default",
           "applyToProducts": [
             "gridrune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lutrune",
+      "srcPath": "./entries/lutrune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "lutrune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "framune",
+      "srcPath": "./entries/framune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "framune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "texune",
+      "srcPath": "./entries/texune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "texune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shadrune",
+      "srcPath": "./entries/shadrune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "shadrune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "quilrune",
+      "srcPath": "./entries/quilrune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "quilrune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sonune",
+      "srcPath": "./entries/sonune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "sonune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "deckune",
+      "srcPath": "./entries/deckune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "deckune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dimrune",
+      "srcPath": "./entries/dimrune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "dimrune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "modune",
+      "srcPath": "./entries/modune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "modune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "visrune",
+      "srcPath": "./entries/visrune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "visrune"
           ]
         }
       ]

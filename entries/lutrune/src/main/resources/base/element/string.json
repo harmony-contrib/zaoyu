@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Lutrune"
+    },
+    {
+      "name": "clipboard_reason",
+      "value": "用于将您选择的照片或调色参数粘贴到工作区。"
+    }
+  ]
+}

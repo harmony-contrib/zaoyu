@@ -98,13 +98,15 @@ class Project:
         self.env["OHOS_NDK_HOME"] = str(sdk)
         self.env["CARGO_TARGET_AARCH64_UNKNOWN_LINUX_OHOS_LINKER"] = str(native / "llvm/bin/clang")
         self.env["CC_aarch64_unknown_linux_ohos"] = str(native / "llvm/bin/clang")
+        self.env["CXX_aarch64_unknown_linux_ohos"] = str(native / "llvm/bin/clang++")
         self.env["AR_aarch64_unknown_linux_ohos"] = str(native / "llvm/bin/llvm-ar")
-        self.env["CFLAGS_aarch64_unknown_linux_ohos"] = f'--target=aarch64-linux-ohos --sysroot="{native / "sysroot"}"'
+        self.env["CFLAGS_aarch64_unknown_linux_ohos"] = f'--target=aarch64-linux-ohos --sysroot={native / "sysroot"}'
+        self.env["CXXFLAGS_aarch64_unknown_linux_ohos"] = f'--target=aarch64-linux-ohos --sysroot={native / "sysroot"}'
         flags = self.initial_encoded_flags
         if not flags and self.env.get("RUSTFLAGS"):
             import shlex
             flags = "\x1f".join(shlex.split(self.env["RUSTFLAGS"]))
-        additional = ["-C", "link-arg=--target=aarch64-linux-ohos", "-C", f"link-arg=--sysroot={native / 'sysroot'}"]
+        additional = ["-C", "target-feature=+fp16", "-C", "link-arg=--target=aarch64-linux-ohos", "-C", f"link-arg=--sysroot={native / 'sysroot'}"]
         self.env["CARGO_ENCODED_RUSTFLAGS"] = "\x1f".join(([flags] if flags else []) + additional)
 
     def catalog(self) -> None:
@@ -133,7 +135,7 @@ class Project:
             for name in ("LICENSE-MIT", "LICENSE-APACHE", "NOTICE"):
                 shutil.copy2(ROOT / name, destination / name)
             if self.apps[product].get("nativeCrate"):
-                upstream = self.apps[product]["upstreamName"].lower()
+                upstream = self.apps[product]["upstreamName"].lower().replace(" ", "-")
                 shutil.copytree(ROOT / "licenses" / upstream, destination / "upstream")
 
     def deps(self) -> None:

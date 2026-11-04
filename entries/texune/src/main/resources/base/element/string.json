@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Texune"
+    },
+    {
+      "name": "clipboard_reason",
+      "value": "用于将您选择的纹理、图像或图层粘贴到画布。"
+    }
+  ]
+}

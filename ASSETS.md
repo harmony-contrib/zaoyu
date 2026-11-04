@@ -40,10 +40,20 @@ resource at `AppScope/resources/base/media/<product>_icon.png`.
 | --- | --- |
 | Pixrune | `01-photo.png` |
 | Cliprune | `03-cut.png` |
+| Lutrune | `04-light.png` |
 | Pagrune | `05-pdf.png` |
 | Motrune | `06-motion.png` |
 | Layrune | `07-layout.png` |
+| Framune | `08-interface.png` |
+| Texune | `09-texture.png` |
+| Shadrune | `10-material.png` |
+| Quilrune | `11-write.png` |
+| Sonune | `12-audio.png` |
+| Deckune | `13-slides.png` |
+| Dimrune | `14-cad.png` |
 | Gridrune | `15-sheets.png` |
+| Modune | `16-maker.png` |
+| Visrune | `17-studio.png` |
 
 No upstream ArtCraft logo is used as a HarmonyOS application icon or in-app mark.
 The independent icons do not imply upstream endorsement. Upstream's own asset

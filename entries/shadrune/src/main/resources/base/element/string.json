@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Shadrune"
+    },
+    {
+      "name": "clipboard_reason",
+      "value": "用于将您选择的材质节点或图像粘贴到工作区。"
+    }
+  ]
+}

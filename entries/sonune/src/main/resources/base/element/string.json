@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Sonune"
+    },
+    {
+      "name": "clipboard_reason",
+      "value": "用于将您选择的音频片段或标记粘贴到音轨。"
+    }
+  ]
+}

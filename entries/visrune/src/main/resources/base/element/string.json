@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Visrune"
+    },
+    {
+      "name": "clipboard_reason",
+      "value": "用于将您选择的提示词、图像或媒体粘贴到创作工作台。"
+    }
+  ]
+}

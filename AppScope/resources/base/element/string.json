@@ -31,6 +31,46 @@
     {
       "name": "gridrune_name",
       "value": "Gridrune"
+    },
+    {
+      "name": "lutrune_name",
+      "value": "Lutrune"
+    },
+    {
+      "name": "framune_name",
+      "value": "Framune"
+    },
+    {
+      "name": "texune_name",
+      "value": "Texune"
+    },
+    {
+      "name": "shadrune_name",
+      "value": "Shadrune"
+    },
+    {
+      "name": "quilrune_name",
+      "value": "Quilrune"
+    },
+    {
+      "name": "sonune_name",
+      "value": "Sonune"
+    },
+    {
+      "name": "deckune_name",
+      "value": "Deckune"
+    },
+    {
+      "name": "dimrune_name",
+      "value": "Dimrune"
+    },
+    {
+      "name": "modune_name",
+      "value": "Modune"
+    },
+    {
+      "name": "visrune_name",
+      "value": "Visrune"
     }
   ]
 }

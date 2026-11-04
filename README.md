@@ -8,17 +8,26 @@
 | `pixrune` | Pixrune · 造隅修图 | `com.richerfu.pixrune` | PhotoCraft 鸿蒙图像编辑器 |
 | `vecrune` | Vecrune · 造隅矢绘 | `com.richerfu.vecrune` | VectorCraft 鸿蒙编辑器及 Rust 接入 |
 | `cliprune` | Cliprune · 造隅剪辑 | `com.richerfu.cliprune` | FilmCraft 鸿蒙视频编辑器 |
+| `lutrune` | Lutrune · 造隅光影 | `com.richerfu.lutrune` | LightCraft 鸿蒙摄影暗房与调色编辑器 |
 | `pagrune` | Pagrune · 造隅阅编 | `com.richerfu.pagrune` | PdfCraft 鸿蒙 PDF 编辑器 |
 | `motrune` | Motrune · 造隅动效 | `com.richerfu.motrune` | EffectCraft 鸿蒙合成编辑器 |
 | `layrune` | Layrune · 造隅版式 | `com.richerfu.layrune` | DesignCraft 鸿蒙排版编辑器 |
+| `framune` | Framune · 造隅界面 | `com.richerfu.framune` | FigCraft 鸿蒙界面与原型设计器 |
+| `texune` | Texune · 造隅纹绘 | `com.richerfu.texune` | TextureCraft 鸿蒙纹理绘制器 |
+| `shadrune` | Shadrune · 造隅材质 | `com.richerfu.shadrune` | MaterialCraft 鸿蒙节点材质编辑器 |
+| `quilrune` | Quilrune · 造隅文档 | `com.richerfu.quilrune` | WordCraft 鸿蒙文档编辑器 |
+| `sonune` | Sonune · 造隅音轨 | `com.richerfu.sonune` | SoundCraft 鸿蒙数字音频工作站 |
+| `deckune` | Deckune · 造隅演示 | `com.richerfu.deckune` | DeckCraft 鸿蒙演示文稿编辑器 |
+| `dimrune` | Dimrune · 造隅工图 | `com.richerfu.dimrune` | CADCraft 鸿蒙工程制图编辑器 |
 | `gridrune` | Gridrune · 造隅表格 | `com.richerfu.gridrune` | GridCraft 鸿蒙电子表格 |
+| `modune` | Modune · 造隅构建 | `com.richerfu.modune` | Craft Anything 鸿蒙逆向与构建工作台 |
+| `visrune` | Visrune · 造隅灵绘 | `com.richerfu.visrune` | ArtCraft Studio 鸿蒙生成式创作工作台 |
 | `nodune` | Nodune · 造隅工坊 | `com.richerfu.nodune` | 套件目录，可打开以上已安装应用 |
 
 DevEco 要求存在 `default` product；它是 `nodune` 的 IDE 默认入口，使用同一个
 entry 和包名，不新增应用。
 
-本次覆盖 `harmony-contrib` 下具有 `feat-openharmony` 分支的全部 7 个 Craft 仓库。
-其余 10 款应用的名称、包名和待迁移状态保留在 `config/apps.json`。
+本次覆盖 `harmony-contrib` 下具有 `feat-openharmony` 分支的全部 17 个上游仓库及工坊入口（共 18 款应用）。
 同一 product 仅选择自己的 entry，各应用具有独立 bundle。
 
 全系列 18 款的[名称与图标设计资源](branding/app-suite/README.md)已归档到

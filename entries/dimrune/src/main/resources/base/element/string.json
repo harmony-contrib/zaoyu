@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Dimrune"
+    },
+    {
+      "name": "clipboard_reason",
+      "value": "用于将您选择的图元、文字或坐标粘贴到图纸。"
+    }
+  ]
+}

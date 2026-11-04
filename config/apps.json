@@ -64,8 +64,16 @@
       "english": "Lutrune",
       "chinese": "造隅光影",
       "bundleName": "com.richerfu.lutrune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/lutrune",
+      "nativeCrate": "lutrune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/lightcraft.git",
+      "upstreamCrates": [
+        "lightcraft-engine",
+        "lightcraft-ui-egui",
+        "lightcraft-raster",
+        "lightcraft-codecs"
+      ]
     },
     {
       "id": "pagrune",
@@ -120,8 +128,15 @@
       "english": "Framune",
       "chinese": "造隅界面",
       "bundleName": "com.richerfu.framune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/framune",
+      "nativeCrate": "framune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/figcraft.git",
+      "upstreamCrates": [
+        "figcraft-engine",
+        "figcraft-ui-egui",
+        "figcraft-text"
+      ]
     },
     {
       "id": "texune",
@@ -129,8 +144,14 @@
       "english": "Texune",
       "chinese": "造隅纹绘",
       "bundleName": "com.richerfu.texune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/texune",
+      "nativeCrate": "texune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/texturecraft.git",
+      "upstreamCrates": [
+        "texturecraft-engine",
+        "texturecraft-ui-egui"
+      ]
     },
     {
       "id": "shadrune",
@@ -138,8 +159,14 @@
       "english": "Shadrune",
       "chinese": "造隅材质",
       "bundleName": "com.richerfu.shadrune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/shadrune",
+      "nativeCrate": "shadrune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/materialcraft.git",
+      "upstreamCrates": [
+        "materialcraft-engine",
+        "materialcraft-ui-egui"
+      ]
     },
     {
       "id": "quilrune",
@@ -147,8 +174,16 @@
       "english": "Quilrune",
       "chinese": "造隅文档",
       "bundleName": "com.richerfu.quilrune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/quilrune",
+      "nativeCrate": "quilrune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/wordcraft.git",
+      "upstreamCrates": [
+        "wordcraft-engine",
+        "wordcraft-ui-egui",
+        "wordcraft-doc",
+        "wordcraft-fonts"
+      ]
     },
     {
       "id": "sonune",
@@ -156,8 +191,14 @@
       "english": "Sonune",
       "chinese": "造隅音轨",
       "bundleName": "com.richerfu.sonune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/sonune",
+      "nativeCrate": "sonune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/soundcraft.git",
+      "upstreamCrates": [
+        "soundcraft-engine",
+        "soundcraft-ui-egui"
+      ]
     },
     {
       "id": "deckune",
@@ -165,8 +206,15 @@
       "english": "Deckune",
       "chinese": "造隅演示",
       "bundleName": "com.richerfu.deckune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/deckune",
+      "nativeCrate": "deckune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/deckcraft.git",
+      "upstreamCrates": [
+        "deckcraft-engine",
+        "deckcraft-ui-egui",
+        "deckcraft-fonts"
+      ]
     },
     {
       "id": "dimrune",
@@ -174,8 +222,15 @@
       "english": "Dimrune",
       "chinese": "造隅工图",
       "bundleName": "com.richerfu.dimrune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/dimrune",
+      "nativeCrate": "dimrune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/cadcraft.git",
+      "upstreamCrates": [
+        "cadcraft-engine",
+        "cadcraft-ui-egui",
+        "cadcraft-io"
+      ]
     },
     {
       "id": "gridrune",
@@ -198,8 +253,16 @@
       "english": "Modune",
       "chinese": "造隅构建",
       "bundleName": "com.richerfu.modune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/modune",
+      "nativeCrate": "modune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/craft-anything.git",
+      "upstreamCrates": [
+        "craft-anything-engine",
+        "craft-anything-ui-egui",
+        "craft-anything-ai",
+        "craft-anything-setup"
+      ]
     },
     {
       "id": "visrune",
@@ -207,8 +270,13 @@
       "english": "Visrune",
       "chinese": "造隅灵绘",
       "bundleName": "com.richerfu.visrune",
-      "status": "planned",
-      "entry": null
+      "status": "integrated",
+      "entry": "entries/visrune",
+      "nativeCrate": "visrune-ability",
+      "sourceRepository": "https://github.com/harmony-contrib/artcraft.git",
+      "upstreamCrates": [
+        "artcraft_native"
+      ]
     },
     {
       "id": "nodune",
