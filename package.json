@@ -1,0 +1,16 @@
+{
+  "name": "zaoyu-ohos",
+  "version": "0.1.0",
+  "private": true,
+  "engines": { "node": ">=22.0.0" },
+  "scripts": {
+    "setup": "python3 tools/project.py setup",
+    "doctor": "python3 tools/project.py doctor",
+    "deps": "python3 tools/project.py deps",
+    "build:vecrune": "python3 tools/project.py build vecrune",
+    "build:nodune": "python3 tools/project.py build nodune",
+    "build:all": "python3 tools/project.py build all",
+    "check": "python3 tools/project.py check"
+  },
+  "devDependencies": { "@ohos-rs/arkdown": "0.1.6" }
+}

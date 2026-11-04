@@ -1,0 +1,168 @@
+{
+  "brand": "造隅",
+  "bundlePrefix": "com.richerfu",
+  "apps": [
+    {
+      "id": "pixrune",
+      "upstreamName": "PhotoCraft",
+      "english": "Pixrune",
+      "chinese": "造隅修图",
+      "bundleName": "com.richerfu.pixrune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "vecrune",
+      "upstreamName": "VectorCraft",
+      "english": "Vecrune",
+      "chinese": "造隅矢绘",
+      "bundleName": "com.richerfu.vecrune",
+      "status": "integrated",
+      "entry": "entries/vecrune"
+    },
+    {
+      "id": "cliprune",
+      "upstreamName": "FilmCraft",
+      "english": "Cliprune",
+      "chinese": "造隅剪辑",
+      "bundleName": "com.richerfu.cliprune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "lutrune",
+      "upstreamName": "LightCraft",
+      "english": "Lutrune",
+      "chinese": "造隅光影",
+      "bundleName": "com.richerfu.lutrune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "pagrune",
+      "upstreamName": "PdfCraft",
+      "english": "Pagrune",
+      "chinese": "造隅阅编",
+      "bundleName": "com.richerfu.pagrune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "motrune",
+      "upstreamName": "EffectCraft",
+      "english": "Motrune",
+      "chinese": "造隅动效",
+      "bundleName": "com.richerfu.motrune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "layrune",
+      "upstreamName": "DesignCraft",
+      "english": "Layrune",
+      "chinese": "造隅版式",
+      "bundleName": "com.richerfu.layrune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "framune",
+      "upstreamName": "FigCraft",
+      "english": "Framune",
+      "chinese": "造隅界面",
+      "bundleName": "com.richerfu.framune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "texune",
+      "upstreamName": "TextureCraft",
+      "english": "Texune",
+      "chinese": "造隅纹绘",
+      "bundleName": "com.richerfu.texune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "shadrune",
+      "upstreamName": "MaterialCraft",
+      "english": "Shadrune",
+      "chinese": "造隅材质",
+      "bundleName": "com.richerfu.shadrune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "quilrune",
+      "upstreamName": "WordCraft",
+      "english": "Quilrune",
+      "chinese": "造隅文档",
+      "bundleName": "com.richerfu.quilrune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "sonune",
+      "upstreamName": "SoundCraft",
+      "english": "Sonune",
+      "chinese": "造隅音轨",
+      "bundleName": "com.richerfu.sonune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "deckune",
+      "upstreamName": "DeckCraft",
+      "english": "Deckune",
+      "chinese": "造隅演示",
+      "bundleName": "com.richerfu.deckune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "dimrune",
+      "upstreamName": "CADCraft",
+      "english": "Dimrune",
+      "chinese": "造隅工图",
+      "bundleName": "com.richerfu.dimrune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "gridrune",
+      "upstreamName": "GridCraft",
+      "english": "Gridrune",
+      "chinese": "造隅表格",
+      "bundleName": "com.richerfu.gridrune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "modune",
+      "upstreamName": "Craft Anything",
+      "english": "Modune",
+      "chinese": "造隅构建",
+      "bundleName": "com.richerfu.modune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "visrune",
+      "upstreamName": "ArtCraft Studio",
+      "english": "Visrune",
+      "chinese": "造隅灵绘",
+      "bundleName": "com.richerfu.visrune",
+      "status": "planned",
+      "entry": null
+    },
+    {
+      "id": "nodune",
+      "upstreamName": "ArtCraft Launcher",
+      "english": "Nodune",
+      "chinese": "造隅工坊",
+      "bundleName": "com.richerfu.nodune",
+      "status": "integrated",
+      "entry": "entries/nodune"
+    }
+  ]
+}

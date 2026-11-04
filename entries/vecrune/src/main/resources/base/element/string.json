@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Vecrune"
+    },
+    {
+      "name": "clipboard_reason",
+      "value": "用于将您选择的文字或图形粘贴到画布。"
+    }
+  ]
+}

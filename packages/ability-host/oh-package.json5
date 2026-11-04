@@ -1,0 +1,22 @@
+{
+  "name": "@richerfu/ability-host",
+  "version": "0.1.0",
+  "description": "Shared native editor Ability and bridge plugins",
+  "main": "Index.ets",
+  "license": "MIT OR Apache-2.0",
+  "publish": false,
+  "dependencies": {
+    "@ohos-rs/ability": "1.0.0-beta.5",
+    "@ohos-rs/ability-plugin-window": "1.0.0-beta.5",
+    "@ohos-rs/ability-plugin-clipboard": "1.0.0-beta.5",
+    "@ohos-rs/ability-plugin-url": "1.0.0-beta.5",
+    "@ohos-rs/ability-plugin-app-control": "1.0.0-beta.5",
+    "@ohos-rs/ability-plugin-permission": "1.0.0-beta.5",
+    "@ohos-rs/ability-plugin-menu": "1.0.0-beta.5",
+    "@ohos-rs/ability-plugin-notification": "1.0.0-beta.5",
+    "@ohos-rs/ability-plugin-process": "1.0.0-beta.5",
+    "@ohos-rs/ability-plugin-system-state": "1.0.0-beta.5",
+    "@ohos-rs/ability-plugin-accessibility": "1.0.0-beta.5",
+    "@ohos-rs/ability-plugin-files": "https://github.com/harmony-contrib/openharmony-ability.git#cb5b4b35f559566eb58a306f344c12daf741a839&path:plugins/files"
+  }
+}

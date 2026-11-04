@@ -1,0 +1,77 @@
+[workspace]
+resolver = "3"
+members = ["crates/vecrune-host", "crates/vecrune-ability"]
+default-members = ["crates/vecrune-host", "crates/vecrune-ability"]
+
+[workspace.package]
+version = "0.21.0"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT OR Apache-2.0"
+publish = false
+
+[workspace.dependencies]
+vecrune-host = { path = "crates/vecrune-host" }
+vectorcraft-engine = { git = "https://github.com/harmony-contrib/vectorcraft.git", rev = "e537ae13e7331082ae35fcf420d71e7237dcdc72", default-features = false }
+vectorcraft-ui-egui = { git = "https://github.com/harmony-contrib/vectorcraft.git", rev = "e537ae13e7331082ae35fcf420d71e7237dcdc72" }
+vectorcraft-text = { git = "https://github.com/harmony-contrib/vectorcraft.git", rev = "e537ae13e7331082ae35fcf420d71e7237dcdc72", default-features = false }
+vectorcraft-format = { git = "https://github.com/harmony-contrib/vectorcraft.git", rev = "e537ae13e7331082ae35fcf420d71e7237dcdc72" }
+egui = "0.37"
+eframe = { version = "0.37", default-features = false }
+log = "0.4"
+serde_json = { version = "1", features = ["float_roundtrip"] }
+chrono = { version = "0.4.45", default-features = false, features = ["std"] }
+socket2 = "0.6"
+craft-font-catalog = { git = "https://github.com/storytold/craft-libs", rev = "c5a1cbfb5f9049f9270955caffb5bee5997aebf7", default-features = false }
+openharmony-ability = "=1.0.0-beta.5"
+openharmony-ability-derive = "=1.0.0-beta.5"
+openharmony-ability-plugin-clipboard = { version = "=1.0.0-beta.5", features = ["api-18"] }
+napi-ohos = "=1.2.0"
+napi-derive-ohos = "=1.2.0"
+napi-build-ohos = "=1.2.0"
+ohos-hilog-binding = { version = "0.2.3", features = ["log"] }
+winit = { version = "0.30", default-features = false, features = ["rwh_06", "extended-plugins"] }
+
+[workspace.lints.rust]
+unsafe_code = "deny"
+
+[workspace.lints.clippy]
+unwrap_used = "deny"
+expect_used = "deny"
+panic = "deny"
+todo = "deny"
+unimplemented = "deny"
+
+[profile.dev]
+debug = "line-tables-only"
+
+[profile.dev.package."*"]
+debug = false
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = "debuginfo"
+
+[patch.crates-io]
+hayro-syntax = { git = "https://github.com/storytold/craft-libs", rev = "f8f8829cc7be65d466d687dae381d1ca60e31242" }
+hayro-interpret = { git = "https://github.com/storytold/craft-libs", rev = "f8f8829cc7be65d466d687dae381d1ca60e31242" }
+hayro-jbig2 = { git = "https://github.com/storytold/craft-libs", rev = "f8f8829cc7be65d466d687dae381d1ca60e31242" }
+hayro-cmap = { git = "https://github.com/storytold/craft-libs", rev = "f8f8829cc7be65d466d687dae381d1ca60e31242" }
+hayro-postscript = { git = "https://github.com/storytold/craft-libs", rev = "f8f8829cc7be65d466d687dae381d1ca60e31242" }
+krilla = { git = "https://github.com/storytold/craft-libs", rev = "f8f8829cc7be65d466d687dae381d1ca60e31242" }
+ecolor = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
+emath = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
+epaint = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
+epaint_default_fonts = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
+egui = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
+egui-winit = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
+egui-wgpu = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
+egui_glow = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
+egui_extras = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
+egui_kittest = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
+egui_system_font_provider = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
+eframe = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
+egui_demo_lib = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
+egui_inspection = { git = "https://github.com/richerfu/egui.git", rev = "42760ab8470178ea3a955a194dad0a3ecadfb26f" }
+winit = { git = "https://github.com/richerfu/winit.git", rev = "fe8cbb2e689b519b9282bc29b84c8ea6bc9df313" }

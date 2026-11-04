@@ -1,0 +1,22 @@
+Zaoyu HarmonyOS suite / 造隅鸿蒙工作区
+
+Vecrune incorporates VectorCraft through pinned Cargo Git dependencies from
+https://github.com/harmony-contrib/vectorcraft
+branch feat-openharmony. The exact revision is recorded in Cargo.toml and Cargo.lock.
+The source engine, UI, native host and their original contributors retain
+their original copyrights, under MIT OR Apache-2.0. License texts and third-party
+notices are retained in licenses/vectorcraft; the pinned repository contains
+the full asset inventory and contributor records.
+
+The migrated Rust host originates in apps/vectorcraft/src/ohos,
+apps/vectorcraft/src/logging.rs, control_server.rs and control_deadlines.rs;
+the Ability registration originates in apps/vectorcraft-ohos.
+
+@ohos-rs/ability and its plugins are MIT OR Apache-2.0.
+The files plugin is consumed from a pinned Git commit in
+https://github.com/harmony-contrib/openharmony-ability (plugins/files).
+Its MIT and Apache-2.0 licenses are preserved in the dependency package.
+
+Zaoyu, Vecrune, Nodune and the replacement application icons identify this
+independent adaptation. They do not imply endorsement by upstream authors.
+Upstream ArtCraft marks are not licensed by the engine's software license.

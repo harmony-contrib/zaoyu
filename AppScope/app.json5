@@ -1,0 +1,10 @@
+{
+  "app": {
+    "bundleName": "com.richerfu.nodune",
+    "vendor": "richerfu",
+    "versionCode": 10000,
+    "versionName": "1.0.0",
+    "icon": "$media:nodune_icon",
+    "label": "$string:nodune_name"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        "bundleName": "com.richerfu.nodune",
+        "vendor": "richerfu",
+        "label": "$string:nodune_name",
+        "icon": "$media:nodune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "vecrune",
+        "bundleName": "com.richerfu.vecrune",
+        "vendor": "richerfu",
+        "label": "$string:vecrune_name",
+        "icon": "$media:vecrune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      },
+      {
+        "name": "nodune",
+        "bundleName": "com.richerfu.nodune",
+        "vendor": "richerfu",
+        "label": "$string:nodune_name",
+        "icon": "$media:nodune_icon",
+        "compatibleSdkVersion": "6.0.2(22)",
+        "targetSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "vecrune",
+      "srcPath": "./entries/vecrune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "vecrune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nodune",
+      "srcPath": "./entries/nodune",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default",
+            "nodune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ability_host",
+      "srcPath": "./packages/ability-host"
+    }
+  ]
+}

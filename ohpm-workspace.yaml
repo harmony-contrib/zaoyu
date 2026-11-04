@@ -1,0 +1,6 @@
+packages:
+  - "."
+  - "entries/*"
+  - "packages/*"
+version:
+  mode: independent

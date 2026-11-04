@@ -1,0 +1,12 @@
+{
+  "modelVersion": "6.0.0",
+  "name": "@richerfu/zaoyu-ohos",
+  "version": "0.1.0",
+  "description": "造隅 HarmonyOS 单工程多 entry 工作区",
+  "license": "MIT OR Apache-2.0",
+  "publish": false,
+  "dependencies": {},
+  "overrides": {
+    "@ohos-rs/ability": "1.0.0-beta.5"
+  }
+}
