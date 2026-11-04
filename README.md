@@ -38,7 +38,7 @@ ArkTS 包由 **ohpm-rs** 管理，HAP 由 **arkdown** 打包。Rust 依赖通过
 
 ## 环境与首次准备
 
-已验证的工具版本：Node 22.23.2、ohpm-rs 0.4.0、arkdown 0.1.6、Rust 1.99.1。
+已验证的工具版本：Node 22.23.2、ohpm-rs 0.5.0（下方固定 Git 提交）、arkdown 0.1.6、Rust 1.99.1。
 Python 需 3.11 或更新版本，Rust 最低版本 1.95。安装 `aarch64-unknown-linux-ohos` target；SDK 需包含
 OpenHarmony native 工具链和目标 API 26。当前应用兼容版本沿用上游 API 22，
 声明设备为平板和 2in1（`tablet`、`2in1`），不支持手机；这不代表已覆盖所有对应设备的运行测试。
@@ -46,6 +46,9 @@ OpenHarmony native 工具链和目标 API 26。当前应用兼容版本沿用上
 ```sh
 git clone git@github.com:harmony-contrib/zaoyu.git zaoyu-ohos
 cd zaoyu-ohos
+cargo install --git https://github.com/harmony-contrib/ohpm-rs.git \
+  --rev 13425765b1c0ef0e022c5df2e214603048cb1192 \
+  --locked --debug --force ohpm-cli
 npm ci
 python3 tools/project.py setup
 python3 tools/project.py doctor
@@ -53,7 +56,11 @@ python3 tools/project.py deps
 ```
 
 `npm ci` 只安装固定版本的 arkdown 及其宿主二进制；鸿蒙应用依赖安装实际执行
-`ohpm-rs install --workspace --all`。若找不到 SDK，可设置：
+`ohpm-rs install --workspace --all`。ohpm-rs 需包含上游
+[PR #3](https://github.com/harmony-contrib/ohpm-rs/pull/3) 的修复：旧版本在已有锁文件、
+但没有本地缓存时，无法恢复 Git 子目录包。上方命令固定该修复提交，`--debug` 用于
+缩短工具自身的首次安装时间，不影响应用的 Debug/Release 打包模式。
+若找不到 SDK，可设置：
 
 ```sh
 export OHOS_NDK_HOME="/path/to/DevEco-Studio.app/Contents/sdk/default/openharmony"
