@@ -21,6 +21,10 @@ entry 和包名，不新增应用。
 其余 10 款应用的名称、包名和待迁移状态保留在 `config/apps.json`。
 同一 product 仅选择自己的 entry，各应用具有独立 bundle。
 
+全系列 18 款的[名称与图标设计资源](branding/app-suite/README.md)已归档到
+`branding/app-suite/`，包含单词式英文名、`com.richerfu.*` 包名对照、图标原图与
+1024／512／256／128px PNG、设计说明和离线图册。资源覆盖已接入及待接入应用。
+
 ## 目录
 
 ```text
@@ -33,6 +37,7 @@ packages/ability-host/      共享编辑器 Ability 与插件组合
 crates/<product>-ability/  每应用一个 crate，含 Ability 注册、生命周期和 OS 服务
 licenses/<upstream>/       各上游及素材许可文本，不包含依赖源码
 config/apps.json           全系列应用名称与 com.richerfu.* 包名
+branding/app-suite/        全系列名称、图标母版、多尺寸资源和设计图册
 tools/project.py           环境检查、依赖安装、Rust 编译与打包入口
 dist/{debug,release}/      校验后的 unsigned HAP 和摘要，生成目录
 ```

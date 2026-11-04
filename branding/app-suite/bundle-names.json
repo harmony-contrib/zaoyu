@@ -1,0 +1,178 @@
+{
+  "brand": "ZAOYU",
+  "revision": 3,
+  "repositoryEdition": 1,
+  "namingStyle": "single_word_coined",
+  "prefix": "com.richerfu",
+  "projectCatalog": "../../config/apps.json",
+  "deviceTypes": [
+    "tablet",
+    "2in1"
+  ],
+  "status": "project_configured_not_store_verified",
+  "note": "Names and bundle names match config/apps.json. Store registration and trademark clearance have not been verified.",
+  "apps": [
+    {
+      "originalApp": "PhotoCraft",
+      "nameZh": "造隅修图",
+      "nameEn": "Pixrune",
+      "nameRoot": "Pixel",
+      "bundleName": "com.richerfu.pixrune",
+      "integrationStatus": "integrated",
+      "icon": "icons/1024/01-photo.png"
+    },
+    {
+      "originalApp": "VectorCraft",
+      "nameZh": "造隅矢绘",
+      "nameEn": "Vecrune",
+      "nameRoot": "Vector",
+      "bundleName": "com.richerfu.vecrune",
+      "integrationStatus": "integrated",
+      "icon": "icons/1024/02-vector.png"
+    },
+    {
+      "originalApp": "FilmCraft",
+      "nameZh": "造隅剪辑",
+      "nameEn": "Cliprune",
+      "nameRoot": "Clip",
+      "bundleName": "com.richerfu.cliprune",
+      "integrationStatus": "integrated",
+      "icon": "icons/1024/03-cut.png"
+    },
+    {
+      "originalApp": "LightCraft",
+      "nameZh": "造隅光影",
+      "nameEn": "Lutrune",
+      "nameRoot": "LUT",
+      "bundleName": "com.richerfu.lutrune",
+      "integrationStatus": "planned",
+      "icon": "icons/1024/04-light.png"
+    },
+    {
+      "originalApp": "PdfCraft",
+      "nameZh": "造隅阅编",
+      "nameEn": "Pagrune",
+      "nameRoot": "Page",
+      "bundleName": "com.richerfu.pagrune",
+      "integrationStatus": "integrated",
+      "icon": "icons/1024/05-pdf.png"
+    },
+    {
+      "originalApp": "EffectCraft",
+      "nameZh": "造隅动效",
+      "nameEn": "Motrune",
+      "nameRoot": "Motion",
+      "bundleName": "com.richerfu.motrune",
+      "integrationStatus": "integrated",
+      "icon": "icons/1024/06-motion.png"
+    },
+    {
+      "originalApp": "DesignCraft",
+      "nameZh": "造隅版式",
+      "nameEn": "Layrune",
+      "nameRoot": "Layout",
+      "bundleName": "com.richerfu.layrune",
+      "integrationStatus": "integrated",
+      "icon": "icons/1024/07-layout.png"
+    },
+    {
+      "originalApp": "FigCraft",
+      "nameZh": "造隅界面",
+      "nameEn": "Framune",
+      "nameRoot": "Frame",
+      "bundleName": "com.richerfu.framune",
+      "integrationStatus": "planned",
+      "icon": "icons/1024/08-interface.png"
+    },
+    {
+      "originalApp": "TextureCraft",
+      "nameZh": "造隅纹绘",
+      "nameEn": "Texune",
+      "nameRoot": "Texture",
+      "bundleName": "com.richerfu.texune",
+      "integrationStatus": "planned",
+      "icon": "icons/1024/09-texture.png"
+    },
+    {
+      "originalApp": "MaterialCraft",
+      "nameZh": "造隅材质",
+      "nameEn": "Shadrune",
+      "nameRoot": "Shader",
+      "bundleName": "com.richerfu.shadrune",
+      "integrationStatus": "planned",
+      "icon": "icons/1024/10-material.png"
+    },
+    {
+      "originalApp": "WordCraft",
+      "nameZh": "造隅文档",
+      "nameEn": "Quilrune",
+      "nameRoot": "Quill",
+      "bundleName": "com.richerfu.quilrune",
+      "integrationStatus": "planned",
+      "icon": "icons/1024/11-write.png"
+    },
+    {
+      "originalApp": "SoundCraft",
+      "nameZh": "造隅音轨",
+      "nameEn": "Sonune",
+      "nameRoot": "Sonic",
+      "bundleName": "com.richerfu.sonune",
+      "integrationStatus": "planned",
+      "icon": "icons/1024/12-audio.png"
+    },
+    {
+      "originalApp": "DeckCraft",
+      "nameZh": "造隅演示",
+      "nameEn": "Deckune",
+      "nameRoot": "Deck",
+      "bundleName": "com.richerfu.deckune",
+      "integrationStatus": "planned",
+      "icon": "icons/1024/13-slides.png"
+    },
+    {
+      "originalApp": "CADCraft",
+      "nameZh": "造隅工图",
+      "nameEn": "Dimrune",
+      "nameRoot": "Dimension",
+      "bundleName": "com.richerfu.dimrune",
+      "integrationStatus": "planned",
+      "icon": "icons/1024/14-cad.png"
+    },
+    {
+      "originalApp": "GridCraft",
+      "nameZh": "造隅表格",
+      "nameEn": "Gridrune",
+      "nameRoot": "Grid",
+      "bundleName": "com.richerfu.gridrune",
+      "integrationStatus": "integrated",
+      "icon": "icons/1024/15-sheets.png"
+    },
+    {
+      "originalApp": "Craft Anything",
+      "nameZh": "造隅构建",
+      "nameEn": "Modune",
+      "nameRoot": "Module",
+      "bundleName": "com.richerfu.modune",
+      "integrationStatus": "planned",
+      "icon": "icons/1024/16-maker.png"
+    },
+    {
+      "originalApp": "ArtCraft Studio",
+      "nameZh": "造隅灵绘",
+      "nameEn": "Visrune",
+      "nameRoot": "Vision",
+      "bundleName": "com.richerfu.visrune",
+      "integrationStatus": "planned",
+      "icon": "icons/1024/17-studio.png"
+    },
+    {
+      "originalApp": "ArtCraft Launcher",
+      "nameZh": "造隅工坊",
+      "nameEn": "Nodune",
+      "nameRoot": "Node",
+      "bundleName": "com.richerfu.nodune",
+      "integrationStatus": "integrated",
+      "icon": "icons/1024/18-hub.png"
+    }
+  ]
+}

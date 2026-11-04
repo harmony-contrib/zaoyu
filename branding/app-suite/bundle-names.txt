@@ -1,0 +1,62 @@
+ZAOYU / SINGLE-WORD APP NAMES AND BUNDLE NAMES
+Naming revision 3 — 2026-11-04; repository edition 1
+
+Prefix: com.richerfu
+Devices: tablet, 2in1
+Source of truth: ../../config/apps.json
+Bundle names are configured in this project; store registration has not been verified.
+
+01. 造隅修图 | Pixrune
+    com.richerfu.pixrune
+    Original: PhotoCraft; integration: integrated
+02. 造隅矢绘 | Vecrune
+    com.richerfu.vecrune
+    Original: VectorCraft; integration: integrated
+03. 造隅剪辑 | Cliprune
+    com.richerfu.cliprune
+    Original: FilmCraft; integration: integrated
+04. 造隅光影 | Lutrune
+    com.richerfu.lutrune
+    Original: LightCraft; integration: planned
+05. 造隅阅编 | Pagrune
+    com.richerfu.pagrune
+    Original: PdfCraft; integration: integrated
+06. 造隅动效 | Motrune
+    com.richerfu.motrune
+    Original: EffectCraft; integration: integrated
+07. 造隅版式 | Layrune
+    com.richerfu.layrune
+    Original: DesignCraft; integration: integrated
+08. 造隅界面 | Framune
+    com.richerfu.framune
+    Original: FigCraft; integration: planned
+09. 造隅纹绘 | Texune
+    com.richerfu.texune
+    Original: TextureCraft; integration: planned
+10. 造隅材质 | Shadrune
+    com.richerfu.shadrune
+    Original: MaterialCraft; integration: planned
+11. 造隅文档 | Quilrune
+    com.richerfu.quilrune
+    Original: WordCraft; integration: planned
+12. 造隅音轨 | Sonune
+    com.richerfu.sonune
+    Original: SoundCraft; integration: planned
+13. 造隅演示 | Deckune
+    com.richerfu.deckune
+    Original: DeckCraft; integration: planned
+14. 造隅工图 | Dimrune
+    com.richerfu.dimrune
+    Original: CADCraft; integration: planned
+15. 造隅表格 | Gridrune
+    com.richerfu.gridrune
+    Original: GridCraft; integration: integrated
+16. 造隅构建 | Modune
+    com.richerfu.modune
+    Original: Craft Anything; integration: planned
+17. 造隅灵绘 | Visrune
+    com.richerfu.visrune
+    Original: ArtCraft Studio; integration: planned
+18. 造隅工坊 | Nodune
+    com.richerfu.nodune
+    Original: ArtCraft Launcher; integration: integrated

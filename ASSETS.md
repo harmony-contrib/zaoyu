@@ -1,5 +1,27 @@
 # Application assets
 
+## Complete suite design archive
+
+The [18-app design archive](branding/app-suite/README.md) contains the original
+user-requested Zaoyu icon set generated on 2026-11-04: 18 PNG masters at 1254 px,
+18 exports at each of 1024 / 512 / 256 / 128 px, and two original preview sheets.
+It also includes single-word English and Chinese names, `com.richerfu.*` bundle
+name mappings, palette and motif descriptions, original generation prompts,
+naming notes, and an offline HTML gallery.
+
+PNG files and original generation/naming records are preserved unchanged.
+The JSON, CSV, text mappings and gallery use the bundle names from
+[`config/apps.json`](config/apps.json). The project supports `tablet` and `2in1`;
+phone references in the original preview sheets and prompts are historical.
+The archive includes planned applications and does not add build products.
+It is a design resource archive, not a source of upstream application code.
+
+The master image SHA-256 values and stable icon filenames are recorded in
+[`names.json`](branding/app-suite/names.json). All icon masters are raster PNGs;
+editable vector or separated foreground/background assets are not included.
+
+## Runtime assets
+
 | Asset | Source | Purpose / rights |
 | --- | --- | --- |
 | `branding/vecrune-128.png` | User-requested original Zaoyu icon set, generated 2026-11-04; `02-vector.png` | Vecrune in-app mark; independent replacement for upstream mark |

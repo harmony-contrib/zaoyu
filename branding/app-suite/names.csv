@@ -1,0 +1,19 @@
+﻿序号,原应用,中文名称,英文名称（单词式造词）,词根,命名联想,英文包名 bundleName,包名状态,集成状态,用途,分类,图标路径,主色,强调色
+1,PhotoCraft,造隅修图,Pixrune,Pixel,像素与图像编辑,com.richerfu.pixrune,工程配置，未核验商店注册,integrated,图像编辑、图层与基础修图,影像,icons/1024/01-photo.png,#144F68,#6FE5D1
+2,VectorCraft,造隅矢绘,Vecrune,Vector,矢量与曲线绘制,com.richerfu.vecrune,工程配置，未核验商店注册,integrated,矢量绘图与插画,设计,icons/1024/02-vector.png,#592A75,#E8A4F0
+3,FilmCraft,造隅剪辑,Cliprune,Clip,视频片段与剪辑,com.richerfu.cliprune,工程配置，未核验商店注册,integrated,视频剪辑与时间线编辑,影音,icons/1024/03-cut.png,#99443C,#FFC0A0
+4,LightCraft,造隅光影,Lutrune,LUT,色彩查找表与照片调色,com.richerfu.lutrune,工程配置，未核验商店注册,planned,照片管理与 RAW 调色,影像,icons/1024/04-light.png,#9A681E,#FFE0A0
+5,PdfCraft,造隅阅编,Pagrune,Page,页面与 PDF 文件,com.richerfu.pagrune,工程配置，未核验商店注册,integrated,PDF 阅读、整理与编辑,办公,icons/1024/05-pdf.png,#8D345C,#FFB5CB
+6,EffectCraft,造隅动效,Motrune,Motion,运动与动态图形,com.richerfu.motrune,工程配置，未核验商店注册,integrated,动态图形与视觉特效,影音,icons/1024/06-motion.png,#3D3695,#B9B8FF
+7,DesignCraft,造隅版式,Layrune,Layout,版式与页面布局,com.richerfu.layrune,工程配置，未核验商店注册,integrated,页面排版与出版设计,设计,icons/1024/07-layout.png,#8A4827,#FFD0A6
+8,FigCraft,造隅界面,Framune,Frame,界面画框与交互原型,com.richerfu.framune,工程配置，未核验商店注册,planned,界面设计与交互原型,设计,icons/1024/08-interface.png,#246B6E,#A5F1DF
+9,TextureCraft,造隅纹绘,Texune,Texture,纹理与表面绘制,com.richerfu.texune,工程配置，未核验商店注册,planned,三维模型纹理绘制,三维,icons/1024/09-texture.png,#5B527A,#D9C6F4
+10,MaterialCraft,造隅材质,Shadrune,Shader,着色与程序化材质,com.richerfu.shadrune,工程配置，未核验商店注册,planned,节点式程序化材质制作,三维,icons/1024/10-material.png,#52643A,#D8E8A4
+11,WordCraft,造隅文档,Quilrune,Quill,羽毛笔与文档写作,com.richerfu.quilrune,工程配置，未核验商店注册,planned,文档写作与文字处理,办公,icons/1024/11-write.png,#345A92,#B8D5FF
+12,SoundCraft,造隅音轨,Sonune,Sonic,声音与音轨编辑,com.richerfu.sonune,工程配置，未核验商店注册,planned,录音、音频编辑与混音,影音,icons/1024/12-audio.png,#67458D,#DBC0FF
+13,DeckCraft,造隅演示,Deckune,Deck,幻灯片与演示文稿,com.richerfu.deckune,工程配置，未核验商店注册,planned,幻灯片制作与演示,办公,icons/1024/13-slides.png,#A27224,#FFE5AB
+14,CADCraft,造隅工图,Dimrune,Dimension,尺寸与工程制图,com.richerfu.dimrune,工程配置，未核验商店注册,planned,计算机辅助制图,三维,icons/1024/14-cad.png,#315E77,#A4E5F3
+15,GridCraft,造隅表格,Gridrune,Grid,网格与电子表格,com.richerfu.gridrune,工程配置，未核验商店注册,integrated,电子表格与数据分析,办公,icons/1024/15-sheets.png,#326A51,#B5E6BD
+16,Craft Anything,造隅构建,Modune,Module,模块组合与应用构建,com.richerfu.modune,工程配置，未核验商店注册,planned,软件探索与应用构建,创作,icons/1024/16-maker.png,#516A79,#C7E7F3
+17,ArtCraft Studio,造隅灵绘,Visrune,Vision,视觉想象与 AI 创作,com.richerfu.visrune,工程配置，未核验商店注册,planned,AI 图像与视频创作,创作,icons/1024/17-studio.png,#3B426F,#C6B5FF
+18,ArtCraft Launcher,造隅工坊,Nodune,Node,节点汇聚与应用入口,com.richerfu.nodune,工程配置，未核验商店注册,integrated,应用管理与套件入口,创作,icons/1024/18-hub.png,#344F55,#B3D9D1

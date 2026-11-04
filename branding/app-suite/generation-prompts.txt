@@ -1,0 +1,309 @@
+造隅 / ZAOYU — 图标生成提示词
+生成方式：内置 imagegen；每款图标独立生成。
+日期：2026-11-04
+
+============================================================
+01 PhotoCraft → 造隅修图
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅修图 / ZAOYU Photo. Function: 图像编辑、图层与基础修图.
+Backdrop: full-bleed solid #144F68, with only a subtle tonal vignette. Accent: #6FE5D1.
+Subject: A single sculptural folded-paper photograph: a broad ivory folded landscape ribbon forming one angular mountain peak within an open mint crop-frame corner. One small coral sun disc is the only secondary element. The silhouette must immediately read as image editing, not a camera.
+Deliver only the single complete square icon image.
+
+============================================================
+02 VectorCraft → 造隅矢绘
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅矢绘 / ZAOYU Vector. Function: 矢量绘图与插画.
+Backdrop: full-bleed solid #592A75, with only a subtle tonal vignette. Accent: #E8A4F0.
+Subject: One bold ivory origami fountain-pen nib with a plum center cutout. A single thick lavender Bezier arc sweeps behind the nib and ends in two large round anchor points. Make the nib dominant, simple and unmistakable.
+Deliver only the single complete square icon image.
+
+============================================================
+03 FilmCraft → 造隅剪辑
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅剪辑 / ZAOYU Cut. Function: 视频剪辑与时间线编辑.
+Backdrop: full-bleed solid #99443C, with only a subtle tonal vignette. Accent: #FFC0A0.
+Subject: One folded ivory strip forms a three-dimensional right-facing play triangle, with two broad coral strip ends offset beneath it like an editing timeline. No perforations, no clapperboard, no tiny marks.
+Deliver only the single complete square icon image.
+
+============================================================
+04 LightCraft → 造隅光影
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅光影 / ZAOYU Light. Function: 照片管理与 RAW 调色.
+Backdrop: full-bleed solid #9A681E, with only a subtle tonal vignette. Accent: #FFE0A0.
+Subject: A sculptural camera aperture made of six wide ivory and pale-gold folded-paper blades surrounding a clean dark hexagonal opening. One blade catches a warm amber highlight. No camera body, no sun or stars.
+Deliver only the single complete square icon image.
+
+============================================================
+05 PdfCraft → 造隅阅编
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅阅编 / ZAOYU PDF. Function: PDF 阅读、整理与编辑.
+Backdrop: full-bleed solid #8D345C, with only a subtle tonal vignette. Accent: #FFB5CB.
+Subject: A single substantial ivory document sheet with one large folded upper corner. A broad rose ribbon folds over its lower edge to become a bookmark. Two thick short debossed horizontal bars indicate content, no letters or words, no Acrobat-like loop.
+Deliver only the single complete square icon image.
+
+============================================================
+06 EffectCraft → 造隅动效
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅动效 / ZAOYU Motion. Function: 动态图形与视觉特效.
+Backdrop: full-bleed solid #3D3695, with only a subtle tonal vignette. Accent: #B9B8FF.
+Subject: A single broad ivory origami ribbon twists into a dramatic sweeping S-shaped motion trail with one thick lavender leading fold. An open asymmetric orbit communicates movement. No play triangle, no sparkles, no particles.
+Deliver only the single complete square icon image.
+
+============================================================
+07 DesignCraft → 造隅版式
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅版式 / ZAOYU Layout. Function: 页面排版与出版设计.
+Backdrop: full-bleed solid #8A4827, with only a subtle tonal vignette. Accent: #FFD0A6.
+Subject: Two offset thick ivory portrait pages arranged as a sculptural magazine spread. On the front page, one large peach rectangle and two broad raised ivory columns form a bold editorial layout. No text, no tiny lines.
+Deliver only the single complete square icon image.
+
+============================================================
+08 FigCraft → 造隅界面
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅界面 / ZAOYU Interface. Function: 界面设计与交互原型.
+Backdrop: full-bleed solid #246B6E, with only a subtle tonal vignette. Accent: #A5F1DF.
+Subject: Two nested open folded-paper interface frames: a wide ivory rounded rectangular frame and a smaller upright mint frame partly overlapping it. One solid coral connector dot bridges the frames. Abstract responsive interface design, no Figma mark or multicolor stacked circles.
+Deliver only the single complete square icon image.
+
+============================================================
+09 TextureCraft → 造隅纹绘
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅纹绘 / ZAOYU Texture. Function: 三维模型纹理绘制.
+Backdrop: full-bleed solid #5B527A, with only a subtle tonal vignette. Accent: #D9C6F4.
+Subject: One large ivory isometric cube with a broad lavender folded ribbon wrapping diagonally across two faces like a painted stroke. Three faces remain clear, silhouette bold and sculptural. No checkerboard, no brush accessory, no grid.
+Deliver only the single complete square icon image.
+
+============================================================
+10 MaterialCraft → 造隅材质
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅材质 / ZAOYU Material. Function: 节点式程序化材质制作.
+Backdrop: full-bleed solid #52643A, with only a subtle tonal vignette. Accent: #D8E8A4.
+Subject: Three large connected sculptural material swatches arranged as a triangular cluster: one ivory matte sphere, one pale olive faceted cube, and one pale yellow folded disc. Two thick short ivory bridges visibly connect them. Keep only three objects; read as a material node graph.
+Deliver only the single complete square icon image.
+
+============================================================
+11 WordCraft → 造隅文档
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅文档 / ZAOYU Write. Function: 文档写作与文字处理.
+Backdrop: full-bleed solid #345A92, with only a subtle tonal vignette. Accent: #B8D5FF.
+Subject: A single tall ivory folded-paper writing sheet, slightly curved, with three broad horizontal sculpted blue paragraph strokes across its surface and one prominent sweeping ivory pen-stroke flourish below. No pencil, no letters, no bookmark, clean document-writing silhouette.
+Deliver only the single complete square icon image.
+
+============================================================
+12 SoundCraft → 造隅音轨
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅音轨 / ZAOYU Audio. Function: 录音、音频编辑与混音.
+Backdrop: full-bleed solid #67458D, with only a subtle tonal vignette. Accent: #DBC0FF.
+Subject: One continuous ivory folded-paper waveform with five bold alternating peaks of different heights, spanning the center horizontally. A lilac inner fold reveals its paper thickness. No headphones, no microphone, no tiny equalizer marks.
+Deliver only the single complete square icon image.
+
+============================================================
+13 DeckCraft → 造隅演示
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅演示 / ZAOYU Slides. Function: 幻灯片制作与演示.
+Backdrop: full-bleed solid #A27224, with only a subtle tonal vignette. Accent: #FFE5AB.
+Subject: One broad ivory landscape presentation card with a second pale-gold folded card peeking behind. The front holds one large raised three-slice circular chart and a single short thick caption bar. Strong simple slide-deck silhouette, no play button, no text.
+Deliver only the single complete square icon image.
+
+============================================================
+14 CADCraft → 造隅工图
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅工图 / ZAOYU CAD. Function: 计算机辅助制图.
+Backdrop: full-bleed solid #315E77, with only a subtle tonal vignette. Accent: #A4E5F3.
+Subject: One bold ivory architectural drafting corner: three thick folded-paper beams form an open isometric hexagonal structure. One short cyan dimension line with large end ticks sits beneath the structure. No numerals, no lettering, no dense wireframe.
+Deliver only the single complete square icon image.
+
+============================================================
+15 GridCraft → 造隅表格
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅表格 / ZAOYU Sheets. Function: 电子表格与数据分析.
+Backdrop: full-bleed solid #326A51, with only a subtle tonal vignette. Accent: #B5E6BD.
+Subject: A sculptural ivory spreadsheet tile divided into a clear two-column by three-row open lattice. One mint column rises gently above the grid as a folded bar-chart tab. Thick dividers, six large cells only, no numbers or letters.
+Deliver only the single complete square icon image.
+
+============================================================
+16 Craft Anything → 造隅构建
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅构建 / ZAOYU Maker. Function: 软件探索与应用构建.
+Backdrop: full-bleed solid #516A79, with only a subtle tonal vignette. Accent: #C7E7F3.
+Subject: Three ivory origami building blocks click together into one open modular arch, with one small pale-blue block floating immediately above the open join. The whole symbol reads as assembling software, simple and architectural. No code text, no gear, no tools.
+Deliver only the single complete square icon image.
+
+============================================================
+17 ArtCraft Studio → 造隅灵绘
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅灵绘 / ZAOYU Studio. Function: AI 图像与视频创作.
+Backdrop: full-bleed solid #3B426F, with only a subtle tonal vignette. Accent: #C6B5FF.
+Subject: A single wide ivory folded-paper ribbon forms an open luminous diamond-shaped portal, with a restrained pale lilac and warm peach inner gradient along the fold. A small smooth ivory seed floats in the center. An original imaginative studio mark, no sparkle star, no rainbow swirl.
+Deliver only the single complete square icon image.
+
+============================================================
+18 ArtCraft Launcher → 造隅工坊
+============================================================
+Use case: logo-brand.
+Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
+Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
+Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
+Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
+Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
+Text: absolutely NO text, NO words, NO letters, NO digits.
+Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+
+Specific icon: 造隅工坊 / ZAOYU Hub. Function: 应用管理与套件入口.
+Backdrop: full-bleed solid #344F55, with only a subtle tonal vignette. Accent: #B3D9D1.
+Subject: One central ivory folded hexagonal hub with three broad pale-mint rectangular tabs sliding neatly into its left, right and lower sides. An orderly sculptural assembly representing a creative toolkit. No download arrow, no four-square Microsoft mark, no gear.
+Deliver only the single complete square icon image.

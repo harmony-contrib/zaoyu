@@ -1,0 +1,43 @@
+单词式英文命名说明 — Revision 3
+日期：2026-11-04
+
+设计目标
+一个完整单词式名称、6–8 个字母、保留功能联想、系列之间具有尾音关联。
+词根是命名创意来源，造词本身不主张已有词典释义。
+
+词根与应用对应
+Pixrune / Pixel / 像素与图像编辑
+Vecrune / Vector / 矢量与曲线绘制
+Cliprune / Clip / 视频片段与剪辑
+Lutrune / LUT / 色彩查找表与照片调色
+Pagrune / Page / 页面与 PDF 文件
+Motrune / Motion / 运动与动态图形
+Layrune / Layout / 版式与页面布局
+Framune / Frame / 界面画框与交互原型
+Texune / Texture / 纹理与表面绘制
+Shadrune / Shader / 着色与程序化材质
+Quilrune / Quill / 羽毛笔与文档写作
+Sonune / Sonic / 声音与音轨编辑
+Deckune / Deck / 幻灯片与演示文稿
+Dimrune / Dimension / 尺寸与工程制图
+Gridrune / Grid / 网格与电子表格
+Modune / Module / 模块组合与应用构建
+Visrune / Vision / 视觉想象与 AI 创作
+Nodune / Node / 节点汇聚与应用入口
+
+初筛范围
+使用公开搜索引擎检索候选词的带引号精确拼写，并结合 app/software 关键词。
+搜索中出现的部分同名软件候选被替换。例如：
+Pixune：动画与创意工作室，https://pixune.com/
+Reelune：AI 角色内容平台，https://reelune.com/en/about
+Motune：App Store 应用，https://apps.apple.com/us/app/motune/id6768014814
+Writune：写作/歌曲创作软件，https://www.writune.com/
+Visune：3D 视觉相关品牌，https://visune.io/a/faq
+Nexune：企业软件，https://docs.nexune.in/
+上述来源仅用于说明候选筛选，并非对这些品牌作完整法律分析。
+
+边界
+没有搜索结果不表示名称可注册或无人使用。
+未系统查询商标数据库、相似读音/拼写、各国权利状态、域名或全部应用商店。
+个人用户名、普通文本、商品或其他类别中的同名，不自动等于软件商标侵权；
+本轮也未据此给出可用性保证。最终名称仍需专业商标近似检索及商店可用性核验。
