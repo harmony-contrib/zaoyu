@@ -1,9 +1,9 @@
 {
-  "version": 4,
+  "version": 7,
   "date": "2026-11-05",
-  "style": "Zaoyu mythic bestiary / 中国神话异兽印刻系列与 Office 功能图形",
+  "style": "Zaoyu character-preserving engraving / 神兽特征保留与局部出画",
   "generator": "built-in imagegen",
-  "generationMethod": "Edition 4: 14 newly generated Chinese mythological creatures from text-only prompts. Four Office masters retained byte-for-byte from edition 3. No upstream images or previous renders supplied as image inputs.",
+  "generationMethod": "Edition 7 adopts the approved character-preserving framing for all 18 apps. The Bifang (Motrune) and four-legged Diting (Sonune) are newly generated with built-in imagegen; Diting is refined using its initial draft and an owned Zaoyu Yinglong icon as style references. The other 16 artwork masters are retained. Exported PNGs bake the approved scale, position and crop into pixels; Office motifs remain complete with generous space.",
   "commonPrompt": "Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.",
   "apps": [
     {
@@ -18,7 +18,14 @@
       "rationale": "以舒展羽翼与分层尾羽呼应图像层次。",
       "generationPrompt": "Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.\nBackground: #0C7E86\nSubject: FENGHUANG 凤凰, Chinese phoenix. A complete elegant bird in side-three-quarter view, head turning back left, slender S neck, a short three-pronged crest, one broad wing half-raised behind its body. Three long broad ribbon-like tail feathers loop downward and then inward, each feather ends in one simple eye-shaped vane. Two fine bird feet tucked under the belly. Invent a distinctive asymmetrical compact silhouette with clear spaces between the tail feathers. No flames or sun. Broad engraved ivory feather panels.\nFINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.",
       "assetEdition": 4,
-      "theme": "中国神话异兽"
+      "theme": "中国神话异兽",
+      "framing": {
+        "scale": 2.75,
+        "x": -2,
+        "y": 30
+      },
+      "features": "头冠 · 凤首 · 胸羽",
+      "composition": "沿用已认可的凤凰构图，右翼和尾羽延伸出画。"
     },
     {
       "product": "vecrune",
@@ -32,7 +39,14 @@
       "rationale": "翼与盘曲龙身呼应曲线及矢量造型。",
       "generationPrompt": "Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.\nBackground: #4F668F\nSubject: YINGLONG 应龙, a winged Chinese dragon. A slender scaled serpentine body in one continuous elegant S, viewed strictly in side profile facing left. Long dragon muzzle, two short swept-back antler horns and tiny whisker curl. Show exactly TWO visible legs: ONE front leg just below the shoulder, ONE hind leg at the hip before the tail. The other side's two legs are completely hidden by the body. There must be NO leg, foot or claw attached to the curling tail. One pair of compact feathered shoulder wings with the far wing mostly hidden, the visible wing swept backward and upward. The tail is one uninterrupted tapered smooth curve beneath the body. Generous clean negative spaces. No orb, fire, cloud, jewelry or extra limbs.\nFINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.",
       "assetEdition": 4,
-      "theme": "中国神话异兽"
+      "theme": "中国神话异兽",
+      "framing": {
+        "scale": 3.0,
+        "x": 21.5,
+        "y": 28
+      },
+      "features": "龙首 · 角 · 肩翼",
+      "composition": "沿用已认可的应龙构图，保留龙首与肩翼。"
     },
     {
       "product": "cliprune",
@@ -46,7 +60,14 @@
       "rationale": "以独角异马的跃动姿态呼应剪辑节奏。",
       "generationPrompt": "Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.\nBackground: #C57738\nSubject: BO 驳, an ancient Chinese mythical horse-like beast. A complete white horse-shaped animal in a compact leaping profile facing right. One single straight short horn on its forehead, narrow horse ears, white mane formed of four bold swept ribbons, exactly four feline paws instead of hooves, dark long tail curled forward below the body. A tiny visible pair of pointed tiger-like teeth in a mostly closed mouth, dignified rather than frightening. Front legs tucked, rear legs reaching back but kept within the compact safe area. NO wings, saddle, reins, clothing or blood.\nFINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.",
       "assetEdition": 4,
-      "theme": "中国神话异兽"
+      "theme": "中国神话异兽",
+      "framing": {
+        "scale": 2.35,
+        "x": -20,
+        "y": 11
+      },
+      "features": "独角 · 马首 · 前跃姿态",
+      "composition": "收回过度特写，让独角、马颈、前肢的跃动姿态同时可见。"
     },
     {
       "product": "lutrune",
@@ -60,7 +81,14 @@
       "rationale": "以太阳神鸟呼应光线与调色。",
       "generationPrompt": "Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.\nBackground: #176359\nSubject: JINWU 金乌, the Chinese three-legged sun crow. A full crow seen nearly front-on with head turned to the left, strong pointed crow beak, two broad wings opened upward in a compact shallow U, and a short tapered three-feather tail. CRITICAL: EXACTLY THREE distinctly separated legs emerge beneath the body and end in bird claws: left leg angles left, middle leg points down, right leg angles right. Do not duplicate the legs or hide them. Engraved ivory feathers and broad dark feather divisions. No sun disk, flames, orb or halo. Clear compact iconic arrangement.\nFINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.",
       "assetEdition": 4,
-      "theme": "中国神话异兽"
+      "theme": "中国神话异兽",
+      "framing": {
+        "scale": 2.05,
+        "x": 0,
+        "y": -1
+      },
+      "features": "鸟首 · 双翼 · 三足",
+      "composition": "双翼贴近两侧，完整保留三足，避免退化为普通鹰形。"
     },
     {
       "product": "pagrune",
@@ -74,21 +102,35 @@
       "theme": "Office 功能图形",
       "pronunciation": "",
       "rationale": "以清晰的功能图形表达办公用途。",
-      "generationPrompt": "Create ONE completely new ZAOYU application icon from this written brief. Do not use any image references or imitate any existing application mascot. Design language: original editorial linocut meets natural-history engraving, warm parchment-ivory #F6EDD7 silhouettes with deep blue-black ink #142B32, confident broad masses and carefully spaced fine contour hatching, about 70% quiet flat areas and 30% etched detail. Visually sophisticated and simple enough to recognize at 48px. Full-bleed PERFECTLY UNIFORM solid background in the specified color, square 1254x1254 composition. Absolutely NO rounded corner mask, outer border, gradient, texture on background, lighting effects, shadows, photorealism, 3D rendering, letter monogram, trademark, watermark or ornamental frame. Place the complete subject optically centered, comfortably inside an INVISIBLE centered CIRCLE with radius 0.37 times canvas width; all extremities must fit within this safe area, including ears, horns, fins, antennae and tools. Aim for 66-72% canvas subject height. Keep margins intentional and spacious. Do NOT draw the invisible circle. A complete self-contained emblem, not a cropped portrait. Invent the silhouette from the text only; avoid recognizable poses and compositions of existing app icons. For office icons prioritize instantly legible functional shapes over decorative detail. No text except any short exact text explicitly requested in the subject. Deliver ONLY the icon.\nBackground: #9E3946\nSubject: OFFICE / PDF WORKBENCH. One large upright ivory paper page with a small turned top-right corner and a deep red bookmark ribbon running down its right edge, terminating in a V notch. At the upper center of the page print only the exact short text 'PDF' in bold elegant dark serif capitals, large enough to read at icon size. Beneath it two broad dark horizontal rules and a small lower page block communicate readable documents. A subtle second page peeks out on the left. Engraved hatch marks only on folded paper edges, crisp clear document geometry. No animals, no logos, no extra text."
+      "generationPrompt": "Create ONE completely new ZAOYU application icon from this written brief. Do not use any image references or imitate any existing application mascot. Design language: original editorial linocut meets natural-history engraving, warm parchment-ivory #F6EDD7 silhouettes with deep blue-black ink #142B32, confident broad masses and carefully spaced fine contour hatching, about 70% quiet flat areas and 30% etched detail. Visually sophisticated and simple enough to recognize at 48px. Full-bleed PERFECTLY UNIFORM solid background in the specified color, square 1254x1254 composition. Absolutely NO rounded corner mask, outer border, gradient, texture on background, lighting effects, shadows, photorealism, 3D rendering, letter monogram, trademark, watermark or ornamental frame. Place the complete subject optically centered, comfortably inside an INVISIBLE centered CIRCLE with radius 0.37 times canvas width; all extremities must fit within this safe area, including ears, horns, fins, antennae and tools. Aim for 66-72% canvas subject height. Keep margins intentional and spacious. Do NOT draw the invisible circle. A complete self-contained emblem, not a cropped portrait. Invent the silhouette from the text only; avoid recognizable poses and compositions of existing app icons. For office icons prioritize instantly legible functional shapes over decorative detail. No text except any short exact text explicitly requested in the subject. Deliver ONLY the icon.\nBackground: #9E3946\nSubject: OFFICE / PDF WORKBENCH. One large upright ivory paper page with a small turned top-right corner and a deep red bookmark ribbon running down its right edge, terminating in a V notch. At the upper center of the page print only the exact short text 'PDF' in bold elegant dark serif capitals, large enough to read at icon size. Beneath it two broad dark horizontal rules and a small lower page block communicate readable documents. A subtle second page peeks out on the left. Engraved hatch marks only on folded paper edges, crisp clear document geometry. No animals, no logos, no extra text.",
+      "framing": {
+        "scale": 1.05,
+        "x": 1,
+        "y": 0
+      },
+      "features": "PDF · 页面 · 书签",
+      "composition": "Office 保持第 6 版完整图形与舒适留白。"
     },
     {
       "product": "motrune",
       "filename": "06-motion.png",
       "bg": "#535398",
-      "symbol": "腾蛇",
-      "motif": "TENGSHE 腾蛇, a fantastical flying serpent. One slender hornless snake with exactly one pair of small feathered wings at the upper third of its body, curling into an open vertical figure-S with one tapering tail. The head is unmistakably a snake, with a smooth rounded brow and closed mouth, no whiskers, crest, horns or dragon muzzle. Absolutely NO legs. Belly made of broad ivory segmented plates, back with restrained fine scale engraving. Wings arc backwards and remain compact. Invent a light spiraling motion without clouds, speed marks or effects.",
+      "symbol": "毕方",
+      "motif": "BIFANG 毕方: crane-like bird with a long ivory beak, raised wings and one clearly visible leg and foot. Wing tips extend beyond the frame while the identifying anatomy stays visible.",
       "imageInputs": [],
-      "master_sha256": "1f6b10a970cb4691a3f0832dde8afd194c09ae104e4b7118f0e8f4b51f4d33be",
-      "pronunciation": "téng shé",
-      "rationale": "以飞蛇的盘旋轨迹呼应动态曲线。",
-      "generationPrompt": "Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.\nBackground: #535398\nSubject: TENGSHE 腾蛇, a fantastical flying serpent. One slender hornless snake with exactly one pair of small feathered wings at the upper third of its body, curling into an open vertical figure-S with one tapering tail. The head is unmistakably a snake, with a smooth rounded brow and closed mouth, no whiskers, crest, horns or dragon muzzle. Absolutely NO legs. Belly made of broad ivory segmented plates, back with restrained fine scale engraving. Wings arc backwards and remain compact. Invent a light spiraling motion without clouds, speed marks or effects.\nFINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.",
-      "assetEdition": 4,
-      "theme": "中国神话异兽"
+      "master_sha256": "b810c6b6e29af250f2edca843bdf2c7ac129b6f48e05541e56e7fd7c8e7d36e6",
+      "pronunciation": "bì fāng",
+      "rationale": "以扬翼与独足神鸟的跃动姿态呼应动效。",
+      "generationPrompt": "Use case: logo-brand.\nAsset: one finished square Motrune application icon, original Chinese mythological Bifang bird. Match the existing ZAOYU icon family through this text specification.\nPrimary request: replace the previous winged serpent with an unmistakably avian one-legged crane-like mythical bird; this is NOT a snake.\nStyle: warm parchment ivory #F6EDD7 creature, confident dark blue-black #142B32 contour lines, restrained detailed natural-history wood engraving, broad calm light masses and clean feather panels. Mature elegant vivid silhouette. Flat opaque muted violet background #535398, entirely uniform.\nSubject: BIFANG 毕方, long straight slender ivory beak, alert visible round eye, small compact crane head, SHORT gently bent avian neck clearly attached to a substantial feathered bird breast, two broad feathered wings swept diagonally up and back. Exactly ONE clear long bird leg with a bent joint and one three-toed foot, entirely visible below the belly. No second leg. Three short tapered tail feathers, clearly separate from the leg. Clearly crane/heron anatomy, not an eagle, phoenix or peacock. No serpentine body or S-shaped snake pose, no snake scales, no reptilian head.\nComposition: strong close framing as a desktop application icon, bird fills nearly the entire square but preserve ALL of the face, straight beak, head, neck, breast and its single leg and foot. Face sits inside the upper-left central area around x=32%,y=28%; eye, beak tip and head all comfortably away from any corner. One broad wing extends toward the upper-right and only the farthest feather tips may continue beyond the right edge. Other wing forms a rising motion curve. The one foot stays in the lower center at y=83%, with visible background around it. Exactly one complete identifiable bird, key anatomy fits within a rounded-square mask. Do not enclose the bird in a drawn frame or circle. This is expansive and energetic, not a tiny centered emblem.\nConstraints: full square opaque canvas, no rounded corner mask, no text, letters, glyphs, watermark, logo, decorative objects, fire, clouds, scenic environment, drop shadows, glow, gradient, paper texture or 3D. Do not copy any existing character or icon. Output only one icon.",
+      "assetEdition": 7,
+      "theme": "中国神话异兽",
+      "framing": {
+        "scale": 1.0,
+        "x": 0,
+        "y": 0
+      },
+      "features": "长喙 · 扬翼 · 独足",
+      "composition": "改为毕方。鸟首、长喙和独足完整可见，羽翼末梢向外延伸。"
     },
     {
       "product": "layrune",
@@ -102,7 +144,14 @@
       "rationale": "以均衡的瑞兽姿态呼应版式秩序。",
       "generationPrompt": "Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.\nBackground: #62708C\nSubject: QILIN 麒麟. A graceful deer-bodied auspicious Chinese beast standing in elegant full-body side profile facing left, head lifted. One single short branched horn centered on the forehead, a small dragon-like muzzle, a flowing but compact neck mane, fish-scale patterned body, four slender cloven-hoof legs, and a long bovine tail with one tuft curling beneath the hindquarter. One front hoof lifted slightly. Broad ivory scales arranged in orderly rows, calm balanced silhouette. NO wings, flames, clouds, saddle or ornaments.\nFINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.",
       "assetEdition": 4,
-      "theme": "中国神话异兽"
+      "theme": "中国神话异兽",
+      "framing": {
+        "scale": 2.55,
+        "x": 16,
+        "y": 26
+      },
+      "features": "角 · 龙首 · 鳞甲",
+      "composition": "保留角与鳞甲结构，身体向右下方延伸出画。"
     },
     {
       "product": "framune",
@@ -116,7 +165,14 @@
       "rationale": "以龟甲分区呼应界面面板。",
       "generationPrompt": "Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.\nBackground: #A74C57\nSubject: XUANGUI 旋龟, the mythical turtle with a bird head and serpent tail. Top-three-quarter view of one complete compact tortoise, domed shell with a clear central hexagon and six large surrounding panels. Its head is unmistakably a small bird head with a curved beak, pointing upper left on a short neck. Exactly four short reptile feet around the shell. One smooth slender snake tail, without a second head, curls around the lower-right side. No wings, fins or ordinary turtle head. Ivory engraved shell architecture and clean dark negative spaces.\nFINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.",
       "assetEdition": 4,
-      "theme": "中国神话异兽"
+      "theme": "中国神话异兽",
+      "framing": {
+        "scale": 1.86,
+        "x": 3,
+        "y": 1.5
+      },
+      "features": "鸟首 · 龟甲 · 蛇尾",
+      "composition": "让鸟首、龟甲与蛇尾同时成立，尾部只轻触边缘。"
     },
     {
       "product": "texune",
@@ -130,7 +186,14 @@
       "rationale": "以豹纹与分层长尾呼应纹理绘制。",
       "generationPrompt": "Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.\nBackground: #7C624D\nSubject: ZHENG 狰, an ancient mythical leopard with one horn and FIVE tails. A compact seated leopard seen in three-quarter profile facing left, elegant spotted body, one short central horn, small rounded feline ears, four anatomically coherent paws. CRITICAL: exactly FIVE separate long tails emerge from the rump, fan around the right side and curl inward, each with a clearly separated tip; five visible tail tips total. Bold ivory body, a few large dark leopard rosettes, subtle engraved hatching. No mane, stripes, wings, flames or extra horns.\nFINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.",
       "assetEdition": 4,
-      "theme": "中国神话异兽"
+      "theme": "中国神话异兽",
+      "framing": {
+        "scale": 2.4,
+        "x": -5,
+        "y": 12
+      },
+      "features": "独角 · 豹纹 · 五尾",
+      "composition": "保留独角与五条展开长尾，裁切集中于次要的脚部轮廓。"
     },
     {
       "product": "shadrune",
@@ -144,7 +207,14 @@
       "rationale": "以翼、鬃、甲的不同表面呼应材质。",
       "generationPrompt": "Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.\nBackground: #7D598A\nSubject: BIXIE 辟邪, a Chinese winged lion guardian. A complete powerful lion-like beast crouching in a compact profile facing right, two short backward-curving horns, squared muzzle, neatly curling compact mane and one pair of short feathered shoulder wings swept backward over its back. Four sturdy paws with blunt claws, a single long tail curls over the rear haunch. Calm closed mouth, no threatening roar. Deliberately distinguish shaggy mane, broad wing feathers and smooth belly using sparse engraved textures. No crown, orb, coins, pedestal, fire or ornament.\nFINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.",
       "assetEdition": 4,
-      "theme": "中国神话异兽"
+      "theme": "中国神话异兽",
+      "framing": {
+        "scale": 2.1,
+        "x": 0,
+        "y": 14
+      },
+      "features": "角 · 翼 · 兽首",
+      "composition": "收回裁切以展示肩翼，保留角和兽首。"
     },
     {
       "product": "quilrune",
@@ -158,21 +228,39 @@
       "theme": "Office 功能图形",
       "pronunciation": "",
       "rationale": "以清晰的功能图形表达办公用途。",
-      "generationPrompt": "Create ONE completely new ZAOYU application icon from this written brief. Do not use any image references or imitate any existing application mascot. Design language: original editorial linocut meets natural-history engraving, warm parchment-ivory #F6EDD7 silhouettes with deep blue-black ink #142B32, confident broad masses and carefully spaced fine contour hatching, about 70% quiet flat areas and 30% etched detail. Visually sophisticated and simple enough to recognize at 48px. Full-bleed PERFECTLY UNIFORM solid background in the specified color, square 1254x1254 composition. Absolutely NO rounded corner mask, outer border, gradient, texture on background, lighting effects, shadows, photorealism, 3D rendering, letter monogram, trademark, watermark or ornamental frame. Place the complete subject optically centered, comfortably inside an INVISIBLE centered CIRCLE with radius 0.37 times canvas width; all extremities must fit within this safe area, including ears, horns, fins, antennae and tools. Aim for 66-72% canvas subject height. Keep margins intentional and spacious. Do NOT draw the invisible circle. A complete self-contained emblem, not a cropped portrait. Invent the silhouette from the text only; avoid recognizable poses and compositions of existing app icons. For office icons prioritize instantly legible functional shapes over decorative detail. No text except any short exact text explicitly requested in the subject. Deliver ONLY the icon.\nBackground: #296C98\nSubject: OFFICE / WORD PROCESSING. One upright ivory sheet with a gently curled lower-left corner, a broad dark heading rule and three dark horizontal text lines of unequal lengths. A slim ivory fountain pen crosses the lower-right third diagonally, with a clearly visible split nib and tiny dark breather hole. The page is dominant and legible at 48px; pen does not obscure the text lines. Engraved hatching confined to page curl and pen shading, no actual letters or brand logos, no feathers or animals."
+      "generationPrompt": "Create ONE completely new ZAOYU application icon from this written brief. Do not use any image references or imitate any existing application mascot. Design language: original editorial linocut meets natural-history engraving, warm parchment-ivory #F6EDD7 silhouettes with deep blue-black ink #142B32, confident broad masses and carefully spaced fine contour hatching, about 70% quiet flat areas and 30% etched detail. Visually sophisticated and simple enough to recognize at 48px. Full-bleed PERFECTLY UNIFORM solid background in the specified color, square 1254x1254 composition. Absolutely NO rounded corner mask, outer border, gradient, texture on background, lighting effects, shadows, photorealism, 3D rendering, letter monogram, trademark, watermark or ornamental frame. Place the complete subject optically centered, comfortably inside an INVISIBLE centered CIRCLE with radius 0.37 times canvas width; all extremities must fit within this safe area, including ears, horns, fins, antennae and tools. Aim for 66-72% canvas subject height. Keep margins intentional and spacious. Do NOT draw the invisible circle. A complete self-contained emblem, not a cropped portrait. Invent the silhouette from the text only; avoid recognizable poses and compositions of existing app icons. For office icons prioritize instantly legible functional shapes over decorative detail. No text except any short exact text explicitly requested in the subject. Deliver ONLY the icon.\nBackground: #296C98\nSubject: OFFICE / WORD PROCESSING. One upright ivory sheet with a gently curled lower-left corner, a broad dark heading rule and three dark horizontal text lines of unequal lengths. A slim ivory fountain pen crosses the lower-right third diagonally, with a clearly visible split nib and tiny dark breather hole. The page is dominant and legible at 48px; pen does not obscure the text lines. Engraved hatching confined to page curl and pen shading, no actual letters or brand logos, no feathers or animals.",
+      "framing": {
+        "scale": 1.02,
+        "x": -1.5,
+        "y": 0
+      },
+      "features": "文档 · 钢笔",
+      "composition": "Office 保持第 6 版完整图形与舒适留白。"
     },
     {
       "product": "sonune",
       "filename": "12-audio.png",
-      "bg": "#3C6880",
-      "symbol": "夔",
-      "motif": "KUI 夔, the ancient Chinese one-legged thunder beast. A hornless ox-like animal, compact rounded muscular body seen in clean side profile facing left, broad bovine muzzle, two soft cattle ears, dark short mane ridge, and one long tail curling back toward its belly. CRITICAL: EXACTLY ONE SINGLE strong central leg under the belly ending in one broad cloven hoof. No other legs, arms or hidden stumps. NO horns, wings or drum. A dignified, unusual balanced full-body silhouette, head and torso in broad ivory with sparse engraved fur. No lightning or sound-wave symbols.",
-      "imageInputs": [],
-      "master_sha256": "a43f91da01389f3f851249c7bd13fcb260e9e850652c511634d51d1163d65074",
-      "pronunciation": "kuí",
-      "rationale": "以夔的雷声意象呼应声音与节奏。",
-      "generationPrompt": "Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.\nBackground: #3C6880\nSubject: KUI 夔, the ancient Chinese one-legged thunder beast. A hornless ox-like animal, compact rounded muscular body seen in clean side profile facing left, broad bovine muzzle, two soft cattle ears, dark short mane ridge, and one long tail curling back toward its belly. CRITICAL: EXACTLY ONE SINGLE strong central leg under the belly ending in one broad cloven hoof. No other legs, arms or hidden stumps. NO horns, wings or drum. A dignified, unusual balanced full-body silhouette, head and torso in broad ivory with sparse engraved fur. No lightning or sound-wave symbols.\nFINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.",
-      "assetEdition": 4,
-      "theme": "中国神话异兽"
+      "bg": "#3E6479",
+      "symbol": "谛听",
+      "motif": "DITING 谛听: an original four-legged guardian with a single horn, large listening ears, a feline face, scaled back and tufted tail. Horn, ears and four feet stay visible.",
+      "imageInputs": [
+        "generation/edition-07/sonune-diting-draft.png",
+        "generation/edition-07/style-reference-vecrune-512.png"
+      ],
+      "master_sha256": "b20199c29efc4edfe32e37d5e7c42bb47a273fd5d542481dbe8757862b07be8a",
+      "pronunciation": "dì tīng",
+      "rationale": "以谛听的大耳与聆听意象呼应音轨。",
+      "generationPrompt": "Use case: precise-object-edit.\nImage 1 is the edit target: newly generated Sonune Diting icon.\nImage 2 is STYLE REFERENCE ONLY: the existing Zaoyu Yinglong icon. Do not copy the dragon shape from image 2.\nRefine Image 1 to match the dignified fine engraved linework and adult animal proportions of image 2. Keep the slate-teal background and ivory/ink palette, a Diting with exactly ONE forehead horn, TWO very large listening ears, FOUR distinct feet, scaled back, feline face, and tufted lion tail.\nChange only these issues: (1) make the eyes smaller, calm almond-shaped and anatomically mature, not huge cute cartoon puppy eyes; (2) reduce the heavy sticker-like outer outline to the more refined weight of the reference engraving, and add sparing natural-history contour hatch marks; (3) improve rounded app icon safety: move all four feet slightly inward and upward so every hoof fits in the horizontal x=16%-84%, vertical y<=85% region. Keep all four separated and identifiable. The horn tip and full outlines of both ears must remain visible in a 24%-radius rounded-square mask: move the horn tip below y=10%, the highest ear tip below y=9%, keep the left ear inside x=7%. Rebalance the pose and limb positions naturally instead of putting the whole creature in a small central box.\nPreserve a LARGE foreground head and ears and large broad body occupying the icon. The far edge of the lion tail tuft or outer back fur may touch or run out of the right edge to preserve an expansive composition. But do not crop the face, horn, either ear or any of the four feet. Less chubby and puppy-like, more poised adult mythical guardian. No ox/cow face, no second horn, no wings, no snake, no second tail, no extra limbs or accessories.\nBackground stays flat and opaque slate teal #3E6479; no new lighting, gradient, border, rounded corners, scenes, lettering, symbols, or watermarks. Output one square icon only.",
+      "assetEdition": 7,
+      "theme": "中国神话异兽",
+      "framing": {
+        "scale": 1.0,
+        "x": 0,
+        "y": 0
+      },
+      "features": "独角 · 大耳 · 四足",
+      "composition": "改为四足谛听。保留独角、大耳和四足，以聆听的特征呼应音轨。",
+      "initialGenerationPrompt": "Use case: logo-brand.\nAsset: one finished square Sonune application icon, original interpretation of the Chinese mythical Diting guardian.\nPrimary request: replace a one-legged ox with a clearly FOUR-LEGGED listening guardian, with unmistakable large ears and ONE horn. The subject must not be a cow or an ox.\nStyle: warm parchment ivory #F6EDD7 creature, confident dark blue-black #142B32 outline, restrained natural-history wood engraving, broad calm ivory masses, clear silhouette and sparingly used hatching. Match the ZAOYU mythical icon family. Flat opaque slate-teal background #3E6479, uniform across the whole square.\nSubject: DITING 谛听, dignified compact quadrupedal guardian in side-three-quarter view facing left, a tiger-like broad face and gentle alert eyes, ONE smooth tapered central forehead horn, TWO exceptionally clear large soft dog-like ears with one ear raised listening and the other tilting outward, compact strong feline-dragon body with a few large scale plates across its back, FOUR distinct sturdy legs ending in rounded cloven hooves, and a curved lion tail with a small tuft. Keep face, both ears, single horn and all four feet visible and recognizably separate. Short ornamental neck fur; no huge shaggy lion mane. Expression attentive and calm, mouth closed. Large listening ears are the strongest identifying feature after the one horn. Not a bull, elephant, snake, ordinary dog, winged lion or modern game character.\nComposition: bold close framing with a large foreground head and ears in the left-center of the icon and the body sweeping diagonally toward the lower right. Face and horn fully inside the canvas, horn tip around y=12%; muzzle around x=13%,y=40%; all four feet visible inside y=84% with clean spaces between them. The ear outline and tail tuft may approach or slightly cross a side edge, but DO NOT crop the face, horn or feet. Creature fills roughly 88-95% canvas width, a strong clear icon rather than a small creature floating in the middle. Rounded-square safe corners for important identifying features. No drawn frame.\nConstraints: full square opaque canvas, no rounded mask, no text, letters, glyphs, watermark, decorative symbols, headphones, sound wave pictograms, book, halo, pedestal, scenery, shadow, gradient, glow or 3D. Output only one icon."
     },
     {
       "product": "deckune",
@@ -186,7 +274,14 @@
       "theme": "Office 功能图形",
       "pronunciation": "",
       "rationale": "以清晰的功能图形表达办公用途。",
-      "generationPrompt": "Create ONE completely new ZAOYU application icon from this written brief. Do not use any image references or imitate any existing application mascot. Design language: original editorial linocut meets natural-history engraving, warm parchment-ivory #F6EDD7 silhouettes with deep blue-black ink #142B32, confident broad masses and carefully spaced fine contour hatching, about 70% quiet flat areas and 30% etched detail. Visually sophisticated and simple enough to recognize at 48px. Full-bleed PERFECTLY UNIFORM solid background in the specified color, square 1254x1254 composition. Absolutely NO rounded corner mask, outer border, gradient, texture on background, lighting effects, shadows, photorealism, 3D rendering, letter monogram, trademark, watermark or ornamental frame. Place the complete subject optically centered, comfortably inside an INVISIBLE centered CIRCLE with radius 0.37 times canvas width; all extremities must fit within this safe area, including ears, horns, fins, antennae and tools. Aim for 66-72% canvas subject height. Keep margins intentional and spacious. Do NOT draw the invisible circle. A complete self-contained emblem, not a cropped portrait. Invent the silhouette from the text only; avoid recognizable poses and compositions of existing app icons. For office icons prioritize instantly legible functional shapes over decorative detail. No text except any short exact text explicitly requested in the subject. Deliver ONLY the icon.\nBackground: #BB7334\nSubject: OFFICE / PRESENTATIONS. Two overlapping landscape slide cards, the rear card offset upward and to the left. Front card is a wide ivory rectangle with softly rounded tiny corners, containing a clear three-column bar chart on the right and a simple large three-sector pie chart on the left. One short broad heading rule at the top. No easel, no stand, no play triangle, no text. Engraved edge hatching gives the stacked cards subtle material depth without shadows or 3D rendering. Immediately recognizable slide design."
+      "generationPrompt": "Create ONE completely new ZAOYU application icon from this written brief. Do not use any image references or imitate any existing application mascot. Design language: original editorial linocut meets natural-history engraving, warm parchment-ivory #F6EDD7 silhouettes with deep blue-black ink #142B32, confident broad masses and carefully spaced fine contour hatching, about 70% quiet flat areas and 30% etched detail. Visually sophisticated and simple enough to recognize at 48px. Full-bleed PERFECTLY UNIFORM solid background in the specified color, square 1254x1254 composition. Absolutely NO rounded corner mask, outer border, gradient, texture on background, lighting effects, shadows, photorealism, 3D rendering, letter monogram, trademark, watermark or ornamental frame. Place the complete subject optically centered, comfortably inside an INVISIBLE centered CIRCLE with radius 0.37 times canvas width; all extremities must fit within this safe area, including ears, horns, fins, antennae and tools. Aim for 66-72% canvas subject height. Keep margins intentional and spacious. Do NOT draw the invisible circle. A complete self-contained emblem, not a cropped portrait. Invent the silhouette from the text only; avoid recognizable poses and compositions of existing app icons. For office icons prioritize instantly legible functional shapes over decorative detail. No text except any short exact text explicitly requested in the subject. Deliver ONLY the icon.\nBackground: #BB7334\nSubject: OFFICE / PRESENTATIONS. Two overlapping landscape slide cards, the rear card offset upward and to the left. Front card is a wide ivory rectangle with softly rounded tiny corners, containing a clear three-column bar chart on the right and a simple large three-sector pie chart on the left. One short broad heading rule at the top. No easel, no stand, no play triangle, no text. Engraved edge hatching gives the stacked cards subtle material depth without shadows or 3D rendering. Immediately recognizable slide design.",
+      "framing": {
+        "scale": 1.05,
+        "x": 0,
+        "y": 0
+      },
+      "features": "幻灯片 · 图表",
+      "composition": "Office 保持第 6 版完整图形与舒适留白。"
     },
     {
       "product": "dimrune",
@@ -200,7 +295,14 @@
       "rationale": "以负碑龟兽呼应承重与工程构件。",
       "generationPrompt": "Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.\nBackground: #467C79\nSubject: BIXI 赑屃, the Chinese dragon-tortoise that bears a stone stele. A complete stout tortoise seen from a low three-quarter side view facing left, compact domed geometrically segmented shell, short dragon-like head with two very small horns, four strong clawed feet and one little curled tail. On the center of its shell stands ONE short thick rectangular stone stele with a subtly chamfered top and blank face, no writing. The whole animal plus stele makes one compact emblem. Sparse precise engraving on shell and stone edges, wide ivory surfaces, no base plinth, ground or architectural scene.\nFINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.",
       "assetEdition": 4,
-      "theme": "中国神话异兽"
+      "theme": "中国神话异兽",
+      "framing": {
+        "scale": 2.05,
+        "x": 6,
+        "y": 5
+      },
+      "features": "龙首 · 龟身 · 负碑",
+      "composition": "完整保留碑顶、龙首与龟甲，恢复负碑兽的辨识特征。"
     },
     {
       "product": "gridrune",
@@ -214,7 +316,14 @@
       "theme": "Office 功能图形",
       "pronunciation": "",
       "rationale": "以清晰的功能图形表达办公用途。",
-      "generationPrompt": "Create ONE completely new ZAOYU application icon from this written brief. Do not use any image references or imitate any existing application mascot. Design language: original editorial linocut meets natural-history engraving, warm parchment-ivory #F6EDD7 silhouettes with deep blue-black ink #142B32, confident broad masses and carefully spaced fine contour hatching, about 70% quiet flat areas and 30% etched detail. Visually sophisticated and simple enough to recognize at 48px. Full-bleed PERFECTLY UNIFORM solid background in the specified color, square 1254x1254 composition. Absolutely NO rounded corner mask, outer border, gradient, texture on background, lighting effects, shadows, photorealism, 3D rendering, letter monogram, trademark, watermark or ornamental frame. Place the complete subject optically centered, comfortably inside an INVISIBLE centered CIRCLE with radius 0.37 times canvas width; all extremities must fit within this safe area, including ears, horns, fins, antennae and tools. Aim for 66-72% canvas subject height. Keep margins intentional and spacious. Do NOT draw the invisible circle. A complete self-contained emblem, not a cropped portrait. Invent the silhouette from the text only; avoid recognizable poses and compositions of existing app icons. For office icons prioritize instantly legible functional shapes over decorative detail. No text except any short exact text explicitly requested in the subject. Deliver ONLY the icon.\nBackground: #397A55\nSubject: OFFICE / SPREADSHEETS. One broad ivory spreadsheet panel seen straight on, no paper corner fold. A colored dark-green header band over a clean grid of exactly three columns and four rows, the top-left cell clearly selected with a heavier ink outline. Three modest rising ivory chart bars overlap the lower-right edge of the panel, sharing one baseline. Strong straight grid rules and generous blank cells, no letters or numbers, restrained engraved hatching only along the edge of the panel and bars. Must read instantly as spreadsheet and data analysis."
+      "generationPrompt": "Create ONE completely new ZAOYU application icon from this written brief. Do not use any image references or imitate any existing application mascot. Design language: original editorial linocut meets natural-history engraving, warm parchment-ivory #F6EDD7 silhouettes with deep blue-black ink #142B32, confident broad masses and carefully spaced fine contour hatching, about 70% quiet flat areas and 30% etched detail. Visually sophisticated and simple enough to recognize at 48px. Full-bleed PERFECTLY UNIFORM solid background in the specified color, square 1254x1254 composition. Absolutely NO rounded corner mask, outer border, gradient, texture on background, lighting effects, shadows, photorealism, 3D rendering, letter monogram, trademark, watermark or ornamental frame. Place the complete subject optically centered, comfortably inside an INVISIBLE centered CIRCLE with radius 0.37 times canvas width; all extremities must fit within this safe area, including ears, horns, fins, antennae and tools. Aim for 66-72% canvas subject height. Keep margins intentional and spacious. Do NOT draw the invisible circle. A complete self-contained emblem, not a cropped portrait. Invent the silhouette from the text only; avoid recognizable poses and compositions of existing app icons. For office icons prioritize instantly legible functional shapes over decorative detail. No text except any short exact text explicitly requested in the subject. Deliver ONLY the icon.\nBackground: #397A55\nSubject: OFFICE / SPREADSHEETS. One broad ivory spreadsheet panel seen straight on, no paper corner fold. A colored dark-green header band over a clean grid of exactly three columns and four rows, the top-left cell clearly selected with a heavier ink outline. Three modest rising ivory chart bars overlap the lower-right edge of the panel, sharing one baseline. Strong straight grid rules and generous blank cells, no letters or numbers, restrained engraved hatching only along the edge of the panel and bars. Must read instantly as spreadsheet and data analysis.",
+      "framing": {
+        "scale": 1.05,
+        "x": 0,
+        "y": -1
+      },
+      "features": "单元格 · 数据图表",
+      "composition": "Office 保持第 6 版完整图形与舒适留白。"
     },
     {
       "product": "modune",
@@ -228,7 +337,14 @@
       "rationale": "以独角守序之兽呼应构建与校验。",
       "generationPrompt": "Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.\nBackground: #967229\nSubject: XIEZHI 獬豸, Chinese one-horned goat-like guardian. One complete stocky mountain-goat-shaped beast facing three-quarter front, exactly ONE straight central forehead horn, small pointed ears and a short pointed beard. Sturdy four cloven-hoof legs, shoulder slightly raised, one front hoof resting on a small plain squared block to evoke construction. Thick layered ivory coat forming three broad overlapping locks, short curved tail. NO horse body, second horn, wings, dragon scales, mane halo, judicial scales, writing or clothing. Mature calm alert expression, compact self-contained silhouette.\nFINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.",
       "assetEdition": 4,
-      "theme": "中国神话异兽"
+      "theme": "中国神话异兽",
+      "framing": {
+        "scale": 2.55,
+        "x": -8,
+        "y": 26
+      },
+      "features": "独角 · 羊形面部 · 胡须",
+      "composition": "保留完整独角、羊形面部和胡须，胸部延伸至边缘。"
     },
     {
       "product": "visrune",
@@ -242,7 +358,14 @@
       "rationale": "以鱼化为鹏的变形意象呼应生成式创作。",
       "generationPrompt": "Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.\nBackground: #BD6E5B\nSubject: KUNPENG 鲲鹏, an ORIGINAL symbolic interpretation of the fish-to-giant-bird transformation, not a literal historical specimen. One unified creature: a deep curved fish-like lower body ending in a clearly split fish tail curled left, transitioning naturally upward into an eagle-like bird head and TWO broad feathered wings half-open. Body rises diagonally to the right and wings arc back inward to keep a compact round silhouette. Few broad ivory fish scales blend into clearly separated feather vanes. The tail must be fish-like, head must be bird-like; no additional separate fish, no extra heads, claws, antlers or water.\nFINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.",
       "assetEdition": 4,
-      "theme": "中国神话异兽"
+      "theme": "中国神话异兽",
+      "framing": {
+        "scale": 1.9,
+        "x": 2.5,
+        "y": 1.5
+      },
+      "features": "鸟首 · 羽翼 · 鱼身鱼尾",
+      "composition": "保留鱼与鸟的组合关系，避免裁成普通鸟类头像。"
     },
     {
       "product": "nodune",
@@ -256,7 +379,16 @@
       "rationale": "以博识瑞兽意象呼应套件总览与管理。",
       "generationPrompt": "Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.\nBackground: #244D4A\nSubject: BAIZE 白泽, an ORIGINAL interpretation of the learned Chinese mythical auspicious beast; do not reproduce a modern character. A complete ivory shaggy quadruped seated in a calm three-quarter front pose, broad feline muzzle, gentle almond eyes, two short outward curled horns above small rounded ears, and layered flowing shoulder fur. Four broad paws, two forepaws neatly paired, a long tufted tail curves around the body. A small plain closed rectangular book rests centered between the forepaws, with three engraved page-edge rules but NO letters or symbols. NO wings, halo, forehead eye, jewelry, clothing or pedestal. Dignified mature guardian with a distinctive compact silhouette.\nFINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.",
       "assetEdition": 4,
-      "theme": "中国神话异兽"
+      "theme": "中国神话异兽",
+      "framing": {
+        "scale": 2.0,
+        "x": -1,
+        "y": 2
+      },
+      "features": "双角 · 长毛 · 书册",
+      "composition": "让双角、层叠长毛与书册同时可见，尾毛贴近右侧边缘。"
     }
-  ]
+  ],
+  "approvedPreview": "07-character-preview",
+  "framingCoordinateSystem": "CSS-equivalent translate(x%, y%) scale(scale), centered transform origin. x and y are percentages of the unscaled output square. Exposed background uses bg. Rounded/circle masks are preview-only."
 }

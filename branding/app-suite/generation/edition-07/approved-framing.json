@@ -1,0 +1,386 @@
+{
+  "edition": "07-character-preview",
+  "baseCommit": "48f185b",
+  "comparison": "06-closeup-preview",
+  "method": "Preserve the accepted phoenix and Yinglong framing; compose remaining icons around identifying traits; new Bifang and Diting art; Office unchanged.",
+  "apps": [
+    {
+      "id": "pixrune",
+      "en": "Pixrune",
+      "name": "造隅修图",
+      "symbol": "凤凰",
+      "previousSymbol": "凤凰",
+      "office": false,
+      "bg": "#0C7E86",
+      "scale": 2.75,
+      "x": -2,
+      "y": 30,
+      "features": "头冠 · 凤首 · 胸羽",
+      "note": "沿用已认可的凤凰构图，右翼和尾羽延伸出画。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 2.75,
+        "x": -2,
+        "y": 30
+      },
+      "sourceSha256": "83a6d25cb587792abee25e3a8639654aeb035c1aefa85b3093b3294502a5972d"
+    },
+    {
+      "id": "vecrune",
+      "en": "Vecrune",
+      "name": "造隅矢绘",
+      "symbol": "应龙",
+      "previousSymbol": "应龙",
+      "office": false,
+      "bg": "#4F668F",
+      "scale": 3.0,
+      "x": 21.5,
+      "y": 28,
+      "features": "龙首 · 角 · 肩翼",
+      "note": "沿用已认可的应龙构图，保留龙首与肩翼。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 3.0,
+        "x": 21.5,
+        "y": 28
+      },
+      "sourceSha256": "9b847baed39b6d660be7d39e0b670c1d7793837b02bf3d96fa51b6058d391e32"
+    },
+    {
+      "id": "cliprune",
+      "en": "Cliprune",
+      "name": "造隅剪辑",
+      "symbol": "驳",
+      "previousSymbol": "驳",
+      "office": false,
+      "bg": "#C57738",
+      "scale": 2.35,
+      "x": -20,
+      "y": 11,
+      "features": "独角 · 马首 · 前跃姿态",
+      "note": "收回过度特写，让独角、马颈、前肢的跃动姿态同时可见。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 2.6,
+        "x": -28,
+        "y": 17
+      },
+      "sourceSha256": "e0ffc69fd71562ebf8a6c8c1a1f283ba2644b0ccdb1f4b471add2bc4a6dfc918"
+    },
+    {
+      "id": "lutrune",
+      "en": "Lutrune",
+      "name": "造隅光影",
+      "symbol": "金乌",
+      "previousSymbol": "金乌",
+      "office": false,
+      "bg": "#176359",
+      "scale": 2.05,
+      "x": 0,
+      "y": -1,
+      "features": "鸟首 · 双翼 · 三足",
+      "note": "双翼贴近两侧，完整保留三足，避免退化为普通鹰形。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 2.5,
+        "x": 0,
+        "y": 20
+      },
+      "sourceSha256": "8ee35a40a3b6239d5aee13275a94d6579fd53b733547d1e4ecd3104db0342c3f"
+    },
+    {
+      "id": "pagrune",
+      "en": "Pagrune",
+      "name": "造隅阅编",
+      "symbol": "PDF 页面与书签",
+      "previousSymbol": "PDF 页面与书签",
+      "office": true,
+      "bg": "#9E3946",
+      "scale": 1.05,
+      "x": 1,
+      "y": 0,
+      "features": "PDF · 页面 · 书签",
+      "note": "Office 保持第 6 版完整图形与舒适留白。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 1.05,
+        "x": 1,
+        "y": 0
+      },
+      "sourceSha256": "d9e64f4a3c0832742f8ff92ca2f182dd22005da9e244f923a6d05248e1f981d0"
+    },
+    {
+      "id": "motrune",
+      "en": "Motrune",
+      "name": "造隅动效",
+      "symbol": "毕方",
+      "previousSymbol": "腾蛇",
+      "office": false,
+      "bg": "#535398",
+      "scale": 1.0,
+      "x": 0,
+      "y": 0,
+      "features": "长喙 · 扬翼 · 独足",
+      "note": "改为毕方。鸟首、长喙和独足完整可见，羽翼末梢向外延伸。",
+      "newArtwork": true,
+      "previous": {
+        "scale": 2.8,
+        "x": 14,
+        "y": 30
+      },
+      "sourceSha256": "b810c6b6e29af250f2edca843bdf2c7ac129b6f48e05541e56e7fd7c8e7d36e6"
+    },
+    {
+      "id": "layrune",
+      "en": "Layrune",
+      "name": "造隅版式",
+      "symbol": "麒麟",
+      "previousSymbol": "麒麟",
+      "office": false,
+      "bg": "#62708C",
+      "scale": 2.55,
+      "x": 16,
+      "y": 26,
+      "features": "角 · 龙首 · 鳞甲",
+      "note": "保留角与鳞甲结构，身体向右下方延伸出画。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 2.85,
+        "x": 22,
+        "y": 32
+      },
+      "sourceSha256": "f82ae9053ca08e6559832284434394cb11ec2f6f85a477cf065a7d9cd384d967"
+    },
+    {
+      "id": "framune",
+      "en": "Framune",
+      "name": "造隅界面",
+      "symbol": "旋龟",
+      "previousSymbol": "旋龟",
+      "office": false,
+      "bg": "#A74C57",
+      "scale": 1.86,
+      "x": 3,
+      "y": 1.5,
+      "features": "鸟首 · 龟甲 · 蛇尾",
+      "note": "让鸟首、龟甲与蛇尾同时成立，尾部只轻触边缘。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 2.4,
+        "x": 18,
+        "y": 26
+      },
+      "sourceSha256": "68a8db31afd572e78c8c98f3873ffb75618cca7ebdde8889a1531a94fe793849"
+    },
+    {
+      "id": "texune",
+      "en": "Texune",
+      "name": "造隅纹绘",
+      "symbol": "狰",
+      "previousSymbol": "狰",
+      "office": false,
+      "bg": "#7C624D",
+      "scale": 2.4,
+      "x": -5,
+      "y": 12,
+      "features": "独角 · 豹纹 · 五尾",
+      "note": "保留独角与五条展开长尾，裁切集中于次要的脚部轮廓。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 2.7,
+        "x": 7.5,
+        "y": 16.5
+      },
+      "sourceSha256": "2b30207c8b336c144dad7f44d1a45d0a5aa408cefbf63d754f2512c334a5e3f6"
+    },
+    {
+      "id": "shadrune",
+      "en": "Shadrune",
+      "name": "造隅材质",
+      "symbol": "辟邪",
+      "previousSymbol": "辟邪",
+      "office": false,
+      "bg": "#7D598A",
+      "scale": 2.1,
+      "x": 0,
+      "y": 14,
+      "features": "角 · 翼 · 兽首",
+      "note": "收回裁切以展示肩翼，保留角和兽首。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 2.65,
+        "x": -24,
+        "y": 16
+      },
+      "sourceSha256": "c60965f037d79a9a14ca608fed18da4a7add0a6b29e00f048b2666f35c23c6b8"
+    },
+    {
+      "id": "quilrune",
+      "en": "Quilrune",
+      "name": "造隅文档",
+      "symbol": "文档与钢笔",
+      "previousSymbol": "文档与钢笔",
+      "office": true,
+      "bg": "#296C98",
+      "scale": 1.02,
+      "x": -1.5,
+      "y": 0,
+      "features": "文档 · 钢笔",
+      "note": "Office 保持第 6 版完整图形与舒适留白。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 1.02,
+        "x": -1.5,
+        "y": 0
+      },
+      "sourceSha256": "58126f2edc4a992f467cfbeebb0b06cba939b121d0656c452a5763f74083118d"
+    },
+    {
+      "id": "sonune",
+      "en": "Sonune",
+      "name": "造隅音轨",
+      "symbol": "谛听",
+      "previousSymbol": "夔",
+      "office": false,
+      "bg": "#3E6479",
+      "scale": 1.0,
+      "x": 0,
+      "y": 0,
+      "features": "独角 · 大耳 · 四足",
+      "note": "改为四足谛听。保留独角、大耳和四足，以聆听的特征呼应音轨。",
+      "newArtwork": true,
+      "previous": {
+        "scale": 2.5,
+        "x": 29,
+        "y": 12
+      },
+      "sourceSha256": "b20199c29efc4edfe32e37d5e7c42bb47a273fd5d542481dbe8757862b07be8a"
+    },
+    {
+      "id": "deckune",
+      "en": "Deckune",
+      "name": "造隅演示",
+      "symbol": "幻灯片与图表",
+      "previousSymbol": "幻灯片与图表",
+      "office": true,
+      "bg": "#BB7334",
+      "scale": 1.05,
+      "x": 0,
+      "y": 0,
+      "features": "幻灯片 · 图表",
+      "note": "Office 保持第 6 版完整图形与舒适留白。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 1.05,
+        "x": 0,
+        "y": 0
+      },
+      "sourceSha256": "75d3c744e85b9e70d5bc973fc90fc827edc3bda2cd71462511fac702c0dccc0a"
+    },
+    {
+      "id": "dimrune",
+      "en": "Dimrune",
+      "name": "造隅工图",
+      "symbol": "赑屃",
+      "previousSymbol": "赑屃",
+      "office": false,
+      "bg": "#467C79",
+      "scale": 2.05,
+      "x": 6,
+      "y": 5,
+      "features": "龙首 · 龟身 · 负碑",
+      "note": "完整保留碑顶、龙首与龟甲，恢复负碑兽的辨识特征。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 2.6,
+        "x": 22,
+        "y": 8
+      },
+      "sourceSha256": "32095b024fcb7dcccebaed04713536d07c53668b2242dd8223b6400b0b9d7437"
+    },
+    {
+      "id": "gridrune",
+      "en": "Gridrune",
+      "name": "造隅表格",
+      "symbol": "单元格与数据图表",
+      "previousSymbol": "单元格与数据图表",
+      "office": true,
+      "bg": "#397A55",
+      "scale": 1.05,
+      "x": 0,
+      "y": -1,
+      "features": "单元格 · 数据图表",
+      "note": "Office 保持第 6 版完整图形与舒适留白。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 1.05,
+        "x": 0,
+        "y": -1
+      },
+      "sourceSha256": "4df6bf2be3c18afdaec735e8e7d278331d2217c7cd25a462ac0511aa6d55cb2c"
+    },
+    {
+      "id": "modune",
+      "en": "Modune",
+      "name": "造隅构建",
+      "symbol": "獬豸",
+      "previousSymbol": "獬豸",
+      "office": false,
+      "bg": "#967229",
+      "scale": 2.55,
+      "x": -8,
+      "y": 26,
+      "features": "独角 · 羊形面部 · 胡须",
+      "note": "保留完整独角、羊形面部和胡须，胸部延伸至边缘。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 2.85,
+        "x": -14,
+        "y": 35
+      },
+      "sourceSha256": "a86a3644554316b4c889ed8a2af606f9e2f2405e20b3ab0314e8cb3c019804ad"
+    },
+    {
+      "id": "visrune",
+      "en": "Visrune",
+      "name": "造隅灵绘",
+      "symbol": "鲲鹏",
+      "previousSymbol": "鲲鹏",
+      "office": false,
+      "bg": "#BD6E5B",
+      "scale": 1.9,
+      "x": 2.5,
+      "y": 1.5,
+      "features": "鸟首 · 羽翼 · 鱼身鱼尾",
+      "note": "保留鱼与鸟的组合关系，避免裁成普通鸟类头像。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 2.7,
+        "x": -12,
+        "y": 40
+      },
+      "sourceSha256": "ad7e938479fb80fd9f7818b5ce3e6094aa16bb4a175faf01de79ee81891a9aab"
+    },
+    {
+      "id": "nodune",
+      "en": "Nodune",
+      "name": "造隅工坊",
+      "symbol": "白泽",
+      "previousSymbol": "白泽",
+      "office": false,
+      "bg": "#244D4A",
+      "scale": 2.0,
+      "x": -1,
+      "y": 2,
+      "features": "双角 · 长毛 · 书册",
+      "note": "让双角、层叠长毛与书册同时可见，尾毛贴近右侧边缘。",
+      "newArtwork": false,
+      "previous": {
+        "scale": 2.9,
+        "x": 6,
+        "y": 30
+      },
+      "sourceSha256": "2a92af14eb5432ec622c20544894e6fce591b12b7058d0d4b97e38de720bd467"
+    }
+  ]
+}

@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """Export the approved icon masters, sync runtime assets, and package the offline atlas.
 
-Requires Pillow. Artwork is created with imagegen; this script only resizes and
-packages approved masters. Run from any directory: python3 tools/export_icons.py
+Requires Pillow. Artwork is created with imagegen; this script applies approved
+framing, resizes and packages the masters. Run: python3 tools/export_icons.py
 """
 
 import base64
 import csv
 import hashlib
 import json
+import math
 from pathlib import Path
 import shutil
 import zipfile
@@ -34,7 +35,34 @@ def data_url(path):
     return "data:image/png;base64," + base64.b64encode(path.read_bytes()).decode("ascii")
 
 
-def previews(apps):
+def framed_icon(source, size, design):
+    """Bake the approved CSS translate(x%, y%) scale(s) into a square PNG.
+
+    Translation is relative to the unscaled icon frame, with a centered origin.
+    Keep fractional crop coordinates and sample directly from the full master.
+    A translated source can expose a thin strip of the preview's background.
+    """
+    framing = design["framing"]
+    scale, x, y = (float(framing[key]) for key in ("scale", "x", "y"))
+    if not all(math.isfinite(value) for value in (scale, x, y)) or scale <= 0:
+        raise ValueError(f"Invalid icon framing: {framing}")
+    width, height = source.size
+    left = (0.5 - (0.5 + x / 100) / scale) * width
+    top = (0.5 - (0.5 + y / 100) / scale) * height
+    right, bottom = left + width / scale, top + height / scale
+    padding = (max(0, math.ceil(-left)), max(0, math.ceil(-top)),
+               max(0, math.ceil(right - width)), max(0, math.ceil(bottom - height)))
+    if any(padding):
+        pad_left, pad_top, pad_right, pad_bottom = padding
+        canvas = Image.new("RGB", (width + pad_left + pad_right, height + pad_top + pad_bottom), design["bg"])
+        canvas.paste(source, (pad_left, pad_top))
+        source = canvas
+        left, right = left + pad_left, right + pad_left
+        top, bottom = top + pad_top, bottom + pad_top
+    return source.resize((size, size), Image.Resampling.LANCZOS, box=(left, top, right, bottom))
+
+
+def previews(apps, edition):
     """Contact sheets for checking approved art, without altering icon pixels."""
     candidates = [Path("/System/Library/Fonts/Supplemental/Arial Unicode.ttf"),
                   Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf")]
@@ -46,7 +74,7 @@ def previews(apps):
     sheet = Image.new("RGB", (1800, 1280), "#F4F1EA")
     draw = ImageDraw.Draw(sheet)
     draw.text((66, 38), "ZAOYU / 造隅", fill="#17231E", font=font(42))
-    draw.text((66, 104), "14 MYTHICAL BEASTS / 4 OFFICE TOOLS · EDITION 04", fill="#647269", font=font(21))
+    draw.text((66, 104), f"14 MYTHICAL BEASTS / 4 OFFICE TOOLS · EDITION {edition:02}", fill="#647269", font=font(21))
     draw.text((1260, 55), "HarmonyOS · tablet / 2in1", fill="#647269", font=font(22))
     draw.line((66, 154, 1734, 154), fill="#D7D7CE", width=2)
     for i, app in enumerate(apps):
@@ -87,7 +115,9 @@ def main():
     catalog = {a["id"]: a for a in json.loads((ROOT / "config/apps.json").read_text())["apps"]}
     designs = {a["product"]: a for a in spec["apps"]}
     assert set(designs) == set(catalog), "Every application must have a design"
+    assert len(names["apps"]) == len(catalog) and {a["product_slug"] for a in names["apps"]} == set(catalog)
     apps = []
+    runtime_count = 0
     for app in names["apps"]:
         product = app["product_slug"]
         design, config = designs[product], catalog[product]
@@ -103,28 +133,32 @@ def main():
                        integrationStatus=config["status"], designVersion=spec["version"],
                        assetEdition=design["assetEdition"], theme=design["theme"],
                        pronunciation=design["pronunciation"], rationale=design["rationale"],
-                       style="mythic-engraving" if design["assetEdition"] == 4 else "engraved-atelier")
+                       framing=design["framing"], features=design["features"], composition=design["composition"],
+                       style="mythic-engraving" if design["theme"] == "中国神话异兽" else "engraved-atelier")
             for size in SIZES:
                 target = SUITE / "icons" / str(size) / app["filename"]
                 target.parent.mkdir(parents=True, exist_ok=True)
-                source.resize((size, size), Image.Resampling.LANCZOS).save(target, optimize=True)
+                framed_icon(source, size, design).save(target, optimize=True)
         large = SUITE / "icons/512" / app["filename"]
         shutil.copyfile(large, ROOT / f"AppScope/resources/base/media/{product}_icon.png")
         shutil.copyfile(large, ROOT / config["entry"] / "src/main/resources/base/media/app_icon.png")
+        runtime_count += 2
         if config.get("nativeCrate"):
             shutil.copyfile(SUITE / "icons/128" / app["filename"], ROOT / f"branding/{product}-128.png")
+            runtime_count += 1
         apps.append({"id": product, "n": app["n"], "en": app["en"], "name": app["name"],
                      "bundleName": config["bundleName"], "purpose": app["purpose"], "category": app["category"],
                      "symbol": app["symbol"], "bg": app["bg"], "upstream": app["old"],
                      "theme": app["theme"], "pronunciation": app["pronunciation"], "rationale": app["rationale"],
+                     "features": app["features"], "composition": app["composition"],
                      "description": f"{app['name']}面向鸿蒙平板与 2in1，提供{app['purpose']}功能。",
                      "images": {str(s): f"icons/{s}/{app['filename']}" for s in SIZES}})
     names.update(date=spec["date"], repositoryEdition=spec["version"], designVersion=spec["version"], style=spec["style"])
     write_json(SUITE / "names.json", names)
     rows = [["序号", "原应用", "中文名称", "英文名称（单词式造词）", "词根", "命名联想", "英文包名 bundleName",
-             "包名状态", "集成状态", "用途", "分类", "图标路径", "主色", "强调色", "图案", "读音", "设计联想"]]
+             "包名状态", "集成状态", "用途", "分类", "图标路径", "主色", "强调色", "图案", "读音", "设计联想", "辨识特征", "构图"]]
     rows += [[a["n"], a["old"], a["name"], a["en"], a["name_root"], a["name_rationale"], a["bundleName"],
-              "工程配置，未核验商店注册", a["integrationStatus"], a["purpose"], a["category"], a["icon"], a["bg"], a["accent"], a["symbol"], a["pronunciation"], a["rationale"]] for a in names["apps"]]
+              "工程配置，未核验商店注册", a["integrationStatus"], a["purpose"], a["category"], a["icon"], a["bg"], a["accent"], a["symbol"], a["pronunciation"], a["rationale"], a["features"], a["composition"]] for a in names["apps"]]
     write_csv(SUITE / "names.csv", rows)
     bundles = json.loads((SUITE / "bundle-names.json").read_text())
     bundles["repositoryEdition"] = spec["version"]
@@ -133,20 +167,25 @@ def main():
     write_json(SUITE / "bundle-names.json", bundles)
     write_csv(SUITE / "bundle-names.csv", [["original_app", "app_name_zh", "app_name_en", "name_root", "bundle_name", "status", "integration_status"]] +
               [[a["originalApp"], a["nameZh"], a["nameEn"], a["nameRoot"], a["bundleName"], bundles["status"], a["integrationStatus"]] for a in bundles["apps"]])
-    (SUITE / "bundle-names.txt").write_text("ZAOYU / APPLICATION IDENTITIES — 2026-11-05\nDevices: tablet, 2in1\n\n" +
+    (SUITE / "bundle-names.txt").write_text(f"ZAOYU / APPLICATION IDENTITIES — {spec['date']}\nDevices: tablet, 2in1\n\n" +
         "\n".join(f"{a['n']:02}. {a['name']} | {a['en']}\n    {a['bundleName']}\n    {a['purpose']}\n" for a in apps))
-    prompts = ["造隅全系列图标 / 第 4 版 / 2026-11-05 / 内置 imagegen", spec["generationMethod"]]
+    prompts = [f"造隅全系列图标 / 第 {spec['version']} 版 / {spec['date']} / 内置 imagegen", spec["generationMethod"]]
     for app in spec["apps"]:
         prompts += [f"\n{app['product']} / {app['filename']} / asset edition {app['assetEdition']}",
+                    f"Framing: {json.dumps(app['framing'])}", f"Features: {app['features']}",
                     f"Image inputs: {app['imageInputs']}", app["generationPrompt"]]
+        if app.get("initialGenerationPrompt"):
+            prompts += ["Initial generation before refinement:", app["initialGenerationPrompt"]]
     (SUITE / "generation-prompts.txt").write_text("\n\n".join(prompts) + "\n")
     template = (ROOT / "tools/icon-gallery.html").read_text()
+    template = template.replace("__DESIGN_EDITION__", f"{spec['version']:02}").replace("__DESIGN_VERSION__", str(spec["version"]))
+    template = template.replace("__DESIGN_DATE__", spec["date"].replace("-", "."))
     render = lambda data: template.replace("__APP_DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
     (SUITE / "index.html").write_text(render(apps))
     standalone = [{**a, "images": {s: data_url(SUITE / path) for s, path in a["images"].items()}} for a in apps]
     html = OUT / "zaoyu-app-icons.html"
     html.write_text(render(standalone))
-    previews(apps)
+    previews(apps, spec["version"])
     fields = ["中文名称", "英文名称", "包名", "用途", "简介草稿", "设备", "图案", "读音", "设计联想"]
     listing_rows = [fields] + [[a["name"], a["en"], a["bundleName"], a["purpose"], a["description"], "tablet / 2in1", a["symbol"], a["pronunciation"], a["rationale"]] for a in apps]
     write_csv(OUT / "app-listing.csv", listing_rows)
@@ -159,7 +198,10 @@ def main():
                 archive.write(SUITE / path, f"icons/{app['id']}/{app['id']}-{size}.png")
         for name in ("overview.png", "size-and-mask-preview.png", "redesign-spec.json", "generation-prompts.txt", "mythology-notes.md"):
             archive.write(SUITE / name, name)
-    print(f"Exported {len(apps)} masters, {len(apps) * len(SIZES)} PNGs, 53 runtime resources.")
+        for path in sorted((SUITE / "generation").rglob("*")):
+            if path.is_file():
+                archive.write(path, str(path.relative_to(SUITE)))
+    print(f"Exported {len(apps)} framed masters, {len(apps) * len(SIZES)} PNGs, {runtime_count} runtime resources.")
     print(f"Standalone HTML: {html} ({html.stat().st_size / 1024**2:.1f} MiB)")
     print(f"Package: {OUT / 'zaoyu-app-icons.zip'}")
 

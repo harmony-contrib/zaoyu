@@ -29,13 +29,20 @@
       "name_root": "Pixel",
       "name_rationale": "像素与图像编辑",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "mythic-engraving",
       "symbol": "凤凰",
       "assetEdition": 4,
       "theme": "中国神话异兽",
       "pronunciation": "fèng huáng",
-      "rationale": "以舒展羽翼与分层尾羽呼应图像层次。"
+      "rationale": "以舒展羽翼与分层尾羽呼应图像层次。",
+      "framing": {
+        "scale": 2.75,
+        "x": -2,
+        "y": 30
+      },
+      "features": "头冠 · 凤首 · 胸羽",
+      "composition": "沿用已认可的凤凰构图，右翼和尾羽延伸出画。"
     },
     {
       "n": 2,
@@ -62,13 +69,20 @@
       "name_root": "Vector",
       "name_rationale": "矢量与曲线绘制",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "mythic-engraving",
       "symbol": "应龙",
       "assetEdition": 4,
       "theme": "中国神话异兽",
       "pronunciation": "yìng lóng",
-      "rationale": "翼与盘曲龙身呼应曲线及矢量造型。"
+      "rationale": "翼与盘曲龙身呼应曲线及矢量造型。",
+      "framing": {
+        "scale": 3.0,
+        "x": 21.5,
+        "y": 28
+      },
+      "features": "龙首 · 角 · 肩翼",
+      "composition": "沿用已认可的应龙构图，保留龙首与肩翼。"
     },
     {
       "n": 3,
@@ -95,13 +109,20 @@
       "name_root": "Clip",
       "name_rationale": "视频片段与剪辑",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "mythic-engraving",
       "symbol": "驳",
       "assetEdition": 4,
       "theme": "中国神话异兽",
       "pronunciation": "bó",
-      "rationale": "以独角异马的跃动姿态呼应剪辑节奏。"
+      "rationale": "以独角异马的跃动姿态呼应剪辑节奏。",
+      "framing": {
+        "scale": 2.35,
+        "x": -20,
+        "y": 11
+      },
+      "features": "独角 · 马首 · 前跃姿态",
+      "composition": "收回过度特写，让独角、马颈、前肢的跃动姿态同时可见。"
     },
     {
       "n": 4,
@@ -128,13 +149,20 @@
       "name_root": "LUT",
       "name_rationale": "色彩查找表与照片调色",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "mythic-engraving",
       "symbol": "金乌",
       "assetEdition": 4,
       "theme": "中国神话异兽",
       "pronunciation": "jīn wū",
-      "rationale": "以太阳神鸟呼应光线与调色。"
+      "rationale": "以太阳神鸟呼应光线与调色。",
+      "framing": {
+        "scale": 2.05,
+        "x": 0,
+        "y": -1
+      },
+      "features": "鸟首 · 双翼 · 三足",
+      "composition": "双翼贴近两侧，完整保留三足，避免退化为普通鹰形。"
     },
     {
       "n": 5,
@@ -161,13 +189,20 @@
       "name_root": "Page",
       "name_rationale": "页面与 PDF 文件",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "engraved-atelier",
       "symbol": "PDF 页面与书签",
       "assetEdition": 3,
       "theme": "Office 功能图形",
       "pronunciation": "",
-      "rationale": "以清晰的功能图形表达办公用途。"
+      "rationale": "以清晰的功能图形表达办公用途。",
+      "framing": {
+        "scale": 1.05,
+        "x": 1,
+        "y": 0
+      },
+      "features": "PDF · 页面 · 书签",
+      "composition": "Office 保持第 6 版完整图形与舒适留白。"
     },
     {
       "n": 6,
@@ -179,13 +214,13 @@
       "purpose": "动态图形与视觉特效",
       "bg": "#535398",
       "accent": "#F6EDD7",
-      "motif": "TENGSHE 腾蛇, a fantastical flying serpent. One slender hornless snake with exactly one pair of small feathered wings at the upper third of its body, curling into an open vertical figure-S with one tapering tail. The head is unmistakably a snake, with a smooth rounded brow and closed mouth, no whiskers, crest, horns or dragon muzzle. Absolutely NO legs. Belly made of broad ivory segmented plates, back with restrained fine scale engraving. Wings arc backwards and remain compact. Invent a light spiraling motion without clouds, speed marks or effects.",
+      "motif": "BIFANG 毕方: crane-like bird with a long ivory beak, raised wings and one clearly visible leg and foot. Wing tips extend beyond the frame while the identifying anatomy stays visible.",
       "filename": "06-motion.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "1f6b10a970cb4691a3f0832dde8afd194c09ae104e4b7118f0e8f4b51f4d33be",
+      "master_sha256": "b810c6b6e29af250f2edca843bdf2c7ac129b6f48e05541e56e7fd7c8e7d36e6",
       "icon": "icons/1024/06-motion.png",
       "bundleName": "com.richerfu.motrune",
       "bundleNameStatus": "project_configured",
@@ -194,13 +229,20 @@
       "name_root": "Motion",
       "name_rationale": "运动与动态图形",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "mythic-engraving",
-      "symbol": "腾蛇",
-      "assetEdition": 4,
+      "symbol": "毕方",
+      "assetEdition": 7,
       "theme": "中国神话异兽",
-      "pronunciation": "téng shé",
-      "rationale": "以飞蛇的盘旋轨迹呼应动态曲线。"
+      "pronunciation": "bì fāng",
+      "rationale": "以扬翼与独足神鸟的跃动姿态呼应动效。",
+      "framing": {
+        "scale": 1.0,
+        "x": 0,
+        "y": 0
+      },
+      "features": "长喙 · 扬翼 · 独足",
+      "composition": "改为毕方。鸟首、长喙和独足完整可见，羽翼末梢向外延伸。"
     },
     {
       "n": 7,
@@ -227,13 +269,20 @@
       "name_root": "Layout",
       "name_rationale": "版式与页面布局",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "mythic-engraving",
       "symbol": "麒麟",
       "assetEdition": 4,
       "theme": "中国神话异兽",
       "pronunciation": "qí lín",
-      "rationale": "以均衡的瑞兽姿态呼应版式秩序。"
+      "rationale": "以均衡的瑞兽姿态呼应版式秩序。",
+      "framing": {
+        "scale": 2.55,
+        "x": 16,
+        "y": 26
+      },
+      "features": "角 · 龙首 · 鳞甲",
+      "composition": "保留角与鳞甲结构，身体向右下方延伸出画。"
     },
     {
       "n": 8,
@@ -260,13 +309,20 @@
       "name_root": "Frame",
       "name_rationale": "界面画框与交互原型",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "mythic-engraving",
       "symbol": "旋龟",
       "assetEdition": 4,
       "theme": "中国神话异兽",
       "pronunciation": "xuán guī",
-      "rationale": "以龟甲分区呼应界面面板。"
+      "rationale": "以龟甲分区呼应界面面板。",
+      "framing": {
+        "scale": 1.86,
+        "x": 3,
+        "y": 1.5
+      },
+      "features": "鸟首 · 龟甲 · 蛇尾",
+      "composition": "让鸟首、龟甲与蛇尾同时成立，尾部只轻触边缘。"
     },
     {
       "n": 9,
@@ -293,13 +349,20 @@
       "name_root": "Texture",
       "name_rationale": "纹理与表面绘制",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "mythic-engraving",
       "symbol": "狰",
       "assetEdition": 4,
       "theme": "中国神话异兽",
       "pronunciation": "zhēng",
-      "rationale": "以豹纹与分层长尾呼应纹理绘制。"
+      "rationale": "以豹纹与分层长尾呼应纹理绘制。",
+      "framing": {
+        "scale": 2.4,
+        "x": -5,
+        "y": 12
+      },
+      "features": "独角 · 豹纹 · 五尾",
+      "composition": "保留独角与五条展开长尾，裁切集中于次要的脚部轮廓。"
     },
     {
       "n": 10,
@@ -326,13 +389,20 @@
       "name_root": "Shader",
       "name_rationale": "着色与程序化材质",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "mythic-engraving",
       "symbol": "辟邪",
       "assetEdition": 4,
       "theme": "中国神话异兽",
       "pronunciation": "bì xié",
-      "rationale": "以翼、鬃、甲的不同表面呼应材质。"
+      "rationale": "以翼、鬃、甲的不同表面呼应材质。",
+      "framing": {
+        "scale": 2.1,
+        "x": 0,
+        "y": 14
+      },
+      "features": "角 · 翼 · 兽首",
+      "composition": "收回裁切以展示肩翼，保留角和兽首。"
     },
     {
       "n": 11,
@@ -359,13 +429,20 @@
       "name_root": "Quill",
       "name_rationale": "羽毛笔与文档写作",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "engraved-atelier",
       "symbol": "文档与钢笔",
       "assetEdition": 3,
       "theme": "Office 功能图形",
       "pronunciation": "",
-      "rationale": "以清晰的功能图形表达办公用途。"
+      "rationale": "以清晰的功能图形表达办公用途。",
+      "framing": {
+        "scale": 1.02,
+        "x": -1.5,
+        "y": 0
+      },
+      "features": "文档 · 钢笔",
+      "composition": "Office 保持第 6 版完整图形与舒适留白。"
     },
     {
       "n": 12,
@@ -375,15 +452,15 @@
       "slug": "audio",
       "category": "影音",
       "purpose": "录音、音频编辑与混音",
-      "bg": "#3C6880",
+      "bg": "#3E6479",
       "accent": "#F6EDD7",
-      "motif": "KUI 夔, the ancient Chinese one-legged thunder beast. A hornless ox-like animal, compact rounded muscular body seen in clean side profile facing left, broad bovine muzzle, two soft cattle ears, dark short mane ridge, and one long tail curling back toward its belly. CRITICAL: EXACTLY ONE SINGLE strong central leg under the belly ending in one broad cloven hoof. No other legs, arms or hidden stumps. NO horns, wings or drum. A dignified, unusual balanced full-body silhouette, head and torso in broad ivory with sparse engraved fur. No lightning or sound-wave symbols.",
+      "motif": "DITING 谛听: an original four-legged guardian with a single horn, large listening ears, a feline face, scaled back and tufted tail. Horn, ears and four feet stay visible.",
       "filename": "12-audio.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "a43f91da01389f3f851249c7bd13fcb260e9e850652c511634d51d1163d65074",
+      "master_sha256": "b20199c29efc4edfe32e37d5e7c42bb47a273fd5d542481dbe8757862b07be8a",
       "icon": "icons/1024/12-audio.png",
       "bundleName": "com.richerfu.sonune",
       "bundleNameStatus": "project_configured",
@@ -392,13 +469,20 @@
       "name_root": "Sonic",
       "name_rationale": "声音与音轨编辑",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "mythic-engraving",
-      "symbol": "夔",
-      "assetEdition": 4,
+      "symbol": "谛听",
+      "assetEdition": 7,
       "theme": "中国神话异兽",
-      "pronunciation": "kuí",
-      "rationale": "以夔的雷声意象呼应声音与节奏。"
+      "pronunciation": "dì tīng",
+      "rationale": "以谛听的大耳与聆听意象呼应音轨。",
+      "framing": {
+        "scale": 1.0,
+        "x": 0,
+        "y": 0
+      },
+      "features": "独角 · 大耳 · 四足",
+      "composition": "改为四足谛听。保留独角、大耳和四足，以聆听的特征呼应音轨。"
     },
     {
       "n": 13,
@@ -425,13 +509,20 @@
       "name_root": "Deck",
       "name_rationale": "幻灯片与演示文稿",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "engraved-atelier",
       "symbol": "幻灯片与图表",
       "assetEdition": 3,
       "theme": "Office 功能图形",
       "pronunciation": "",
-      "rationale": "以清晰的功能图形表达办公用途。"
+      "rationale": "以清晰的功能图形表达办公用途。",
+      "framing": {
+        "scale": 1.05,
+        "x": 0,
+        "y": 0
+      },
+      "features": "幻灯片 · 图表",
+      "composition": "Office 保持第 6 版完整图形与舒适留白。"
     },
     {
       "n": 14,
@@ -458,13 +549,20 @@
       "name_root": "Dimension",
       "name_rationale": "尺寸与工程制图",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "mythic-engraving",
       "symbol": "赑屃",
       "assetEdition": 4,
       "theme": "中国神话异兽",
       "pronunciation": "bì xì",
-      "rationale": "以负碑龟兽呼应承重与工程构件。"
+      "rationale": "以负碑龟兽呼应承重与工程构件。",
+      "framing": {
+        "scale": 2.05,
+        "x": 6,
+        "y": 5
+      },
+      "features": "龙首 · 龟身 · 负碑",
+      "composition": "完整保留碑顶、龙首与龟甲，恢复负碑兽的辨识特征。"
     },
     {
       "n": 15,
@@ -491,13 +589,20 @@
       "name_root": "Grid",
       "name_rationale": "网格与电子表格",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "engraved-atelier",
       "symbol": "单元格与数据图表",
       "assetEdition": 3,
       "theme": "Office 功能图形",
       "pronunciation": "",
-      "rationale": "以清晰的功能图形表达办公用途。"
+      "rationale": "以清晰的功能图形表达办公用途。",
+      "framing": {
+        "scale": 1.05,
+        "x": 0,
+        "y": -1
+      },
+      "features": "单元格 · 数据图表",
+      "composition": "Office 保持第 6 版完整图形与舒适留白。"
     },
     {
       "n": 16,
@@ -524,13 +629,20 @@
       "name_root": "Module",
       "name_rationale": "模块组合与应用构建",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "mythic-engraving",
       "symbol": "獬豸",
       "assetEdition": 4,
       "theme": "中国神话异兽",
       "pronunciation": "xiè zhì",
-      "rationale": "以独角守序之兽呼应构建与校验。"
+      "rationale": "以独角守序之兽呼应构建与校验。",
+      "framing": {
+        "scale": 2.55,
+        "x": -8,
+        "y": 26
+      },
+      "features": "独角 · 羊形面部 · 胡须",
+      "composition": "保留完整独角、羊形面部和胡须，胸部延伸至边缘。"
     },
     {
       "n": 17,
@@ -557,13 +669,20 @@
       "name_root": "Vision",
       "name_rationale": "视觉想象与 AI 创作",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "mythic-engraving",
       "symbol": "鲲鹏",
       "assetEdition": 4,
       "theme": "中国神话异兽",
       "pronunciation": "kūn péng",
-      "rationale": "以鱼化为鹏的变形意象呼应生成式创作。"
+      "rationale": "以鱼化为鹏的变形意象呼应生成式创作。",
+      "framing": {
+        "scale": 1.9,
+        "x": 2.5,
+        "y": 1.5
+      },
+      "features": "鸟首 · 羽翼 · 鱼身鱼尾",
+      "composition": "保留鱼与鸟的组合关系，避免裁成普通鸟类头像。"
     },
     {
       "n": 18,
@@ -590,20 +709,27 @@
       "name_root": "Node",
       "name_rationale": "节点汇聚与应用入口",
       "integrationStatus": "integrated",
-      "designVersion": 4,
+      "designVersion": 7,
       "style": "mythic-engraving",
       "symbol": "白泽",
       "assetEdition": 4,
       "theme": "中国神话异兽",
       "pronunciation": "bái zé",
-      "rationale": "以博识瑞兽意象呼应套件总览与管理。"
+      "rationale": "以博识瑞兽意象呼应套件总览与管理。",
+      "framing": {
+        "scale": 2.0,
+        "x": -1,
+        "y": 2
+      },
+      "features": "双角 · 长毛 · 书册",
+      "composition": "让双角、层叠长毛与书册同时可见，尾毛贴近右侧边缘。"
     }
   ],
   "revision": 3,
   "english_naming_style": "single_word_coined",
   "english_name_note": "Each English product name is a standalone coined word of 6–8 letters. ZAOYU is the umbrella suite identity.",
   "name_screening_status": "limited_web_screening_only_not_trademark_or_store_clearance",
-  "repositoryEdition": 4,
+  "repositoryEdition": 7,
   "projectCatalog": "../../config/apps.json",
   "deviceTypes": [
     "tablet",
@@ -612,6 +738,6 @@
   "bundle_name_prefix": "com.richerfu",
   "bundle_name_status": "project_configured_not_store_verified",
   "bundle_name_note": "与 config/apps.json 一致；包名已用于工程配置，未核验商店注册状态。",
-  "designVersion": 4,
-  "style": "Zaoyu mythic bestiary / 中国神话异兽印刻系列与 Office 功能图形"
+  "designVersion": 7,
+  "style": "Zaoyu character-preserving engraving / 神兽特征保留与局部出画"
 }

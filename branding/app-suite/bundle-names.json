@@ -1,7 +1,7 @@
 {
   "brand": "ZAOYU",
   "revision": 3,
-  "repositoryEdition": 4,
+  "repositoryEdition": 7,
   "namingStyle": "single_word_coined",
   "prefix": "com.richerfu",
   "projectCatalog": "../../config/apps.json",

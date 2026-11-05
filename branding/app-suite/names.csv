@@ -1,19 +1,19 @@
-﻿序号,原应用,中文名称,英文名称（单词式造词）,词根,命名联想,英文包名 bundleName,包名状态,集成状态,用途,分类,图标路径,主色,强调色,图案,读音,设计联想
-1,PhotoCraft,造隅修图,Pixrune,Pixel,像素与图像编辑,com.richerfu.pixrune,工程配置，未核验商店注册,integrated,图像编辑、图层与基础修图,影像,icons/1024/01-photo.png,#0C7E86,#F6EDD7,凤凰,fèng huáng,以舒展羽翼与分层尾羽呼应图像层次。
-2,VectorCraft,造隅矢绘,Vecrune,Vector,矢量与曲线绘制,com.richerfu.vecrune,工程配置，未核验商店注册,integrated,矢量绘图与插画,设计,icons/1024/02-vector.png,#4F668F,#F6EDD7,应龙,yìng lóng,翼与盘曲龙身呼应曲线及矢量造型。
-3,FilmCraft,造隅剪辑,Cliprune,Clip,视频片段与剪辑,com.richerfu.cliprune,工程配置，未核验商店注册,integrated,视频剪辑与时间线编辑,影音,icons/1024/03-cut.png,#C57738,#F6EDD7,驳,bó,以独角异马的跃动姿态呼应剪辑节奏。
-4,LightCraft,造隅光影,Lutrune,LUT,色彩查找表与照片调色,com.richerfu.lutrune,工程配置，未核验商店注册,integrated,照片管理与 RAW 调色,影像,icons/1024/04-light.png,#176359,#F6EDD7,金乌,jīn wū,以太阳神鸟呼应光线与调色。
-5,PdfCraft,造隅阅编,Pagrune,Page,页面与 PDF 文件,com.richerfu.pagrune,工程配置，未核验商店注册,integrated,PDF 阅读、整理与编辑,办公,icons/1024/05-pdf.png,#9E3946,#F6EDD7,PDF 页面与书签,,以清晰的功能图形表达办公用途。
-6,EffectCraft,造隅动效,Motrune,Motion,运动与动态图形,com.richerfu.motrune,工程配置，未核验商店注册,integrated,动态图形与视觉特效,影音,icons/1024/06-motion.png,#535398,#F6EDD7,腾蛇,téng shé,以飞蛇的盘旋轨迹呼应动态曲线。
-7,DesignCraft,造隅版式,Layrune,Layout,版式与页面布局,com.richerfu.layrune,工程配置，未核验商店注册,integrated,页面排版与出版设计,设计,icons/1024/07-layout.png,#62708C,#F6EDD7,麒麟,qí lín,以均衡的瑞兽姿态呼应版式秩序。
-8,FigCraft,造隅界面,Framune,Frame,界面画框与交互原型,com.richerfu.framune,工程配置，未核验商店注册,integrated,界面设计与交互原型,设计,icons/1024/08-interface.png,#A74C57,#F6EDD7,旋龟,xuán guī,以龟甲分区呼应界面面板。
-9,TextureCraft,造隅纹绘,Texune,Texture,纹理与表面绘制,com.richerfu.texune,工程配置，未核验商店注册,integrated,三维模型纹理绘制,三维,icons/1024/09-texture.png,#7C624D,#F6EDD7,狰,zhēng,以豹纹与分层长尾呼应纹理绘制。
-10,MaterialCraft,造隅材质,Shadrune,Shader,着色与程序化材质,com.richerfu.shadrune,工程配置，未核验商店注册,integrated,节点式程序化材质制作,三维,icons/1024/10-material.png,#7D598A,#F6EDD7,辟邪,bì xié,以翼、鬃、甲的不同表面呼应材质。
-11,WordCraft,造隅文档,Quilrune,Quill,羽毛笔与文档写作,com.richerfu.quilrune,工程配置，未核验商店注册,integrated,文档写作与文字处理,办公,icons/1024/11-write.png,#296C98,#F6EDD7,文档与钢笔,,以清晰的功能图形表达办公用途。
-12,SoundCraft,造隅音轨,Sonune,Sonic,声音与音轨编辑,com.richerfu.sonune,工程配置，未核验商店注册,integrated,录音、音频编辑与混音,影音,icons/1024/12-audio.png,#3C6880,#F6EDD7,夔,kuí,以夔的雷声意象呼应声音与节奏。
-13,DeckCraft,造隅演示,Deckune,Deck,幻灯片与演示文稿,com.richerfu.deckune,工程配置，未核验商店注册,integrated,幻灯片制作与演示,办公,icons/1024/13-slides.png,#BB7334,#F6EDD7,幻灯片与图表,,以清晰的功能图形表达办公用途。
-14,CADCraft,造隅工图,Dimrune,Dimension,尺寸与工程制图,com.richerfu.dimrune,工程配置，未核验商店注册,integrated,计算机辅助制图,三维,icons/1024/14-cad.png,#467C79,#F6EDD7,赑屃,bì xì,以负碑龟兽呼应承重与工程构件。
-15,GridCraft,造隅表格,Gridrune,Grid,网格与电子表格,com.richerfu.gridrune,工程配置，未核验商店注册,integrated,电子表格与数据分析,办公,icons/1024/15-sheets.png,#397A55,#F6EDD7,单元格与数据图表,,以清晰的功能图形表达办公用途。
-16,Craft Anything,造隅构建,Modune,Module,模块组合与应用构建,com.richerfu.modune,工程配置，未核验商店注册,integrated,软件探索与应用构建,创作,icons/1024/16-maker.png,#967229,#F6EDD7,獬豸,xiè zhì,以独角守序之兽呼应构建与校验。
-17,ArtCraft Studio,造隅灵绘,Visrune,Vision,视觉想象与 AI 创作,com.richerfu.visrune,工程配置，未核验商店注册,integrated,AI 图像与视频创作,创作,icons/1024/17-studio.png,#BD6E5B,#F6EDD7,鲲鹏,kūn péng,以鱼化为鹏的变形意象呼应生成式创作。
-18,ArtCraft Launcher,造隅工坊,Nodune,Node,节点汇聚与应用入口,com.richerfu.nodune,工程配置，未核验商店注册,integrated,应用管理与套件入口,创作,icons/1024/18-hub.png,#244D4A,#F6EDD7,白泽,bái zé,以博识瑞兽意象呼应套件总览与管理。
+﻿序号,原应用,中文名称,英文名称（单词式造词）,词根,命名联想,英文包名 bundleName,包名状态,集成状态,用途,分类,图标路径,主色,强调色,图案,读音,设计联想,辨识特征,构图
+1,PhotoCraft,造隅修图,Pixrune,Pixel,像素与图像编辑,com.richerfu.pixrune,工程配置，未核验商店注册,integrated,图像编辑、图层与基础修图,影像,icons/1024/01-photo.png,#0C7E86,#F6EDD7,凤凰,fèng huáng,以舒展羽翼与分层尾羽呼应图像层次。,头冠 · 凤首 · 胸羽,沿用已认可的凤凰构图，右翼和尾羽延伸出画。
+2,VectorCraft,造隅矢绘,Vecrune,Vector,矢量与曲线绘制,com.richerfu.vecrune,工程配置，未核验商店注册,integrated,矢量绘图与插画,设计,icons/1024/02-vector.png,#4F668F,#F6EDD7,应龙,yìng lóng,翼与盘曲龙身呼应曲线及矢量造型。,龙首 · 角 · 肩翼,沿用已认可的应龙构图，保留龙首与肩翼。
+3,FilmCraft,造隅剪辑,Cliprune,Clip,视频片段与剪辑,com.richerfu.cliprune,工程配置，未核验商店注册,integrated,视频剪辑与时间线编辑,影音,icons/1024/03-cut.png,#C57738,#F6EDD7,驳,bó,以独角异马的跃动姿态呼应剪辑节奏。,独角 · 马首 · 前跃姿态,收回过度特写，让独角、马颈、前肢的跃动姿态同时可见。
+4,LightCraft,造隅光影,Lutrune,LUT,色彩查找表与照片调色,com.richerfu.lutrune,工程配置，未核验商店注册,integrated,照片管理与 RAW 调色,影像,icons/1024/04-light.png,#176359,#F6EDD7,金乌,jīn wū,以太阳神鸟呼应光线与调色。,鸟首 · 双翼 · 三足,双翼贴近两侧，完整保留三足，避免退化为普通鹰形。
+5,PdfCraft,造隅阅编,Pagrune,Page,页面与 PDF 文件,com.richerfu.pagrune,工程配置，未核验商店注册,integrated,PDF 阅读、整理与编辑,办公,icons/1024/05-pdf.png,#9E3946,#F6EDD7,PDF 页面与书签,,以清晰的功能图形表达办公用途。,PDF · 页面 · 书签,Office 保持第 6 版完整图形与舒适留白。
+6,EffectCraft,造隅动效,Motrune,Motion,运动与动态图形,com.richerfu.motrune,工程配置，未核验商店注册,integrated,动态图形与视觉特效,影音,icons/1024/06-motion.png,#535398,#F6EDD7,毕方,bì fāng,以扬翼与独足神鸟的跃动姿态呼应动效。,长喙 · 扬翼 · 独足,改为毕方。鸟首、长喙和独足完整可见，羽翼末梢向外延伸。
+7,DesignCraft,造隅版式,Layrune,Layout,版式与页面布局,com.richerfu.layrune,工程配置，未核验商店注册,integrated,页面排版与出版设计,设计,icons/1024/07-layout.png,#62708C,#F6EDD7,麒麟,qí lín,以均衡的瑞兽姿态呼应版式秩序。,角 · 龙首 · 鳞甲,保留角与鳞甲结构，身体向右下方延伸出画。
+8,FigCraft,造隅界面,Framune,Frame,界面画框与交互原型,com.richerfu.framune,工程配置，未核验商店注册,integrated,界面设计与交互原型,设计,icons/1024/08-interface.png,#A74C57,#F6EDD7,旋龟,xuán guī,以龟甲分区呼应界面面板。,鸟首 · 龟甲 · 蛇尾,让鸟首、龟甲与蛇尾同时成立，尾部只轻触边缘。
+9,TextureCraft,造隅纹绘,Texune,Texture,纹理与表面绘制,com.richerfu.texune,工程配置，未核验商店注册,integrated,三维模型纹理绘制,三维,icons/1024/09-texture.png,#7C624D,#F6EDD7,狰,zhēng,以豹纹与分层长尾呼应纹理绘制。,独角 · 豹纹 · 五尾,保留独角与五条展开长尾，裁切集中于次要的脚部轮廓。
+10,MaterialCraft,造隅材质,Shadrune,Shader,着色与程序化材质,com.richerfu.shadrune,工程配置，未核验商店注册,integrated,节点式程序化材质制作,三维,icons/1024/10-material.png,#7D598A,#F6EDD7,辟邪,bì xié,以翼、鬃、甲的不同表面呼应材质。,角 · 翼 · 兽首,收回裁切以展示肩翼，保留角和兽首。
+11,WordCraft,造隅文档,Quilrune,Quill,羽毛笔与文档写作,com.richerfu.quilrune,工程配置，未核验商店注册,integrated,文档写作与文字处理,办公,icons/1024/11-write.png,#296C98,#F6EDD7,文档与钢笔,,以清晰的功能图形表达办公用途。,文档 · 钢笔,Office 保持第 6 版完整图形与舒适留白。
+12,SoundCraft,造隅音轨,Sonune,Sonic,声音与音轨编辑,com.richerfu.sonune,工程配置，未核验商店注册,integrated,录音、音频编辑与混音,影音,icons/1024/12-audio.png,#3E6479,#F6EDD7,谛听,dì tīng,以谛听的大耳与聆听意象呼应音轨。,独角 · 大耳 · 四足,改为四足谛听。保留独角、大耳和四足，以聆听的特征呼应音轨。
+13,DeckCraft,造隅演示,Deckune,Deck,幻灯片与演示文稿,com.richerfu.deckune,工程配置，未核验商店注册,integrated,幻灯片制作与演示,办公,icons/1024/13-slides.png,#BB7334,#F6EDD7,幻灯片与图表,,以清晰的功能图形表达办公用途。,幻灯片 · 图表,Office 保持第 6 版完整图形与舒适留白。
+14,CADCraft,造隅工图,Dimrune,Dimension,尺寸与工程制图,com.richerfu.dimrune,工程配置，未核验商店注册,integrated,计算机辅助制图,三维,icons/1024/14-cad.png,#467C79,#F6EDD7,赑屃,bì xì,以负碑龟兽呼应承重与工程构件。,龙首 · 龟身 · 负碑,完整保留碑顶、龙首与龟甲，恢复负碑兽的辨识特征。
+15,GridCraft,造隅表格,Gridrune,Grid,网格与电子表格,com.richerfu.gridrune,工程配置，未核验商店注册,integrated,电子表格与数据分析,办公,icons/1024/15-sheets.png,#397A55,#F6EDD7,单元格与数据图表,,以清晰的功能图形表达办公用途。,单元格 · 数据图表,Office 保持第 6 版完整图形与舒适留白。
+16,Craft Anything,造隅构建,Modune,Module,模块组合与应用构建,com.richerfu.modune,工程配置，未核验商店注册,integrated,软件探索与应用构建,创作,icons/1024/16-maker.png,#967229,#F6EDD7,獬豸,xiè zhì,以独角守序之兽呼应构建与校验。,独角 · 羊形面部 · 胡须,保留完整独角、羊形面部和胡须，胸部延伸至边缘。
+17,ArtCraft Studio,造隅灵绘,Visrune,Vision,视觉想象与 AI 创作,com.richerfu.visrune,工程配置，未核验商店注册,integrated,AI 图像与视频创作,创作,icons/1024/17-studio.png,#BD6E5B,#F6EDD7,鲲鹏,kūn péng,以鱼化为鹏的变形意象呼应生成式创作。,鸟首 · 羽翼 · 鱼身鱼尾,保留鱼与鸟的组合关系，避免裁成普通鸟类头像。
+18,ArtCraft Launcher,造隅工坊,Nodune,Node,节点汇聚与应用入口,com.richerfu.nodune,工程配置，未核验商店注册,integrated,应用管理与套件入口,创作,icons/1024/18-hub.png,#244D4A,#F6EDD7,白泽,bái zé,以博识瑞兽意象呼应套件总览与管理。,双角 · 长毛 · 书册,让双角、层叠长毛与书册同时可见，尾毛贴近右侧边缘。
