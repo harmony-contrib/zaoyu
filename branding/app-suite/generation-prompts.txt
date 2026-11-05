@@ -1,309 +1,179 @@
-造隅 / ZAOYU — 图标生成提示词
-生成方式：内置 imagegen；每款图标独立生成。
-日期：2026-11-04
+造隅全系列图标 / 第 4 版 / 2026-11-05 / 内置 imagegen
 
-============================================================
-01 PhotoCraft → 造隅修图
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+Edition 4: 14 newly generated Chinese mythological creatures from text-only prompts. Four Office masters retained byte-for-byte from edition 3. No upstream images or previous renders supplied as image inputs.
 
-Specific icon: 造隅修图 / ZAOYU Photo. Function: 图像编辑、图层与基础修图.
-Backdrop: full-bleed solid #144F68, with only a subtle tonal vignette. Accent: #6FE5D1.
-Subject: A single sculptural folded-paper photograph: a broad ivory folded landscape ribbon forming one angular mountain peak within an open mint crop-frame corner. One small coral sun disc is the only secondary element. The silhouette must immediately read as image editing, not a camera.
-Deliver only the single complete square icon image.
 
-============================================================
-02 VectorCraft → 造隅矢绘
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+pixrune / 01-photo.png / asset edition 4
 
-Specific icon: 造隅矢绘 / ZAOYU Vector. Function: 矢量绘图与插画.
-Backdrop: full-bleed solid #592A75, with only a subtle tonal vignette. Accent: #E8A4F0.
-Subject: One bold ivory origami fountain-pen nib with a plum center cutout. A single thick lavender Bezier arc sweeps behind the nib and ends in two large round anchor points. Make the nib dominant, simple and unmistakable.
-Deliver only the single complete square icon image.
+Image inputs: []
 
-============================================================
-03 FilmCraft → 造隅剪辑
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.
+Background: #0C7E86
+Subject: FENGHUANG 凤凰, Chinese phoenix. A complete elegant bird in side-three-quarter view, head turning back left, slender S neck, a short three-pronged crest, one broad wing half-raised behind its body. Three long broad ribbon-like tail feathers loop downward and then inward, each feather ends in one simple eye-shaped vane. Two fine bird feet tucked under the belly. Invent a distinctive asymmetrical compact silhouette with clear spaces between the tail feathers. No flames or sun. Broad engraved ivory feather panels.
+FINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.
 
-Specific icon: 造隅剪辑 / ZAOYU Cut. Function: 视频剪辑与时间线编辑.
-Backdrop: full-bleed solid #99443C, with only a subtle tonal vignette. Accent: #FFC0A0.
-Subject: One folded ivory strip forms a three-dimensional right-facing play triangle, with two broad coral strip ends offset beneath it like an editing timeline. No perforations, no clapperboard, no tiny marks.
-Deliver only the single complete square icon image.
 
-============================================================
-04 LightCraft → 造隅光影
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+vecrune / 02-vector.png / asset edition 4
 
-Specific icon: 造隅光影 / ZAOYU Light. Function: 照片管理与 RAW 调色.
-Backdrop: full-bleed solid #9A681E, with only a subtle tonal vignette. Accent: #FFE0A0.
-Subject: A sculptural camera aperture made of six wide ivory and pale-gold folded-paper blades surrounding a clean dark hexagonal opening. One blade catches a warm amber highlight. No camera body, no sun or stars.
-Deliver only the single complete square icon image.
+Image inputs: []
 
-============================================================
-05 PdfCraft → 造隅阅编
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.
+Background: #4F668F
+Subject: YINGLONG 应龙, a winged Chinese dragon. A slender scaled serpentine body in one continuous elegant S, viewed strictly in side profile facing left. Long dragon muzzle, two short swept-back antler horns and tiny whisker curl. Show exactly TWO visible legs: ONE front leg just below the shoulder, ONE hind leg at the hip before the tail. The other side's two legs are completely hidden by the body. There must be NO leg, foot or claw attached to the curling tail. One pair of compact feathered shoulder wings with the far wing mostly hidden, the visible wing swept backward and upward. The tail is one uninterrupted tapered smooth curve beneath the body. Generous clean negative spaces. No orb, fire, cloud, jewelry or extra limbs.
+FINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.
 
-Specific icon: 造隅阅编 / ZAOYU PDF. Function: PDF 阅读、整理与编辑.
-Backdrop: full-bleed solid #8D345C, with only a subtle tonal vignette. Accent: #FFB5CB.
-Subject: A single substantial ivory document sheet with one large folded upper corner. A broad rose ribbon folds over its lower edge to become a bookmark. Two thick short debossed horizontal bars indicate content, no letters or words, no Acrobat-like loop.
-Deliver only the single complete square icon image.
 
-============================================================
-06 EffectCraft → 造隅动效
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+cliprune / 03-cut.png / asset edition 4
 
-Specific icon: 造隅动效 / ZAOYU Motion. Function: 动态图形与视觉特效.
-Backdrop: full-bleed solid #3D3695, with only a subtle tonal vignette. Accent: #B9B8FF.
-Subject: A single broad ivory origami ribbon twists into a dramatic sweeping S-shaped motion trail with one thick lavender leading fold. An open asymmetric orbit communicates movement. No play triangle, no sparkles, no particles.
-Deliver only the single complete square icon image.
+Image inputs: []
 
-============================================================
-07 DesignCraft → 造隅版式
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.
+Background: #C57738
+Subject: BO 驳, an ancient Chinese mythical horse-like beast. A complete white horse-shaped animal in a compact leaping profile facing right. One single straight short horn on its forehead, narrow horse ears, white mane formed of four bold swept ribbons, exactly four feline paws instead of hooves, dark long tail curled forward below the body. A tiny visible pair of pointed tiger-like teeth in a mostly closed mouth, dignified rather than frightening. Front legs tucked, rear legs reaching back but kept within the compact safe area. NO wings, saddle, reins, clothing or blood.
+FINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.
 
-Specific icon: 造隅版式 / ZAOYU Layout. Function: 页面排版与出版设计.
-Backdrop: full-bleed solid #8A4827, with only a subtle tonal vignette. Accent: #FFD0A6.
-Subject: Two offset thick ivory portrait pages arranged as a sculptural magazine spread. On the front page, one large peach rectangle and two broad raised ivory columns form a bold editorial layout. No text, no tiny lines.
-Deliver only the single complete square icon image.
 
-============================================================
-08 FigCraft → 造隅界面
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+lutrune / 04-light.png / asset edition 4
 
-Specific icon: 造隅界面 / ZAOYU Interface. Function: 界面设计与交互原型.
-Backdrop: full-bleed solid #246B6E, with only a subtle tonal vignette. Accent: #A5F1DF.
-Subject: Two nested open folded-paper interface frames: a wide ivory rounded rectangular frame and a smaller upright mint frame partly overlapping it. One solid coral connector dot bridges the frames. Abstract responsive interface design, no Figma mark or multicolor stacked circles.
-Deliver only the single complete square icon image.
+Image inputs: []
 
-============================================================
-09 TextureCraft → 造隅纹绘
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.
+Background: #176359
+Subject: JINWU 金乌, the Chinese three-legged sun crow. A full crow seen nearly front-on with head turned to the left, strong pointed crow beak, two broad wings opened upward in a compact shallow U, and a short tapered three-feather tail. CRITICAL: EXACTLY THREE distinctly separated legs emerge beneath the body and end in bird claws: left leg angles left, middle leg points down, right leg angles right. Do not duplicate the legs or hide them. Engraved ivory feathers and broad dark feather divisions. No sun disk, flames, orb or halo. Clear compact iconic arrangement.
+FINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.
 
-Specific icon: 造隅纹绘 / ZAOYU Texture. Function: 三维模型纹理绘制.
-Backdrop: full-bleed solid #5B527A, with only a subtle tonal vignette. Accent: #D9C6F4.
-Subject: One large ivory isometric cube with a broad lavender folded ribbon wrapping diagonally across two faces like a painted stroke. Three faces remain clear, silhouette bold and sculptural. No checkerboard, no brush accessory, no grid.
-Deliver only the single complete square icon image.
 
-============================================================
-10 MaterialCraft → 造隅材质
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+pagrune / 05-pdf.png / asset edition 3
 
-Specific icon: 造隅材质 / ZAOYU Material. Function: 节点式程序化材质制作.
-Backdrop: full-bleed solid #52643A, with only a subtle tonal vignette. Accent: #D8E8A4.
-Subject: Three large connected sculptural material swatches arranged as a triangular cluster: one ivory matte sphere, one pale olive faceted cube, and one pale yellow folded disc. Two thick short ivory bridges visibly connect them. Keep only three objects; read as a material node graph.
-Deliver only the single complete square icon image.
+Image inputs: []
 
-============================================================
-11 WordCraft → 造隅文档
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+Create ONE completely new ZAOYU application icon from this written brief. Do not use any image references or imitate any existing application mascot. Design language: original editorial linocut meets natural-history engraving, warm parchment-ivory #F6EDD7 silhouettes with deep blue-black ink #142B32, confident broad masses and carefully spaced fine contour hatching, about 70% quiet flat areas and 30% etched detail. Visually sophisticated and simple enough to recognize at 48px. Full-bleed PERFECTLY UNIFORM solid background in the specified color, square 1254x1254 composition. Absolutely NO rounded corner mask, outer border, gradient, texture on background, lighting effects, shadows, photorealism, 3D rendering, letter monogram, trademark, watermark or ornamental frame. Place the complete subject optically centered, comfortably inside an INVISIBLE centered CIRCLE with radius 0.37 times canvas width; all extremities must fit within this safe area, including ears, horns, fins, antennae and tools. Aim for 66-72% canvas subject height. Keep margins intentional and spacious. Do NOT draw the invisible circle. A complete self-contained emblem, not a cropped portrait. Invent the silhouette from the text only; avoid recognizable poses and compositions of existing app icons. For office icons prioritize instantly legible functional shapes over decorative detail. No text except any short exact text explicitly requested in the subject. Deliver ONLY the icon.
+Background: #9E3946
+Subject: OFFICE / PDF WORKBENCH. One large upright ivory paper page with a small turned top-right corner and a deep red bookmark ribbon running down its right edge, terminating in a V notch. At the upper center of the page print only the exact short text 'PDF' in bold elegant dark serif capitals, large enough to read at icon size. Beneath it two broad dark horizontal rules and a small lower page block communicate readable documents. A subtle second page peeks out on the left. Engraved hatch marks only on folded paper edges, crisp clear document geometry. No animals, no logos, no extra text.
 
-Specific icon: 造隅文档 / ZAOYU Write. Function: 文档写作与文字处理.
-Backdrop: full-bleed solid #345A92, with only a subtle tonal vignette. Accent: #B8D5FF.
-Subject: A single tall ivory folded-paper writing sheet, slightly curved, with three broad horizontal sculpted blue paragraph strokes across its surface and one prominent sweeping ivory pen-stroke flourish below. No pencil, no letters, no bookmark, clean document-writing silhouette.
-Deliver only the single complete square icon image.
 
-============================================================
-12 SoundCraft → 造隅音轨
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+motrune / 06-motion.png / asset edition 4
 
-Specific icon: 造隅音轨 / ZAOYU Audio. Function: 录音、音频编辑与混音.
-Backdrop: full-bleed solid #67458D, with only a subtle tonal vignette. Accent: #DBC0FF.
-Subject: One continuous ivory folded-paper waveform with five bold alternating peaks of different heights, spanning the center horizontally. A lilac inner fold reveals its paper thickness. No headphones, no microphone, no tiny equalizer marks.
-Deliver only the single complete square icon image.
+Image inputs: []
 
-============================================================
-13 DeckCraft → 造隅演示
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.
+Background: #535398
+Subject: TENGSHE 腾蛇, a fantastical flying serpent. One slender hornless snake with exactly one pair of small feathered wings at the upper third of its body, curling into an open vertical figure-S with one tapering tail. The head is unmistakably a snake, with a smooth rounded brow and closed mouth, no whiskers, crest, horns or dragon muzzle. Absolutely NO legs. Belly made of broad ivory segmented plates, back with restrained fine scale engraving. Wings arc backwards and remain compact. Invent a light spiraling motion without clouds, speed marks or effects.
+FINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.
 
-Specific icon: 造隅演示 / ZAOYU Slides. Function: 幻灯片制作与演示.
-Backdrop: full-bleed solid #A27224, with only a subtle tonal vignette. Accent: #FFE5AB.
-Subject: One broad ivory landscape presentation card with a second pale-gold folded card peeking behind. The front holds one large raised three-slice circular chart and a single short thick caption bar. Strong simple slide-deck silhouette, no play button, no text.
-Deliver only the single complete square icon image.
 
-============================================================
-14 CADCraft → 造隅工图
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+layrune / 07-layout.png / asset edition 4
 
-Specific icon: 造隅工图 / ZAOYU CAD. Function: 计算机辅助制图.
-Backdrop: full-bleed solid #315E77, with only a subtle tonal vignette. Accent: #A4E5F3.
-Subject: One bold ivory architectural drafting corner: three thick folded-paper beams form an open isometric hexagonal structure. One short cyan dimension line with large end ticks sits beneath the structure. No numerals, no lettering, no dense wireframe.
-Deliver only the single complete square icon image.
+Image inputs: []
 
-============================================================
-15 GridCraft → 造隅表格
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.
+Background: #62708C
+Subject: QILIN 麒麟. A graceful deer-bodied auspicious Chinese beast standing in elegant full-body side profile facing left, head lifted. One single short branched horn centered on the forehead, a small dragon-like muzzle, a flowing but compact neck mane, fish-scale patterned body, four slender cloven-hoof legs, and a long bovine tail with one tuft curling beneath the hindquarter. One front hoof lifted slightly. Broad ivory scales arranged in orderly rows, calm balanced silhouette. NO wings, flames, clouds, saddle or ornaments.
+FINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.
 
-Specific icon: 造隅表格 / ZAOYU Sheets. Function: 电子表格与数据分析.
-Backdrop: full-bleed solid #326A51, with only a subtle tonal vignette. Accent: #B5E6BD.
-Subject: A sculptural ivory spreadsheet tile divided into a clear two-column by three-row open lattice. One mint column rises gently above the grid as a folded bar-chart tab. Thick dividers, six large cells only, no numbers or letters.
-Deliver only the single complete square icon image.
 
-============================================================
-16 Craft Anything → 造隅构建
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+framune / 08-interface.png / asset edition 4
 
-Specific icon: 造隅构建 / ZAOYU Maker. Function: 软件探索与应用构建.
-Backdrop: full-bleed solid #516A79, with only a subtle tonal vignette. Accent: #C7E7F3.
-Subject: Three ivory origami building blocks click together into one open modular arch, with one small pale-blue block floating immediately above the open join. The whole symbol reads as assembling software, simple and architectural. No code text, no gear, no tools.
-Deliver only the single complete square icon image.
+Image inputs: []
 
-============================================================
-17 ArtCraft Studio → 造隅灵绘
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.
+Background: #A74C57
+Subject: XUANGUI 旋龟, the mythical turtle with a bird head and serpent tail. Top-three-quarter view of one complete compact tortoise, domed shell with a clear central hexagon and six large surrounding panels. Its head is unmistakably a small bird head with a curved beak, pointing upper left on a short neck. Exactly four short reptile feet around the shell. One smooth slender snake tail, without a second head, curls around the lower-right side. No wings, fins or ordinary turtle head. Ivory engraved shell architecture and clean dark negative spaces.
+FINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.
 
-Specific icon: 造隅灵绘 / ZAOYU Studio. Function: AI 图像与视频创作.
-Backdrop: full-bleed solid #3B426F, with only a subtle tonal vignette. Accent: #C6B5FF.
-Subject: A single wide ivory folded-paper ribbon forms an open luminous diamond-shaped portal, with a restrained pale lilac and warm peach inner gradient along the fold. A small smooth ivory seed floats in the center. An original imaginative studio mark, no sparkle star, no rainbow swirl.
-Deliver only the single complete square icon image.
 
-============================================================
-18 ArtCraft Launcher → 造隅工坊
-============================================================
-Use case: logo-brand.
-Asset type: one final original app launcher icon for the ZAOYU creative and productivity suite, for HarmonyOS phone and tablet.
-Primary request: create ONE individual production-quality square app icon. It must be a single icon, not a sheet, not a mockup.
-Canvas: exactly square, preferably 1024 by 1024 pixels. Opaque full-bleed background covers the ENTIRE canvas with sharp square outer corners; no outer rounded-square tile, no surrounding white margin, no device frame.
-Shared family art direction: premium softly sculpted folded-paper / ivory porcelain relief. Bold minimalist geometry with 2 to 4 broad visible folds. Ivory main material (#FFF5E8), a restrained pale accent color, tiny controlled bevels, matte surfaces, crisp silhouette. Gentle diffuse key light from upper left and short soft ambient shadow to lower right. Front-facing with very slight isometric depth, not an object in a room. Quiet, warm, editorial, tactile, sophisticated, consistent across a complete app suite.
-Composition: main symbol centered and fills approximately 60 to 64 percent of canvas width and height, all important details inside the central 66 percent safe square. Large negative space. Must remain readable at 48 pixels. One dominant functional symbol only.
-Text: absolutely NO text, NO words, NO letters, NO digits.
-Constraints: a new independent brand identity. No ArtCraft branding, no Adobe/Office/Huawei/Apple logos, no imitation of an existing brand mark, no animal emblems. Do not draw an app icon inside a larger background. No glass transparency, no chrome, no glossy toy plastic, no neon glow, no sparkle decoration, no micro-details, no borders, no watermark.
+texune / 09-texture.png / asset edition 4
 
-Specific icon: 造隅工坊 / ZAOYU Hub. Function: 应用管理与套件入口.
-Backdrop: full-bleed solid #344F55, with only a subtle tonal vignette. Accent: #B3D9D1.
-Subject: One central ivory folded hexagonal hub with three broad pale-mint rectangular tabs sliding neatly into its left, right and lower sides. An orderly sculptural assembly representing a creative toolkit. No download arrow, no four-square Microsoft mark, no gear.
-Deliver only the single complete square icon image.
+Image inputs: []
+
+Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.
+Background: #7C624D
+Subject: ZHENG 狰, an ancient mythical leopard with one horn and FIVE tails. A compact seated leopard seen in three-quarter profile facing left, elegant spotted body, one short central horn, small rounded feline ears, four anatomically coherent paws. CRITICAL: exactly FIVE separate long tails emerge from the rump, fan around the right side and curl inward, each with a clearly separated tip; five visible tail tips total. Bold ivory body, a few large dark leopard rosettes, subtle engraved hatching. No mane, stripes, wings, flames or extra horns.
+FINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.
+
+
+shadrune / 10-material.png / asset edition 4
+
+Image inputs: []
+
+Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.
+Background: #7D598A
+Subject: BIXIE 辟邪, a Chinese winged lion guardian. A complete powerful lion-like beast crouching in a compact profile facing right, two short backward-curving horns, squared muzzle, neatly curling compact mane and one pair of short feathered shoulder wings swept backward over its back. Four sturdy paws with blunt claws, a single long tail curls over the rear haunch. Calm closed mouth, no threatening roar. Deliberately distinguish shaggy mane, broad wing feathers and smooth belly using sparse engraved textures. No crown, orb, coins, pedestal, fire or ornament.
+FINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.
+
+
+quilrune / 11-write.png / asset edition 3
+
+Image inputs: []
+
+Create ONE completely new ZAOYU application icon from this written brief. Do not use any image references or imitate any existing application mascot. Design language: original editorial linocut meets natural-history engraving, warm parchment-ivory #F6EDD7 silhouettes with deep blue-black ink #142B32, confident broad masses and carefully spaced fine contour hatching, about 70% quiet flat areas and 30% etched detail. Visually sophisticated and simple enough to recognize at 48px. Full-bleed PERFECTLY UNIFORM solid background in the specified color, square 1254x1254 composition. Absolutely NO rounded corner mask, outer border, gradient, texture on background, lighting effects, shadows, photorealism, 3D rendering, letter monogram, trademark, watermark or ornamental frame. Place the complete subject optically centered, comfortably inside an INVISIBLE centered CIRCLE with radius 0.37 times canvas width; all extremities must fit within this safe area, including ears, horns, fins, antennae and tools. Aim for 66-72% canvas subject height. Keep margins intentional and spacious. Do NOT draw the invisible circle. A complete self-contained emblem, not a cropped portrait. Invent the silhouette from the text only; avoid recognizable poses and compositions of existing app icons. For office icons prioritize instantly legible functional shapes over decorative detail. No text except any short exact text explicitly requested in the subject. Deliver ONLY the icon.
+Background: #296C98
+Subject: OFFICE / WORD PROCESSING. One upright ivory sheet with a gently curled lower-left corner, a broad dark heading rule and three dark horizontal text lines of unequal lengths. A slim ivory fountain pen crosses the lower-right third diagonally, with a clearly visible split nib and tiny dark breather hole. The page is dominant and legible at 48px; pen does not obscure the text lines. Engraved hatching confined to page curl and pen shading, no actual letters or brand logos, no feathers or animals.
+
+
+sonune / 12-audio.png / asset edition 4
+
+Image inputs: []
+
+Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.
+Background: #3C6880
+Subject: KUI 夔, the ancient Chinese one-legged thunder beast. A hornless ox-like animal, compact rounded muscular body seen in clean side profile facing left, broad bovine muzzle, two soft cattle ears, dark short mane ridge, and one long tail curling back toward its belly. CRITICAL: EXACTLY ONE SINGLE strong central leg under the belly ending in one broad cloven hoof. No other legs, arms or hidden stumps. NO horns, wings or drum. A dignified, unusual balanced full-body silhouette, head and torso in broad ivory with sparse engraved fur. No lightning or sound-wave symbols.
+FINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.
+
+
+deckune / 13-slides.png / asset edition 3
+
+Image inputs: []
+
+Create ONE completely new ZAOYU application icon from this written brief. Do not use any image references or imitate any existing application mascot. Design language: original editorial linocut meets natural-history engraving, warm parchment-ivory #F6EDD7 silhouettes with deep blue-black ink #142B32, confident broad masses and carefully spaced fine contour hatching, about 70% quiet flat areas and 30% etched detail. Visually sophisticated and simple enough to recognize at 48px. Full-bleed PERFECTLY UNIFORM solid background in the specified color, square 1254x1254 composition. Absolutely NO rounded corner mask, outer border, gradient, texture on background, lighting effects, shadows, photorealism, 3D rendering, letter monogram, trademark, watermark or ornamental frame. Place the complete subject optically centered, comfortably inside an INVISIBLE centered CIRCLE with radius 0.37 times canvas width; all extremities must fit within this safe area, including ears, horns, fins, antennae and tools. Aim for 66-72% canvas subject height. Keep margins intentional and spacious. Do NOT draw the invisible circle. A complete self-contained emblem, not a cropped portrait. Invent the silhouette from the text only; avoid recognizable poses and compositions of existing app icons. For office icons prioritize instantly legible functional shapes over decorative detail. No text except any short exact text explicitly requested in the subject. Deliver ONLY the icon.
+Background: #BB7334
+Subject: OFFICE / PRESENTATIONS. Two overlapping landscape slide cards, the rear card offset upward and to the left. Front card is a wide ivory rectangle with softly rounded tiny corners, containing a clear three-column bar chart on the right and a simple large three-sector pie chart on the left. One short broad heading rule at the top. No easel, no stand, no play triangle, no text. Engraved edge hatching gives the stacked cards subtle material depth without shadows or 3D rendering. Immediately recognizable slide design.
+
+
+dimrune / 14-cad.png / asset edition 4
+
+Image inputs: []
+
+Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.
+Background: #467C79
+Subject: BIXI 赑屃, the Chinese dragon-tortoise that bears a stone stele. A complete stout tortoise seen from a low three-quarter side view facing left, compact domed geometrically segmented shell, short dragon-like head with two very small horns, four strong clawed feet and one little curled tail. On the center of its shell stands ONE short thick rectangular stone stele with a subtly chamfered top and blank face, no writing. The whole animal plus stele makes one compact emblem. Sparse precise engraving on shell and stone edges, wide ivory surfaces, no base plinth, ground or architectural scene.
+FINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.
+
+
+gridrune / 15-sheets.png / asset edition 3
+
+Image inputs: []
+
+Create ONE completely new ZAOYU application icon from this written brief. Do not use any image references or imitate any existing application mascot. Design language: original editorial linocut meets natural-history engraving, warm parchment-ivory #F6EDD7 silhouettes with deep blue-black ink #142B32, confident broad masses and carefully spaced fine contour hatching, about 70% quiet flat areas and 30% etched detail. Visually sophisticated and simple enough to recognize at 48px. Full-bleed PERFECTLY UNIFORM solid background in the specified color, square 1254x1254 composition. Absolutely NO rounded corner mask, outer border, gradient, texture on background, lighting effects, shadows, photorealism, 3D rendering, letter monogram, trademark, watermark or ornamental frame. Place the complete subject optically centered, comfortably inside an INVISIBLE centered CIRCLE with radius 0.37 times canvas width; all extremities must fit within this safe area, including ears, horns, fins, antennae and tools. Aim for 66-72% canvas subject height. Keep margins intentional and spacious. Do NOT draw the invisible circle. A complete self-contained emblem, not a cropped portrait. Invent the silhouette from the text only; avoid recognizable poses and compositions of existing app icons. For office icons prioritize instantly legible functional shapes over decorative detail. No text except any short exact text explicitly requested in the subject. Deliver ONLY the icon.
+Background: #397A55
+Subject: OFFICE / SPREADSHEETS. One broad ivory spreadsheet panel seen straight on, no paper corner fold. A colored dark-green header band over a clean grid of exactly three columns and four rows, the top-left cell clearly selected with a heavier ink outline. Three modest rising ivory chart bars overlap the lower-right edge of the panel, sharing one baseline. Strong straight grid rules and generous blank cells, no letters or numbers, restrained engraved hatching only along the edge of the panel and bars. Must read instantly as spreadsheet and data analysis.
+
+
+modune / 16-maker.png / asset edition 4
+
+Image inputs: []
+
+Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.
+Background: #967229
+Subject: XIEZHI 獬豸, Chinese one-horned goat-like guardian. One complete stocky mountain-goat-shaped beast facing three-quarter front, exactly ONE straight central forehead horn, small pointed ears and a short pointed beard. Sturdy four cloven-hoof legs, shoulder slightly raised, one front hoof resting on a small plain squared block to evoke construction. Thick layered ivory coat forming three broad overlapping locks, short curved tail. NO horse body, second horn, wings, dragon scales, mane halo, judicial scales, writing or clothing. Mature calm alert expression, compact self-contained silhouette.
+FINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.
+
+
+visrune / 17-studio.png / asset edition 4
+
+Image inputs: []
+
+Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.
+Background: #BD6E5B
+Subject: KUNPENG 鲲鹏, an ORIGINAL symbolic interpretation of the fish-to-giant-bird transformation, not a literal historical specimen. One unified creature: a deep curved fish-like lower body ending in a clearly split fish tail curled left, transitioning naturally upward into an eagle-like bird head and TWO broad feathered wings half-open. Body rises diagonally to the right and wings arc back inward to keep a compact round silhouette. Few broad ivory fish scales blend into clearly separated feather vanes. The tail must be fish-like, head must be bird-like; no additional separate fish, no extra heads, claws, antlers or water.
+FINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.
+
+
+nodune / 18-hub.png / asset edition 4
+
+Image inputs: []
+
+Use case: logo-brand. Asset: one square ZAOYU application icon. Create a completely new Chinese mythological bestiary emblem from this written brief only. Never copy a modern game, film, animation, brand mascot or existing app icon. Original design language: refined Chinese woodblock print meets natural-history engraving; warm parchment-ivory #F6EDD7 body, dark blue-black #142B32 outlines, bold readable silhouette, broad calm ivory masses and carefully spaced engraved hatching only in selected areas. Mature, elegant, quiet, confident; not cute chibi or grotesque. Exactly one complete creature, optically centered. Full-bleed opaque PERFECTLY FLAT uniform background in the stated color, square 1254x1254 canvas. Subject including all horns, wings, tails and feet fits inside an invisible centered circle of radius 0.34 canvas width; aim for 64-68% canvas height, leaving spacious safe margins. Do NOT draw a circle or frame. Full square corners. No scene, ground, floating decorations, pictograms, letters, writing, logos, watermark, gradients, shadows, photorealism, 3D rendering or texture on the background. Anatomy details in the subject brief take precedence. Keep major shapes distinct enough to recognize at 48px. Only output the icon.
+Background: #244D4A
+Subject: BAIZE 白泽, an ORIGINAL interpretation of the learned Chinese mythical auspicious beast; do not reproduce a modern character. A complete ivory shaggy quadruped seated in a calm three-quarter front pose, broad feline muzzle, gentle almond eyes, two short outward curled horns above small rounded ears, and layered flowing shoulder fur. Four broad paws, two forepaws neatly paired, a long tufted tail curves around the body. A small plain closed rectangular book rests centered between the forepaws, with three engraved page-edge rules but NO letters or symbols. NO wings, halo, forehead eye, jewelry, clothing or pedestal. Dignified mature guardian with a distinctive compact silhouette.
+FINAL COMPOSITION PRIORITY: A SMALL centered emblem surrounded by a very large empty background. Keep the entire creature between x=25% and x=75%, y=25% and y=75% of the canvas. At least one-quarter canvas empty border on each side. This overrides other size instructions. Every extremity must be safely inside the centered circular crop. Do not enlarge to fill the frame.

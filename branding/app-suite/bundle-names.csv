@@ -2,18 +2,18 @@
 PhotoCraft,造隅修图,Pixrune,Pixel,com.richerfu.pixrune,project_configured_not_store_verified,integrated
 VectorCraft,造隅矢绘,Vecrune,Vector,com.richerfu.vecrune,project_configured_not_store_verified,integrated
 FilmCraft,造隅剪辑,Cliprune,Clip,com.richerfu.cliprune,project_configured_not_store_verified,integrated
-LightCraft,造隅光影,Lutrune,LUT,com.richerfu.lutrune,project_configured_not_store_verified,planned
+LightCraft,造隅光影,Lutrune,LUT,com.richerfu.lutrune,project_configured_not_store_verified,integrated
 PdfCraft,造隅阅编,Pagrune,Page,com.richerfu.pagrune,project_configured_not_store_verified,integrated
 EffectCraft,造隅动效,Motrune,Motion,com.richerfu.motrune,project_configured_not_store_verified,integrated
 DesignCraft,造隅版式,Layrune,Layout,com.richerfu.layrune,project_configured_not_store_verified,integrated
-FigCraft,造隅界面,Framune,Frame,com.richerfu.framune,project_configured_not_store_verified,planned
-TextureCraft,造隅纹绘,Texune,Texture,com.richerfu.texune,project_configured_not_store_verified,planned
-MaterialCraft,造隅材质,Shadrune,Shader,com.richerfu.shadrune,project_configured_not_store_verified,planned
-WordCraft,造隅文档,Quilrune,Quill,com.richerfu.quilrune,project_configured_not_store_verified,planned
-SoundCraft,造隅音轨,Sonune,Sonic,com.richerfu.sonune,project_configured_not_store_verified,planned
-DeckCraft,造隅演示,Deckune,Deck,com.richerfu.deckune,project_configured_not_store_verified,planned
-CADCraft,造隅工图,Dimrune,Dimension,com.richerfu.dimrune,project_configured_not_store_verified,planned
+FigCraft,造隅界面,Framune,Frame,com.richerfu.framune,project_configured_not_store_verified,integrated
+TextureCraft,造隅纹绘,Texune,Texture,com.richerfu.texune,project_configured_not_store_verified,integrated
+MaterialCraft,造隅材质,Shadrune,Shader,com.richerfu.shadrune,project_configured_not_store_verified,integrated
+WordCraft,造隅文档,Quilrune,Quill,com.richerfu.quilrune,project_configured_not_store_verified,integrated
+SoundCraft,造隅音轨,Sonune,Sonic,com.richerfu.sonune,project_configured_not_store_verified,integrated
+DeckCraft,造隅演示,Deckune,Deck,com.richerfu.deckune,project_configured_not_store_verified,integrated
+CADCraft,造隅工图,Dimrune,Dimension,com.richerfu.dimrune,project_configured_not_store_verified,integrated
 GridCraft,造隅表格,Gridrune,Grid,com.richerfu.gridrune,project_configured_not_store_verified,integrated
-Craft Anything,造隅构建,Modune,Module,com.richerfu.modune,project_configured_not_store_verified,planned
-ArtCraft Studio,造隅灵绘,Visrune,Vision,com.richerfu.visrune,project_configured_not_store_verified,planned
+Craft Anything,造隅构建,Modune,Module,com.richerfu.modune,project_configured_not_store_verified,integrated
+ArtCraft Studio,造隅灵绘,Visrune,Vision,com.richerfu.visrune,project_configured_not_store_verified,integrated
 ArtCraft Launcher,造隅工坊,Nodune,Node,com.richerfu.nodune,project_configured_not_store_verified,integrated

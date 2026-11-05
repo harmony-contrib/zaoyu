@@ -1,7 +1,7 @@
 {
   "brand": "造隅",
   "romanization": "ZAOYU",
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "count": 18,
   "apps": [
     {
@@ -12,15 +12,15 @@
       "slug": "photo",
       "category": "影像",
       "purpose": "图像编辑、图层与基础修图",
-      "bg": "#144F68",
-      "accent": "#6FE5D1",
-      "motif": "A single sculptural folded-paper photograph: a broad ivory folded landscape ribbon forming one angular mountain peak within an open mint crop-frame corner. One small coral sun disc is the only secondary element. The silhouette must immediately read as image editing, not a camera.",
+      "bg": "#0C7E86",
+      "accent": "#F6EDD7",
+      "motif": "FENGHUANG 凤凰, Chinese phoenix. A complete elegant bird in side-three-quarter view, head turning back left, slender S neck, a short three-pronged crest, one broad wing half-raised behind its body. Three long broad ribbon-like tail feathers loop downward and then inward, each feather ends in one simple eye-shaped vane. Two fine bird feet tucked under the belly. Invent a distinctive asymmetrical compact silhouette with clear spaces between the tail feathers. No flames or sun. Broad engraved ivory feather panels.",
       "filename": "01-photo.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "7d74a1697ae10403b53ff9cd3dd6a589406574fca456e6ba18d6223dd4a1446e",
+      "master_sha256": "dc8389020a1ed387fe97c108bf5e8c3272ebe96c7d92096cc545c556f84c157d",
       "icon": "icons/1024/01-photo.png",
       "bundleName": "com.richerfu.pixrune",
       "bundleNameStatus": "project_configured",
@@ -28,7 +28,14 @@
       "product_slug": "pixrune",
       "name_root": "Pixel",
       "name_rationale": "像素与图像编辑",
-      "integrationStatus": "integrated"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "mythic-engraving",
+      "symbol": "凤凰",
+      "assetEdition": 4,
+      "theme": "中国神话异兽",
+      "pronunciation": "fèng huáng",
+      "rationale": "以舒展羽翼与分层尾羽呼应图像层次。"
     },
     {
       "n": 2,
@@ -38,15 +45,15 @@
       "slug": "vector",
       "category": "设计",
       "purpose": "矢量绘图与插画",
-      "bg": "#592A75",
-      "accent": "#E8A4F0",
-      "motif": "One bold ivory origami fountain-pen nib with a plum center cutout. A single thick lavender Bezier arc sweeps behind the nib and ends in two large round anchor points. Make the nib dominant, simple and unmistakable.",
+      "bg": "#4F668F",
+      "accent": "#F6EDD7",
+      "motif": "YINGLONG 应龙, a winged Chinese dragon. A slender scaled serpentine body in one continuous elegant S, viewed strictly in side profile facing left. Long dragon muzzle, two short swept-back antler horns and tiny whisker curl. Show exactly TWO visible legs: ONE front leg just below the shoulder, ONE hind leg at the hip before the tail. The other side's two legs are completely hidden by the body. There must be NO leg, foot or claw attached to the curling tail. One pair of compact feathered shoulder wings with the far wing mostly hidden, the visible wing swept backward and upward. The tail is one uninterrupted tapered smooth curve beneath the body. Generous clean negative spaces. No orb, fire, cloud, jewelry or extra limbs.",
       "filename": "02-vector.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "494ce947781976b5dcf4aacffec49bba4cb11c5e9a4bdb75188e29acd2c6d519",
+      "master_sha256": "dff7234ea04bdfe269d2c974436da905786fbec8d072c7321745bb24f106423e",
       "icon": "icons/1024/02-vector.png",
       "bundleName": "com.richerfu.vecrune",
       "bundleNameStatus": "project_configured",
@@ -54,7 +61,14 @@
       "product_slug": "vecrune",
       "name_root": "Vector",
       "name_rationale": "矢量与曲线绘制",
-      "integrationStatus": "integrated"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "mythic-engraving",
+      "symbol": "应龙",
+      "assetEdition": 4,
+      "theme": "中国神话异兽",
+      "pronunciation": "yìng lóng",
+      "rationale": "翼与盘曲龙身呼应曲线及矢量造型。"
     },
     {
       "n": 3,
@@ -64,15 +78,15 @@
       "slug": "cut",
       "category": "影音",
       "purpose": "视频剪辑与时间线编辑",
-      "bg": "#99443C",
-      "accent": "#FFC0A0",
-      "motif": "One folded ivory strip forms a three-dimensional right-facing play triangle, with two broad coral strip ends offset beneath it like an editing timeline. No perforations, no clapperboard, no tiny marks.",
+      "bg": "#C57738",
+      "accent": "#F6EDD7",
+      "motif": "BO 驳, an ancient Chinese mythical horse-like beast. A complete white horse-shaped animal in a compact leaping profile facing right. One single straight short horn on its forehead, narrow horse ears, white mane formed of four bold swept ribbons, exactly four feline paws instead of hooves, dark long tail curled forward below the body. A tiny visible pair of pointed tiger-like teeth in a mostly closed mouth, dignified rather than frightening. Front legs tucked, rear legs reaching back but kept within the compact safe area. NO wings, saddle, reins, clothing or blood.",
       "filename": "03-cut.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "94f3129c33825d619fdb2c80ae6e27d2514fb48bbbf2f3cf0f065338284665b6",
+      "master_sha256": "237ed9b11790cf3d13acf7fec23c2e8ccf7aef3f2549d4fe9870b2cb17af7531",
       "icon": "icons/1024/03-cut.png",
       "bundleName": "com.richerfu.cliprune",
       "bundleNameStatus": "project_configured",
@@ -80,7 +94,14 @@
       "product_slug": "cliprune",
       "name_root": "Clip",
       "name_rationale": "视频片段与剪辑",
-      "integrationStatus": "integrated"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "mythic-engraving",
+      "symbol": "驳",
+      "assetEdition": 4,
+      "theme": "中国神话异兽",
+      "pronunciation": "bó",
+      "rationale": "以独角异马的跃动姿态呼应剪辑节奏。"
     },
     {
       "n": 4,
@@ -90,15 +111,15 @@
       "slug": "light",
       "category": "影像",
       "purpose": "照片管理与 RAW 调色",
-      "bg": "#9A681E",
-      "accent": "#FFE0A0",
-      "motif": "A sculptural camera aperture made of six wide ivory and pale-gold folded-paper blades surrounding a clean dark hexagonal opening. One blade catches a warm amber highlight. No camera body, no sun or stars.",
+      "bg": "#176359",
+      "accent": "#F6EDD7",
+      "motif": "JINWU 金乌, the Chinese three-legged sun crow. A full crow seen nearly front-on with head turned to the left, strong pointed crow beak, two broad wings opened upward in a compact shallow U, and a short tapered three-feather tail. CRITICAL: EXACTLY THREE distinctly separated legs emerge beneath the body and end in bird claws: left leg angles left, middle leg points down, right leg angles right. Do not duplicate the legs or hide them. Engraved ivory feathers and broad dark feather divisions. No sun disk, flames, orb or halo. Clear compact iconic arrangement.",
       "filename": "04-light.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "67abaa948b839075d15b5aa7baac53e139cde81e55fe313b76a7e108f840ec18",
+      "master_sha256": "2dcbc8597a87ed5b387b3ba73b3b106a26102aafe438c3bbaf59bb8710980b8b",
       "icon": "icons/1024/04-light.png",
       "bundleName": "com.richerfu.lutrune",
       "bundleNameStatus": "project_configured",
@@ -106,7 +127,14 @@
       "product_slug": "lutrune",
       "name_root": "LUT",
       "name_rationale": "色彩查找表与照片调色",
-      "integrationStatus": "planned"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "mythic-engraving",
+      "symbol": "金乌",
+      "assetEdition": 4,
+      "theme": "中国神话异兽",
+      "pronunciation": "jīn wū",
+      "rationale": "以太阳神鸟呼应光线与调色。"
     },
     {
       "n": 5,
@@ -116,15 +144,15 @@
       "slug": "pdf",
       "category": "办公",
       "purpose": "PDF 阅读、整理与编辑",
-      "bg": "#8D345C",
-      "accent": "#FFB5CB",
-      "motif": "A single substantial ivory document sheet with one large folded upper corner. A broad rose ribbon folds over its lower edge to become a bookmark. Two thick short debossed horizontal bars indicate content, no letters or words, no Acrobat-like loop.",
+      "bg": "#9E3946",
+      "accent": "#F6EDD7",
+      "motif": "OFFICE / PDF WORKBENCH. One large upright ivory paper page with a small turned top-right corner and a deep red bookmark ribbon running down its right edge, terminating in a V notch. At the upper center of the page print only the exact short text 'PDF' in bold elegant dark serif capitals, large enough to read at icon size. Beneath it two broad dark horizontal rules and a small lower page block communicate readable documents. A subtle second page peeks out on the left. Engraved hatch marks only on folded paper edges, crisp clear document geometry. No animals, no logos, no extra text.",
       "filename": "05-pdf.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "7503fe358e9d0e2109e66b76fba9a0a59d3c03eb8c0c4cce14be967e40015892",
+      "master_sha256": "80f169cbd0c02d099bf0d3401ef8c05a5d72682f2d6d9b266b4b48586789720a",
       "icon": "icons/1024/05-pdf.png",
       "bundleName": "com.richerfu.pagrune",
       "bundleNameStatus": "project_configured",
@@ -132,7 +160,14 @@
       "product_slug": "pagrune",
       "name_root": "Page",
       "name_rationale": "页面与 PDF 文件",
-      "integrationStatus": "integrated"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "engraved-atelier",
+      "symbol": "PDF 页面与书签",
+      "assetEdition": 3,
+      "theme": "Office 功能图形",
+      "pronunciation": "",
+      "rationale": "以清晰的功能图形表达办公用途。"
     },
     {
       "n": 6,
@@ -142,15 +177,15 @@
       "slug": "motion",
       "category": "影音",
       "purpose": "动态图形与视觉特效",
-      "bg": "#3D3695",
-      "accent": "#B9B8FF",
-      "motif": "A single broad ivory origami ribbon twists into a dramatic sweeping S-shaped motion trail with one thick lavender leading fold. An open asymmetric orbit communicates movement. No play triangle, no sparkles, no particles.",
+      "bg": "#535398",
+      "accent": "#F6EDD7",
+      "motif": "TENGSHE 腾蛇, a fantastical flying serpent. One slender hornless snake with exactly one pair of small feathered wings at the upper third of its body, curling into an open vertical figure-S with one tapering tail. The head is unmistakably a snake, with a smooth rounded brow and closed mouth, no whiskers, crest, horns or dragon muzzle. Absolutely NO legs. Belly made of broad ivory segmented plates, back with restrained fine scale engraving. Wings arc backwards and remain compact. Invent a light spiraling motion without clouds, speed marks or effects.",
       "filename": "06-motion.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "b0aac2a14b2596da18478f964030d2f12feb181057699520b8ff69cad26ff452",
+      "master_sha256": "1f6b10a970cb4691a3f0832dde8afd194c09ae104e4b7118f0e8f4b51f4d33be",
       "icon": "icons/1024/06-motion.png",
       "bundleName": "com.richerfu.motrune",
       "bundleNameStatus": "project_configured",
@@ -158,7 +193,14 @@
       "product_slug": "motrune",
       "name_root": "Motion",
       "name_rationale": "运动与动态图形",
-      "integrationStatus": "integrated"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "mythic-engraving",
+      "symbol": "腾蛇",
+      "assetEdition": 4,
+      "theme": "中国神话异兽",
+      "pronunciation": "téng shé",
+      "rationale": "以飞蛇的盘旋轨迹呼应动态曲线。"
     },
     {
       "n": 7,
@@ -168,15 +210,15 @@
       "slug": "layout",
       "category": "设计",
       "purpose": "页面排版与出版设计",
-      "bg": "#8A4827",
-      "accent": "#FFD0A6",
-      "motif": "Two offset thick ivory portrait pages arranged as a sculptural magazine spread. On the front page, one large peach rectangle and two broad raised ivory columns form a bold editorial layout. No text, no tiny lines.",
+      "bg": "#62708C",
+      "accent": "#F6EDD7",
+      "motif": "QILIN 麒麟. A graceful deer-bodied auspicious Chinese beast standing in elegant full-body side profile facing left, head lifted. One single short branched horn centered on the forehead, a small dragon-like muzzle, a flowing but compact neck mane, fish-scale patterned body, four slender cloven-hoof legs, and a long bovine tail with one tuft curling beneath the hindquarter. One front hoof lifted slightly. Broad ivory scales arranged in orderly rows, calm balanced silhouette. NO wings, flames, clouds, saddle or ornaments.",
       "filename": "07-layout.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "d0464f84955444fc98d084982e4e409fba32aa89a8f84ca4fd300f5391dbc4ee",
+      "master_sha256": "31b46980202c403c56b31fff32aa72d7d6dbb1b80cf448bfb3eba199cd820f67",
       "icon": "icons/1024/07-layout.png",
       "bundleName": "com.richerfu.layrune",
       "bundleNameStatus": "project_configured",
@@ -184,7 +226,14 @@
       "product_slug": "layrune",
       "name_root": "Layout",
       "name_rationale": "版式与页面布局",
-      "integrationStatus": "integrated"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "mythic-engraving",
+      "symbol": "麒麟",
+      "assetEdition": 4,
+      "theme": "中国神话异兽",
+      "pronunciation": "qí lín",
+      "rationale": "以均衡的瑞兽姿态呼应版式秩序。"
     },
     {
       "n": 8,
@@ -194,15 +243,15 @@
       "slug": "interface",
       "category": "设计",
       "purpose": "界面设计与交互原型",
-      "bg": "#246B6E",
-      "accent": "#A5F1DF",
-      "motif": "Two nested open folded-paper interface frames: a wide ivory rounded rectangular frame and a smaller upright mint frame partly overlapping it. One solid coral connector dot bridges the frames. Abstract responsive interface design, no Figma mark or multicolor stacked circles.",
+      "bg": "#A74C57",
+      "accent": "#F6EDD7",
+      "motif": "XUANGUI 旋龟, the mythical turtle with a bird head and serpent tail. Top-three-quarter view of one complete compact tortoise, domed shell with a clear central hexagon and six large surrounding panels. Its head is unmistakably a small bird head with a curved beak, pointing upper left on a short neck. Exactly four short reptile feet around the shell. One smooth slender snake tail, without a second head, curls around the lower-right side. No wings, fins or ordinary turtle head. Ivory engraved shell architecture and clean dark negative spaces.",
       "filename": "08-interface.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "8210e46f59cf5f9670fe5f4a48c7f00799f692b6eef5e41ba9ff11b1d5cc617e",
+      "master_sha256": "106c354b9a40697eed3496a2af3529b2d637fae9a0297ce7f6f7ae6ee157c901",
       "icon": "icons/1024/08-interface.png",
       "bundleName": "com.richerfu.framune",
       "bundleNameStatus": "project_configured",
@@ -210,7 +259,14 @@
       "product_slug": "framune",
       "name_root": "Frame",
       "name_rationale": "界面画框与交互原型",
-      "integrationStatus": "planned"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "mythic-engraving",
+      "symbol": "旋龟",
+      "assetEdition": 4,
+      "theme": "中国神话异兽",
+      "pronunciation": "xuán guī",
+      "rationale": "以龟甲分区呼应界面面板。"
     },
     {
       "n": 9,
@@ -220,15 +276,15 @@
       "slug": "texture",
       "category": "三维",
       "purpose": "三维模型纹理绘制",
-      "bg": "#5B527A",
-      "accent": "#D9C6F4",
-      "motif": "One large ivory isometric cube with a broad lavender folded ribbon wrapping diagonally across two faces like a painted stroke. Three faces remain clear, silhouette bold and sculptural. No checkerboard, no brush accessory, no grid.",
+      "bg": "#7C624D",
+      "accent": "#F6EDD7",
+      "motif": "ZHENG 狰, an ancient mythical leopard with one horn and FIVE tails. A compact seated leopard seen in three-quarter profile facing left, elegant spotted body, one short central horn, small rounded feline ears, four anatomically coherent paws. CRITICAL: exactly FIVE separate long tails emerge from the rump, fan around the right side and curl inward, each with a clearly separated tip; five visible tail tips total. Bold ivory body, a few large dark leopard rosettes, subtle engraved hatching. No mane, stripes, wings, flames or extra horns.",
       "filename": "09-texture.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "ff335ddedd06830ce3ded834884beab2dcad5030ebf385f59ec957d3a8ebfbba",
+      "master_sha256": "1ac1726d4088f7614a1fea7f1b0cf2838851d426425faaa2d16f819b8dad912d",
       "icon": "icons/1024/09-texture.png",
       "bundleName": "com.richerfu.texune",
       "bundleNameStatus": "project_configured",
@@ -236,7 +292,14 @@
       "product_slug": "texune",
       "name_root": "Texture",
       "name_rationale": "纹理与表面绘制",
-      "integrationStatus": "planned"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "mythic-engraving",
+      "symbol": "狰",
+      "assetEdition": 4,
+      "theme": "中国神话异兽",
+      "pronunciation": "zhēng",
+      "rationale": "以豹纹与分层长尾呼应纹理绘制。"
     },
     {
       "n": 10,
@@ -246,15 +309,15 @@
       "slug": "material",
       "category": "三维",
       "purpose": "节点式程序化材质制作",
-      "bg": "#52643A",
-      "accent": "#D8E8A4",
-      "motif": "Three large connected sculptural material swatches arranged as a triangular cluster: one ivory matte sphere, one pale olive faceted cube, and one pale yellow folded disc. Two thick short ivory bridges visibly connect them. Keep only three objects; read as a material node graph.",
+      "bg": "#7D598A",
+      "accent": "#F6EDD7",
+      "motif": "BIXIE 辟邪, a Chinese winged lion guardian. A complete powerful lion-like beast crouching in a compact profile facing right, two short backward-curving horns, squared muzzle, neatly curling compact mane and one pair of short feathered shoulder wings swept backward over its back. Four sturdy paws with blunt claws, a single long tail curls over the rear haunch. Calm closed mouth, no threatening roar. Deliberately distinguish shaggy mane, broad wing feathers and smooth belly using sparse engraved textures. No crown, orb, coins, pedestal, fire or ornament.",
       "filename": "10-material.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "d14f3878df294cadd6fae62db497aad6d7f039fcb11f0893202f5e60dab50da2",
+      "master_sha256": "63aac60dbc4835111ba4d4a00aa950e6709f177bdd11121bf3b45c3c1c2c0b24",
       "icon": "icons/1024/10-material.png",
       "bundleName": "com.richerfu.shadrune",
       "bundleNameStatus": "project_configured",
@@ -262,7 +325,14 @@
       "product_slug": "shadrune",
       "name_root": "Shader",
       "name_rationale": "着色与程序化材质",
-      "integrationStatus": "planned"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "mythic-engraving",
+      "symbol": "辟邪",
+      "assetEdition": 4,
+      "theme": "中国神话异兽",
+      "pronunciation": "bì xié",
+      "rationale": "以翼、鬃、甲的不同表面呼应材质。"
     },
     {
       "n": 11,
@@ -272,15 +342,15 @@
       "slug": "write",
       "category": "办公",
       "purpose": "文档写作与文字处理",
-      "bg": "#345A92",
-      "accent": "#B8D5FF",
-      "motif": "A single tall ivory folded-paper writing sheet, slightly curved, with three broad horizontal sculpted blue paragraph strokes across its surface and one prominent sweeping ivory pen-stroke flourish below. No pencil, no letters, no bookmark, clean document-writing silhouette.",
+      "bg": "#296C98",
+      "accent": "#F6EDD7",
+      "motif": "OFFICE / WORD PROCESSING. One upright ivory sheet with a gently curled lower-left corner, a broad dark heading rule and three dark horizontal text lines of unequal lengths. A slim ivory fountain pen crosses the lower-right third diagonally, with a clearly visible split nib and tiny dark breather hole. The page is dominant and legible at 48px; pen does not obscure the text lines. Engraved hatching confined to page curl and pen shading, no actual letters or brand logos, no feathers or animals.",
       "filename": "11-write.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "6a2a654755735d91a9062ab255499b3c2a0aa4262647cfdc7f2f87e43e4be5cd",
+      "master_sha256": "f3533c24851691bac338449c0de8b70f91907101877883bc9c23a5ae5db6d7f5",
       "icon": "icons/1024/11-write.png",
       "bundleName": "com.richerfu.quilrune",
       "bundleNameStatus": "project_configured",
@@ -288,7 +358,14 @@
       "product_slug": "quilrune",
       "name_root": "Quill",
       "name_rationale": "羽毛笔与文档写作",
-      "integrationStatus": "planned"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "engraved-atelier",
+      "symbol": "文档与钢笔",
+      "assetEdition": 3,
+      "theme": "Office 功能图形",
+      "pronunciation": "",
+      "rationale": "以清晰的功能图形表达办公用途。"
     },
     {
       "n": 12,
@@ -298,15 +375,15 @@
       "slug": "audio",
       "category": "影音",
       "purpose": "录音、音频编辑与混音",
-      "bg": "#67458D",
-      "accent": "#DBC0FF",
-      "motif": "One continuous ivory folded-paper waveform with five bold alternating peaks of different heights, spanning the center horizontally. A lilac inner fold reveals its paper thickness. No headphones, no microphone, no tiny equalizer marks.",
+      "bg": "#3C6880",
+      "accent": "#F6EDD7",
+      "motif": "KUI 夔, the ancient Chinese one-legged thunder beast. A hornless ox-like animal, compact rounded muscular body seen in clean side profile facing left, broad bovine muzzle, two soft cattle ears, dark short mane ridge, and one long tail curling back toward its belly. CRITICAL: EXACTLY ONE SINGLE strong central leg under the belly ending in one broad cloven hoof. No other legs, arms or hidden stumps. NO horns, wings or drum. A dignified, unusual balanced full-body silhouette, head and torso in broad ivory with sparse engraved fur. No lightning or sound-wave symbols.",
       "filename": "12-audio.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "4f9e68246cbb2e64f444f055d47257058a7ddc97d35685cc1ee3579a5c46cb15",
+      "master_sha256": "a43f91da01389f3f851249c7bd13fcb260e9e850652c511634d51d1163d65074",
       "icon": "icons/1024/12-audio.png",
       "bundleName": "com.richerfu.sonune",
       "bundleNameStatus": "project_configured",
@@ -314,7 +391,14 @@
       "product_slug": "sonune",
       "name_root": "Sonic",
       "name_rationale": "声音与音轨编辑",
-      "integrationStatus": "planned"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "mythic-engraving",
+      "symbol": "夔",
+      "assetEdition": 4,
+      "theme": "中国神话异兽",
+      "pronunciation": "kuí",
+      "rationale": "以夔的雷声意象呼应声音与节奏。"
     },
     {
       "n": 13,
@@ -324,15 +408,15 @@
       "slug": "slides",
       "category": "办公",
       "purpose": "幻灯片制作与演示",
-      "bg": "#A27224",
-      "accent": "#FFE5AB",
-      "motif": "One broad ivory landscape presentation card with a second pale-gold folded card peeking behind. The front holds one large raised three-slice circular chart and a single short thick caption bar. Strong simple slide-deck silhouette, no play button, no text.",
+      "bg": "#BB7334",
+      "accent": "#F6EDD7",
+      "motif": "OFFICE / PRESENTATIONS. Two overlapping landscape slide cards, the rear card offset upward and to the left. Front card is a wide ivory rectangle with softly rounded tiny corners, containing a clear three-column bar chart on the right and a simple large three-sector pie chart on the left. One short broad heading rule at the top. No easel, no stand, no play triangle, no text. Engraved edge hatching gives the stacked cards subtle material depth without shadows or 3D rendering. Immediately recognizable slide design.",
       "filename": "13-slides.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "5de368abdca0342216cac7dcb84289819b59c089ba126aaef666071ecba75d3c",
+      "master_sha256": "2b28be1435415712e030642b8eda157141c96bc5e6c66743cc30b2d843e4af59",
       "icon": "icons/1024/13-slides.png",
       "bundleName": "com.richerfu.deckune",
       "bundleNameStatus": "project_configured",
@@ -340,7 +424,14 @@
       "product_slug": "deckune",
       "name_root": "Deck",
       "name_rationale": "幻灯片与演示文稿",
-      "integrationStatus": "planned"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "engraved-atelier",
+      "symbol": "幻灯片与图表",
+      "assetEdition": 3,
+      "theme": "Office 功能图形",
+      "pronunciation": "",
+      "rationale": "以清晰的功能图形表达办公用途。"
     },
     {
       "n": 14,
@@ -350,15 +441,15 @@
       "slug": "cad",
       "category": "三维",
       "purpose": "计算机辅助制图",
-      "bg": "#315E77",
-      "accent": "#A4E5F3",
-      "motif": "One bold ivory architectural drafting corner: three thick folded-paper beams form an open isometric hexagonal structure. One short cyan dimension line with large end ticks sits beneath the structure. No numerals, no lettering, no dense wireframe.",
+      "bg": "#467C79",
+      "accent": "#F6EDD7",
+      "motif": "BIXI 赑屃, the Chinese dragon-tortoise that bears a stone stele. A complete stout tortoise seen from a low three-quarter side view facing left, compact domed geometrically segmented shell, short dragon-like head with two very small horns, four strong clawed feet and one little curled tail. On the center of its shell stands ONE short thick rectangular stone stele with a subtly chamfered top and blank face, no writing. The whole animal plus stele makes one compact emblem. Sparse precise engraving on shell and stone edges, wide ivory surfaces, no base plinth, ground or architectural scene.",
       "filename": "14-cad.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "23b9ec0e310babd4475c4b2ff1d5f1e3494447f4617f52e4e5fd5fface2305f0",
+      "master_sha256": "dfa46dd246263898675cb117ab44a1b86c74466b633ca8ac82de95cb853152ba",
       "icon": "icons/1024/14-cad.png",
       "bundleName": "com.richerfu.dimrune",
       "bundleNameStatus": "project_configured",
@@ -366,7 +457,14 @@
       "product_slug": "dimrune",
       "name_root": "Dimension",
       "name_rationale": "尺寸与工程制图",
-      "integrationStatus": "planned"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "mythic-engraving",
+      "symbol": "赑屃",
+      "assetEdition": 4,
+      "theme": "中国神话异兽",
+      "pronunciation": "bì xì",
+      "rationale": "以负碑龟兽呼应承重与工程构件。"
     },
     {
       "n": 15,
@@ -376,15 +474,15 @@
       "slug": "sheets",
       "category": "办公",
       "purpose": "电子表格与数据分析",
-      "bg": "#326A51",
-      "accent": "#B5E6BD",
-      "motif": "A sculptural ivory spreadsheet tile divided into a clear two-column by three-row open lattice. One mint column rises gently above the grid as a folded bar-chart tab. Thick dividers, six large cells only, no numbers or letters.",
+      "bg": "#397A55",
+      "accent": "#F6EDD7",
+      "motif": "OFFICE / SPREADSHEETS. One broad ivory spreadsheet panel seen straight on, no paper corner fold. A colored dark-green header band over a clean grid of exactly three columns and four rows, the top-left cell clearly selected with a heavier ink outline. Three modest rising ivory chart bars overlap the lower-right edge of the panel, sharing one baseline. Strong straight grid rules and generous blank cells, no letters or numbers, restrained engraved hatching only along the edge of the panel and bars. Must read instantly as spreadsheet and data analysis.",
       "filename": "15-sheets.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "b7562d45efe0ee699a39686807b4338afc9eb70910c0fb517b41c5683afd800c",
+      "master_sha256": "4f484bf27485c49710e366e291ed80a875524f0bdf191309d971600e1c1eb6bf",
       "icon": "icons/1024/15-sheets.png",
       "bundleName": "com.richerfu.gridrune",
       "bundleNameStatus": "project_configured",
@@ -392,7 +490,14 @@
       "product_slug": "gridrune",
       "name_root": "Grid",
       "name_rationale": "网格与电子表格",
-      "integrationStatus": "integrated"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "engraved-atelier",
+      "symbol": "单元格与数据图表",
+      "assetEdition": 3,
+      "theme": "Office 功能图形",
+      "pronunciation": "",
+      "rationale": "以清晰的功能图形表达办公用途。"
     },
     {
       "n": 16,
@@ -402,15 +507,15 @@
       "slug": "maker",
       "category": "创作",
       "purpose": "软件探索与应用构建",
-      "bg": "#516A79",
-      "accent": "#C7E7F3",
-      "motif": "Three ivory origami building blocks click together into one open modular arch, with one small pale-blue block floating immediately above the open join. The whole symbol reads as assembling software, simple and architectural. No code text, no gear, no tools.",
+      "bg": "#967229",
+      "accent": "#F6EDD7",
+      "motif": "XIEZHI 獬豸, Chinese one-horned goat-like guardian. One complete stocky mountain-goat-shaped beast facing three-quarter front, exactly ONE straight central forehead horn, small pointed ears and a short pointed beard. Sturdy four cloven-hoof legs, shoulder slightly raised, one front hoof resting on a small plain squared block to evoke construction. Thick layered ivory coat forming three broad overlapping locks, short curved tail. NO horse body, second horn, wings, dragon scales, mane halo, judicial scales, writing or clothing. Mature calm alert expression, compact self-contained silhouette.",
       "filename": "16-maker.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "1223fa66a2e4a2353e7c8504f889e7b7d010d0bcb3012e7c4e75bb12611a2f3d",
+      "master_sha256": "67035061b3fdd9eca3889b086a00a37b01fad178e96dea070b809e4cb56c5b91",
       "icon": "icons/1024/16-maker.png",
       "bundleName": "com.richerfu.modune",
       "bundleNameStatus": "project_configured",
@@ -418,7 +523,14 @@
       "product_slug": "modune",
       "name_root": "Module",
       "name_rationale": "模块组合与应用构建",
-      "integrationStatus": "planned"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "mythic-engraving",
+      "symbol": "獬豸",
+      "assetEdition": 4,
+      "theme": "中国神话异兽",
+      "pronunciation": "xiè zhì",
+      "rationale": "以独角守序之兽呼应构建与校验。"
     },
     {
       "n": 17,
@@ -428,15 +540,15 @@
       "slug": "studio",
       "category": "创作",
       "purpose": "AI 图像与视频创作",
-      "bg": "#3B426F",
-      "accent": "#C6B5FF",
-      "motif": "A single wide ivory folded-paper ribbon forms an open luminous diamond-shaped portal, with a restrained pale lilac and warm peach inner gradient along the fold. A small smooth ivory seed floats in the center. An original imaginative studio mark, no sparkle star, no rainbow swirl.",
+      "bg": "#BD6E5B",
+      "accent": "#F6EDD7",
+      "motif": "KUNPENG 鲲鹏, an ORIGINAL symbolic interpretation of the fish-to-giant-bird transformation, not a literal historical specimen. One unified creature: a deep curved fish-like lower body ending in a clearly split fish tail curled left, transitioning naturally upward into an eagle-like bird head and TWO broad feathered wings half-open. Body rises diagonally to the right and wings arc back inward to keep a compact round silhouette. Few broad ivory fish scales blend into clearly separated feather vanes. The tail must be fish-like, head must be bird-like; no additional separate fish, no extra heads, claws, antlers or water.",
       "filename": "17-studio.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "ee4f546e9e9935be6326d13d479f7505425c005c6ec8b13952a0f290fd1fe781",
+      "master_sha256": "f0a02d73c89f1674da4eb3bed046fb5e8745eafb65fa0c1de8dc60e286d99010",
       "icon": "icons/1024/17-studio.png",
       "bundleName": "com.richerfu.visrune",
       "bundleNameStatus": "project_configured",
@@ -444,7 +556,14 @@
       "product_slug": "visrune",
       "name_root": "Vision",
       "name_rationale": "视觉想象与 AI 创作",
-      "integrationStatus": "planned"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "mythic-engraving",
+      "symbol": "鲲鹏",
+      "assetEdition": 4,
+      "theme": "中国神话异兽",
+      "pronunciation": "kūn péng",
+      "rationale": "以鱼化为鹏的变形意象呼应生成式创作。"
     },
     {
       "n": 18,
@@ -454,15 +573,15 @@
       "slug": "hub",
       "category": "创作",
       "purpose": "应用管理与套件入口",
-      "bg": "#344F55",
-      "accent": "#B3D9D1",
-      "motif": "One central ivory folded hexagonal hub with three broad pale-mint rectangular tabs sliding neatly into its left, right and lower sides. An orderly sculptural assembly representing a creative toolkit. No download arrow, no four-square Microsoft mark, no gear.",
+      "bg": "#244D4A",
+      "accent": "#F6EDD7",
+      "motif": "BAIZE 白泽, an ORIGINAL interpretation of the learned Chinese mythical auspicious beast; do not reproduce a modern character. A complete ivory shaggy quadruped seated in a calm three-quarter front pose, broad feline muzzle, gentle almond eyes, two short outward curled horns above small rounded ears, and layered flowing shoulder fur. Four broad paws, two forepaws neatly paired, a long tufted tail curves around the body. A small plain closed rectangular book rests centered between the forepaws, with three engraved page-edge rules but NO letters or symbols. NO wings, halo, forehead eye, jewelry, clothing or pedestal. Dignified mature guardian with a distinctive compact silhouette.",
       "filename": "18-hub.png",
       "master_size": [
         1254,
         1254
       ],
-      "master_sha256": "7440310dc7163517e4e227e13c19ed0011538fcb61cc95747d6d940f5aef64d7",
+      "master_sha256": "5c25e2f7eede399c6f3e130b773f41cba49a91f969625d669bf8ce35b629a5fb",
       "icon": "icons/1024/18-hub.png",
       "bundleName": "com.richerfu.nodune",
       "bundleNameStatus": "project_configured",
@@ -470,14 +589,21 @@
       "product_slug": "nodune",
       "name_root": "Node",
       "name_rationale": "节点汇聚与应用入口",
-      "integrationStatus": "integrated"
+      "integrationStatus": "integrated",
+      "designVersion": 4,
+      "style": "mythic-engraving",
+      "symbol": "白泽",
+      "assetEdition": 4,
+      "theme": "中国神话异兽",
+      "pronunciation": "bái zé",
+      "rationale": "以博识瑞兽意象呼应套件总览与管理。"
     }
   ],
   "revision": 3,
   "english_naming_style": "single_word_coined",
   "english_name_note": "Each English product name is a standalone coined word of 6–8 letters. ZAOYU is the umbrella suite identity.",
   "name_screening_status": "limited_web_screening_only_not_trademark_or_store_clearance",
-  "repositoryEdition": 1,
+  "repositoryEdition": 4,
   "projectCatalog": "../../config/apps.json",
   "deviceTypes": [
     "tablet",
@@ -485,5 +611,7 @@
   ],
   "bundle_name_prefix": "com.richerfu",
   "bundle_name_status": "project_configured_not_store_verified",
-  "bundle_name_note": "与 config/apps.json 一致；包名已用于工程配置，未核验商店注册状态。"
+  "bundle_name_note": "与 config/apps.json 一致；包名已用于工程配置，未核验商店注册状态。",
+  "designVersion": 4,
+  "style": "Zaoyu mythic bestiary / 中国神话异兽印刻系列与 Office 功能图形"
 }

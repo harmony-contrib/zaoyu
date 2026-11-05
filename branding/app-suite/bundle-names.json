@@ -1,7 +1,7 @@
 {
   "brand": "ZAOYU",
   "revision": 3,
-  "repositoryEdition": 1,
+  "repositoryEdition": 4,
   "namingStyle": "single_word_coined",
   "prefix": "com.richerfu",
   "projectCatalog": "../../config/apps.json",
@@ -45,7 +45,7 @@
       "nameEn": "Lutrune",
       "nameRoot": "LUT",
       "bundleName": "com.richerfu.lutrune",
-      "integrationStatus": "planned",
+      "integrationStatus": "integrated",
       "icon": "icons/1024/04-light.png"
     },
     {
@@ -81,7 +81,7 @@
       "nameEn": "Framune",
       "nameRoot": "Frame",
       "bundleName": "com.richerfu.framune",
-      "integrationStatus": "planned",
+      "integrationStatus": "integrated",
       "icon": "icons/1024/08-interface.png"
     },
     {
@@ -90,7 +90,7 @@
       "nameEn": "Texune",
       "nameRoot": "Texture",
       "bundleName": "com.richerfu.texune",
-      "integrationStatus": "planned",
+      "integrationStatus": "integrated",
       "icon": "icons/1024/09-texture.png"
     },
     {
@@ -99,7 +99,7 @@
       "nameEn": "Shadrune",
       "nameRoot": "Shader",
       "bundleName": "com.richerfu.shadrune",
-      "integrationStatus": "planned",
+      "integrationStatus": "integrated",
       "icon": "icons/1024/10-material.png"
     },
     {
@@ -108,7 +108,7 @@
       "nameEn": "Quilrune",
       "nameRoot": "Quill",
       "bundleName": "com.richerfu.quilrune",
-      "integrationStatus": "planned",
+      "integrationStatus": "integrated",
       "icon": "icons/1024/11-write.png"
     },
     {
@@ -117,7 +117,7 @@
       "nameEn": "Sonune",
       "nameRoot": "Sonic",
       "bundleName": "com.richerfu.sonune",
-      "integrationStatus": "planned",
+      "integrationStatus": "integrated",
       "icon": "icons/1024/12-audio.png"
     },
     {
@@ -126,7 +126,7 @@
       "nameEn": "Deckune",
       "nameRoot": "Deck",
       "bundleName": "com.richerfu.deckune",
-      "integrationStatus": "planned",
+      "integrationStatus": "integrated",
       "icon": "icons/1024/13-slides.png"
     },
     {
@@ -135,7 +135,7 @@
       "nameEn": "Dimrune",
       "nameRoot": "Dimension",
       "bundleName": "com.richerfu.dimrune",
-      "integrationStatus": "planned",
+      "integrationStatus": "integrated",
       "icon": "icons/1024/14-cad.png"
     },
     {
@@ -153,7 +153,7 @@
       "nameEn": "Modune",
       "nameRoot": "Module",
       "bundleName": "com.richerfu.modune",
-      "integrationStatus": "planned",
+      "integrationStatus": "integrated",
       "icon": "icons/1024/16-maker.png"
     },
     {
@@ -162,7 +162,7 @@
       "nameEn": "Visrune",
       "nameRoot": "Vision",
       "bundleName": "com.richerfu.visrune",
-      "integrationStatus": "planned",
+      "integrationStatus": "integrated",
       "icon": "icons/1024/17-studio.png"
     },
     {

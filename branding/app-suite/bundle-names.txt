@@ -1,62 +1,74 @@
-ZAOYU / SINGLE-WORD APP NAMES AND BUNDLE NAMES
-Naming revision 3 — 2026-11-04; repository edition 1
-
-Prefix: com.richerfu
+ZAOYU / APPLICATION IDENTITIES — 2026-11-05
 Devices: tablet, 2in1
-Source of truth: ../../config/apps.json
-Bundle names are configured in this project; store registration has not been verified.
 
 01. 造隅修图 | Pixrune
     com.richerfu.pixrune
-    Original: PhotoCraft; integration: integrated
+    图像编辑、图层与基础修图
+
 02. 造隅矢绘 | Vecrune
     com.richerfu.vecrune
-    Original: VectorCraft; integration: integrated
+    矢量绘图与插画
+
 03. 造隅剪辑 | Cliprune
     com.richerfu.cliprune
-    Original: FilmCraft; integration: integrated
+    视频剪辑与时间线编辑
+
 04. 造隅光影 | Lutrune
     com.richerfu.lutrune
-    Original: LightCraft; integration: planned
+    照片管理与 RAW 调色
+
 05. 造隅阅编 | Pagrune
     com.richerfu.pagrune
-    Original: PdfCraft; integration: integrated
+    PDF 阅读、整理与编辑
+
 06. 造隅动效 | Motrune
     com.richerfu.motrune
-    Original: EffectCraft; integration: integrated
+    动态图形与视觉特效
+
 07. 造隅版式 | Layrune
     com.richerfu.layrune
-    Original: DesignCraft; integration: integrated
+    页面排版与出版设计
+
 08. 造隅界面 | Framune
     com.richerfu.framune
-    Original: FigCraft; integration: planned
+    界面设计与交互原型
+
 09. 造隅纹绘 | Texune
     com.richerfu.texune
-    Original: TextureCraft; integration: planned
+    三维模型纹理绘制
+
 10. 造隅材质 | Shadrune
     com.richerfu.shadrune
-    Original: MaterialCraft; integration: planned
+    节点式程序化材质制作
+
 11. 造隅文档 | Quilrune
     com.richerfu.quilrune
-    Original: WordCraft; integration: planned
+    文档写作与文字处理
+
 12. 造隅音轨 | Sonune
     com.richerfu.sonune
-    Original: SoundCraft; integration: planned
+    录音、音频编辑与混音
+
 13. 造隅演示 | Deckune
     com.richerfu.deckune
-    Original: DeckCraft; integration: planned
+    幻灯片制作与演示
+
 14. 造隅工图 | Dimrune
     com.richerfu.dimrune
-    Original: CADCraft; integration: planned
+    计算机辅助制图
+
 15. 造隅表格 | Gridrune
     com.richerfu.gridrune
-    Original: GridCraft; integration: integrated
+    电子表格与数据分析
+
 16. 造隅构建 | Modune
     com.richerfu.modune
-    Original: Craft Anything; integration: planned
+    软件探索与应用构建
+
 17. 造隅灵绘 | Visrune
     com.richerfu.visrune
-    Original: ArtCraft Studio; integration: planned
+    AI 图像与视频创作
+
 18. 造隅工坊 | Nodune
     com.richerfu.nodune
-    Original: ArtCraft Launcher; integration: integrated
+    应用管理与套件入口
